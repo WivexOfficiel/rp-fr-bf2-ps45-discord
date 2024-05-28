@@ -33,7 +33,7 @@ def read_player_file(file_path):
         'comments': ''
     }
     try:
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding='iso-8859-1') as file:  # Spécifier l'encodage iso-8859-1
             lines = file.readlines()
             if len(lines) > 0:
                 player_data['name'] = lines[0].split(": ")[1].strip()
@@ -52,6 +52,7 @@ def read_player_file(file_path):
     except FileNotFoundError:
         pass
     return player_data
+
 
 
 def write_player_file(player_name, player_data):

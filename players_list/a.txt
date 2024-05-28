@@ -1,4 +1,4 @@
-Nom de clone : test
+Nom de clone : a
 Pseudo Discord : test
 Nombre de session(s) : 0
 Grade : Recrue (cadet)

@@ -299,7 +299,7 @@ def main():
         print("\t8. Afficher tous les commentaires du staff\n")
         print("\t9. Afficher toutes les raisons d'avertissements\n")
         print("\t10. Quitter en sauvegardant\n")
-        print("\t11. Quitter sans sauvegarder")
+        print("\t11. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -361,12 +361,14 @@ def main():
 
         elif choice == '11':
             while True:
-                sure = input("Es-tu sur de vouloir quitter sans sauvegarder ? (Y/N) : ")
+                sure = input("\n\tEs-tu sur de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:
                     main = False
                     break
                 elif sure.upper() in ['NO', 'NON', 'N']:
                     break
+                else:
+                    print("\n\t[!] Choix invalide. Veuillez réessayer.")
 
         else:
             print("\n\t[!] Choix invalide. Veuillez réessayer.")

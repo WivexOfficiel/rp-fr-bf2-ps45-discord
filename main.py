@@ -354,7 +354,6 @@ def main():
             os.system("clear")
 
         elif choice == '10':
-            git_push()
             break
 
         else:

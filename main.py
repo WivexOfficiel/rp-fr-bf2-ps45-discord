@@ -53,7 +53,7 @@ def read_player_file(file_path):
 def write_player_file(player_name, player_data):
     """Writes player data to the specified file."""
     file_path = os.path.join("players_list", f"{player_name}.txt")
-    with open(file_path, 'w', encoding='iso-8859-1') as file:
+    with open(file_path, 'w') as file:
         file.write(f"Nom de clone : {player_data['name']}\n")
         file.write(f"Pseudo Discord : {player_data['discord']}\n")
         file.write(f"Nombre de session(s) : {player_data['sessions']}\n")
@@ -196,13 +196,13 @@ def delete_player():
 
 def add_staff_comment():
     """Adds a staff comment to a player's file."""
-    name = input("\n\tEntrez le nom du joueur : ").strip()
-    staff = input("\n\tEntrez le nom du staff : ").strip()
-    comment = input("\n\tEntrez le commentaire : ").strip()
+    name = raw_input("\n\tEntrez le nom du joueur : ").strip()
+    staff = raw_input("\n\tEntrez le nom du staff : ").strip()
+    comment = raw_input("\n\tEntrez le commentaire : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
     if os.path.exists(file_path):
         player_data = read_player_file(file_path)
-        player_data['comments'] += f"\n\nCommentaire du staff {staff} : {comment}"
+        player_data['comments'] += f"\n\nCommentaire du staff : {staff} : {comment}"
         write_player_file(name, player_data)
         print(f"\n\t[+] Le commentaire a ete ajoute pour {name}.")
     else:

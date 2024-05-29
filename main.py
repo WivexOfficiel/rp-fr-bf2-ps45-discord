@@ -245,7 +245,7 @@ def display_all_staff_comments():
         if player_data['comments']:
             print(f"\n\t--- Commentaires pour {player_data['name']} ---")
             print("\n" + player_data['comments'] + "\n")
-        print("\n")
+            print("\n")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_all_warnings():
@@ -261,7 +261,7 @@ def display_all_warnings():
             for comment in comments:
                 if "Avertissement" in comment:
                     print("\n" + comment + "\n")
-        print("\n")
+            print("\n")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):

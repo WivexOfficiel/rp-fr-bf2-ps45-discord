@@ -362,7 +362,7 @@ def main():
         elif choice == '11':
             while True:
                 sure = input("Es-tu sur de vouloir quitter sans sauvegarder ? (Y/N) : ")
-                if sure.upper() in ['YES', 'OUI', 'Y', 'O']
+                if sure.upper() in ['YES', 'OUI', 'Y', 'O']:
                     main = False
                     break
                 elif sure.upper() in ['NO', 'NON', 'N']:

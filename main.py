@@ -304,26 +304,32 @@ def main():
             for name, new_grade in updated_players:
                 print(f"\n{name} a maintenant été promu à {new_grade}.")
             print("\n[+] Les sessions ont été mise à jour")
+            print("\n")
             git_push()
 
         elif choice == '2':
             add_player()
+            print("\n")
             git_push()
 
         elif choice == '3':
             modify_player()
+            print("\n")
             git_push()
 
         elif choice == '4':
             delete_player()
+            print("\n")
             git_push()
 
         elif choice == '5':
             add_staff_comment()
+            print("\n")
             git_push()
 
         elif choice == '6':
             add_warning()
+            print("\n")
             git_push()
 
         elif choice == '7':

@@ -196,13 +196,13 @@ def delete_player():
 
 def add_staff_comment():
     """Adds a staff comment to a player's file."""
-    name = raw_input("\n\tEntrez le nom du joueur : ").strip()
-    staff = raw_input("\n\tEntrez le nom du staff : ").strip()
-    comment = raw_input("\n\tEntrez le commentaire : ").strip()
+    name = input("\n\tEntrez le nom du joueur : ").strip()
+    staff = input("\n\tEntrez le nom du staff : ").strip()
+    comment = input("\n\tEntrez le commentaire : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
     if os.path.exists(file_path):
         player_data = read_player_file(file_path)
-        player_data['comments'] += f"\n\nCommentaire du staff : {staff} : {comment}"
+        player_data['comments'] += f"\n\nCommentaire du staff {staff} : {comment}"
         write_player_file(name, player_data)
         print(f"\n\t[+] Le commentaire a ete ajoute pour {name}.")
     else:
@@ -229,24 +229,22 @@ def display_player_info():
     name = input("\n\tEntrez le nom du joueur : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
     if os.path.exists(file_path):
-        with open(file_path, 'r', encoding='iso-8859-1') as file:
+        with open(file_path, 'r') as file:
             print(f"\n\t--- Informations pour {name} ---\n")
-            print("\n" + file.read() + "\n")
+            print(file.read())
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_all_staff_comments():
     """Displays all staff comments for all players."""
-    print("\n\t--- Tous les commentaires du staff ---\n\n")
+    print("\n\t--- Tous les commentaires du staff ---\n")
     for file_name in os.listdir("players_list"):
         file_path = os.path.join("players_list", file_name)
         player_data = read_player_file(file_path)
         if player_data['comments']:
-            staff_comments = [comment for comment in player_data['comments'].split('\n') if comment.startswith("Commentaire du staff")]
-            if staff_comments:
-                print(f"\n\t--- Commentaires pour {player_data['name']} ---")
-                print("\n".join(staff_comments) + "\n")
+            print(f"\n\t--- Commentaires pour {player_data['name']} ---")
+            print(player_data['comments'])
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_all_warnings():
@@ -257,10 +255,11 @@ def display_all_warnings():
         player_data = read_player_file(file_path)
         if player_data['warnings'] > 0:
             print(f"\n\t--- Avertissements pour {player_data['name']} ---")
-            print(f"\n\tNombre d'avertissements : {player_data['warnings']}")
-            warnings = [comment for comment in player_data['comments'].split('\n') if comment.startswith("Avertissement")]
-            if warnings:
-                print("\n".join(warnings) + "\n")
+            print(f"\tNombre d'avertissements : {player_data['warnings']}")
+            comments = player_data['comments'].split('\n')
+            for comment in comments:
+                if "Avertissement" in comment:
+                    print(comment)
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):

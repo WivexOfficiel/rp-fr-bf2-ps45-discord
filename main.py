@@ -243,9 +243,10 @@ def display_all_staff_comments():
         file_path = os.path.join("players_list", file_name)
         player_data = read_player_file(file_path)
         if player_data['comments']:
-            print(f"\n\t--- Commentaires pour {player_data['name']} ---")
-            print("\n" + player_data['comments'] + "\n")
-            print("\n")
+            staff_comments = [comment for comment in player_data['comments'].split('\n') if comment.startswith("Commentaire du staff")]
+            if staff_comments:
+                print(f"\n\t--- Commentaires pour {player_data['name']} ---")
+                print("\n".join(staff_comments) + "\n")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_all_warnings():
@@ -257,11 +258,9 @@ def display_all_warnings():
         if player_data['warnings'] > 0:
             print(f"\n\t--- Avertissements pour {player_data['name']} ---")
             print(f"\n\tNombre d'avertissements : {player_data['warnings']}")
-            comments = player_data['comments'].split('\n')
-            for comment in comments:
-                if "Avertissement" in comment:
-                    print("\n" + comment + "\n")
-            print("\n")
+            warnings = [comment for comment in player_data['comments'].split('\n') if comment.startswith("Avertissement")]
+            if warnings:
+                print("\n".join(warnings) + "\n")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):

@@ -65,9 +65,9 @@ def write_player_file(player_name, player_data):
 def determine_grade(sessions):
     """Determines the grade based on the number of sessions."""
     if sessions >= 125:
-        return 'Général'
+        return 'General'
     elif sessions >= 110:
-        return 'Commandant maréchal'
+        return 'Commandant marechal'
     elif sessions >= 95:
         return 'Commandant'
     elif sessions >= 80:
@@ -107,7 +107,7 @@ def increment_sessions(entries):
         if entry.startswith("+") or entry.startswith("-") or entry.startswith("="):
             parts = entry[1:].strip().split(" ")
             if len(parts) < 2:
-                print(f"\n[!] Entrée mal formée pour {entry}: Il manque le nombre de sessions.")
+                print(f"\n[!] Entrée mal formee pour {entry}: Il manque le nombre de sessions.")
                 continue
 
             name = " ".join(parts[:-1]).strip()
@@ -120,20 +120,20 @@ def increment_sessions(entries):
             file_path = os.path.join("players_list", f"{name}.txt")
             player_data = read_player_file(file_path)
             if 'sessions' not in player_data:
-                print(f"\n[!] Erreur : Les données de session sont manquantes pour {name}.")
+                print(f"\n[!] Erreur : Les donnees de session sont manquantes pour {name}.")
                 continue
 
             if entry.startswith("+"):
                 player_data['sessions'] += value
                 player_data['rp_points'] += 1
-                log_operation(f"Ajout de 1 point RP et de {value} session(s) à {name}")
+                log_operation(f"Ajout de 1 point RP et de {value} session(s) a {name}")
             elif entry.startswith("-"):
                 player_data['sessions'] += value
                 player_data['rp_points'] -= 1
-                log_operation(f"Retrait de 1 point RP et ajout de {value} session(s) à {name}")
+                log_operation(f"Retrait de 1 point RP et ajout de {value} session(s) a {name}")
             elif entry.startswith("="):
                 player_data['sessions'] += value
-                log_operation(f"Ajout de {value} session(s) à {name}")
+                log_operation(f"Ajout de {value} session(s) a {name}")
 
             new_grade = determine_grade(player_data['sessions'])
             old_grade = player_data['grade']
@@ -144,7 +144,7 @@ def increment_sessions(entries):
             if new_grade != old_grade:
                 updated_players.append((name, new_grade))
         else:
-            print(f"\n[!] Entrée mal formée pour {entry}")
+            print(f"\n[!] Entree mal formee pour {entry}")
     input("\n| Tapez entrer quand c'est bon |")
     return updated_players
 
@@ -157,8 +157,8 @@ def add_player():
         print(f"\n[!] Le joueur {name} existe déjà.")
     else:
         create_player_file(name, discord_name)
-        log_operation(f"Création d'un nouveau joueur nommé : {name}")
-        print(f"\n[+] Le joueur {name} a été ajouté.")
+        log_operation(f"Creation d'un nouveau joueur nomme : {name}")
+        print(f"\n[+] Le joueur {name} a ete ajoute.")
     time.sleep(2)
 
 def modify_player():
@@ -171,27 +171,27 @@ def modify_player():
         player_data['name'] = new_name
         os.rename(old_file_path, os.path.join("players_list", f"{new_name}.txt"))
         write_player_file(new_name, player_data)
-        print(f"\nLe joueur {old_name} a été renommé en {new_name}.")
+        print(f"\nLe joueur {old_name} a ete renomme en {new_name}.")
     else:
-        print(f"\nLe joueur {old_name} n'a pas été trouvé dans les dossiers.")
+        print(f"\nLe joueur {old_name} n'a pas ete trouve dans les dossiers.")
     time.sleep(2)
 
 def delete_player():
     """Deletes a player from the players directory."""
-    name = input("\nEntrez le nom du joueur à supprimer : ").strip()
+    name = input("\nEntrez le nom du joueur a supprimer : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
     if os.path.exists(file_path):
         verification = input(f"\nEs-tu sur de vouloir supprimer le joueur {name} ? (Y/N) : ")
         if verification.upper() in ["Y", "YES", "OUI"]:
             os.remove(file_path)
             log_operation(f"Suppression du joueur : {name}")
-            print(f"\n[-] Le joueur {name} a été supprimé.")
+            print(f"\n[-] Le joueur {name} a ete supprime.")
         elif verification.upper() in ["N", "NO", "NON"]:
-            print("\n[+] Commande annulée")
+            print("\n[+] Commande annulee")
         else:
             print("\n[-] Choix invalide")
     else:
-        print(f"\n[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+        print(f"\n[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     time.sleep(2)
 
 def add_staff_comment():
@@ -204,9 +204,9 @@ def add_staff_comment():
         player_data = read_player_file(file_path)
         player_data['comments'] += f"\n\nCommentaire du staff {staff} : {comment}"
         write_player_file(name, player_data)
-        print(f"\n[+] Le commentaire a été ajouté pour {name}.")
+        print(f"\n[+] Le commentaire a ete ajoute pour {name}.")
     else:
-        print(f"\n[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+        print(f"\n[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     time.sleep(2)
 
 def add_warning():
@@ -219,9 +219,9 @@ def add_warning():
         player_data['warnings'] += 1
         player_data['comments'] += f"\n\nAvertissement {player_data['warnings']} : {reason}"
         write_player_file(name, player_data)
-        print(f"\n[+] L'avertissement a été ajouté pour {name}.")
+        print(f"\n[+] L'avertissement a ete ajoute pour {name}.")
     else:
-        print(f"\n[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+        print(f"\n[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     time.sleep(2)
 
 def display_player_info():
@@ -233,7 +233,7 @@ def display_player_info():
             print(f"\n--- Informations pour {name} ---\n")
             print(file.read())
     else:
-        print(f"\n[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+        print(f"\n[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     input("\n| Tapez entrer quand c'est bon |")
 
 def display_all_staff_comments():
@@ -270,14 +270,14 @@ def log_operation(operation):
 def git_push():
     """Adds specified files, commits with a message, and force pushes to the main branch."""
     os.system("git add main.py operations_log.txt players_list")
-    os.system('git commit -m "modification apportées"')
+    os.system('git commit -m "modification apportees"')
     os.system("git push --force origin main")
-    print("\n[+] Les modifications ont été poussées au dépôt distant.")
+    print("\n[+] Les modifications ont ete poussees au depot distant.")
 
 def git_pull():
     """Pulls the latest code from the main branch of the repository."""
     os.system("git pull origin main")
-    print("\n[+] Le code a été mis à jour depuis le dépôt distant.")
+    print("\n[+] Le code a ete mis a jour depuis le depot distant.")
 
 def main():
     git_pull()

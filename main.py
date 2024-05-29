@@ -229,7 +229,7 @@ def display_player_info():
     name = input("\n\tEntrez le nom du joueur : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
     if os.path.exists(file_path):
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding='iso-8859-1') as file:
             print(f"\n\t--- Informations pour {name} ---\n")
             print("\n" + file.read() + "\n")
     else:

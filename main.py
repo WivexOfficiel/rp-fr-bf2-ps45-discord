@@ -231,7 +231,7 @@ def display_player_info():
     if os.path.exists(file_path):
         with open(file_path, 'r') as file:
             print(f"\n\t--- Informations pour {name} ---\n")
-            print(file.read())
+            print("\t" + file.read())
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     input("\n\t| Tapez entrer quand c'est bon |")
@@ -244,7 +244,7 @@ def display_all_staff_comments():
         player_data = read_player_file(file_path)
         if player_data['comments']:
             print(f"\n\t--- Commentaires pour {player_data['name']} ---")
-            print(player_data['comments'])
+            print("\t" + player_data['comments'])
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_all_warnings():
@@ -259,7 +259,7 @@ def display_all_warnings():
             comments = player_data['comments'].split('\n')
             for comment in comments:
                 if "Avertissement" in comment:
-                    print(comment)
+                    print("\t" + comment)
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):
@@ -352,6 +352,7 @@ def main():
             os.system("clear")
 
         elif choice == '10':
+            git_push()
             break
 
         else:

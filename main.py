@@ -53,7 +53,7 @@ def read_player_file(file_path):
 def write_player_file(player_name, player_data):
     """Writes player data to the specified file."""
     file_path = os.path.join("players_list", f"{player_name}.txt")
-    with open(file_path, 'w') as file:
+    with open(file_path, 'w', encoding='iso-8859-1') as file:
         file.write(f"Nom de clone : {player_data['name']}\n")
         file.write(f"Pseudo Discord : {player_data['discord']}\n")
         file.write(f"Nombre de session(s) : {player_data['sessions']}\n")

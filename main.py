@@ -285,8 +285,9 @@ def main():
     git_pull()
     os.system("clear")
     create_player_directory()
-
-    while True:
+    main = True
+    
+    while main:
         print("\n\n\n\n\tMenu :\n\n")
         print("\t1. Incrémenter les sessions des joueurs et mettre à jour les points RP\n")
         print("\t2. Ajouter un nouveau joueur\n")
@@ -297,7 +298,8 @@ def main():
         print("\t7. Afficher les informations d'un joueur\n")
         print("\t8. Afficher tous les commentaires du staff\n")
         print("\t9. Afficher toutes les raisons d'avertissements\n")
-        print("\t10. Quitter\n")
+        print("\t10. Quitter en sauvegardant\n")
+        print("\t11. Quitter sans sauvegarder")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -354,7 +356,17 @@ def main():
             os.system("clear")
 
         elif choice == '10':
+            git_push()
             break
+
+        elif choice == '11':
+            while True:
+                sure = input("Es-tu sur de vouloir quitter sans sauvegarder ? (Y/N) : ")
+                if sure.upper() in ['YES', 'OUI', 'Y', 'O']
+                    main = False
+                    break
+                elif sure.upper() in ['NO', 'NON', 'N']:
+                    break
 
         else:
             print("\n\t[!] Choix invalide. Veuillez réessayer.")

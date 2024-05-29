@@ -310,37 +310,31 @@ def main():
                 print(f"\n\t{name} a maintenant été promu à {new_grade}.")
             print("\n\t[+] Les sessions ont été mise à jour")
             print("\n")
-            git_push()
             os.system("clear")
 
         elif choice == '2':
             add_player()
             print("\n")
-            git_push()
             os.system("clear")
 
         elif choice == '3':
             modify_player()
             print("\n")
-            git_push()
             os.system("clear")
 
         elif choice == '4':
             delete_player()
             print("\n")
-            git_push()
             os.system("clear")
 
         elif choice == '5':
             add_staff_comment()
             print("\n")
-            git_push()
             os.system("clear")
 
         elif choice == '6':
             add_warning()
             print("\n")
-            git_push()
             os.system("clear")
 
         elif choice == '7':

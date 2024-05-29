@@ -238,13 +238,14 @@ def display_player_info():
 
 def display_all_staff_comments():
     """Displays all staff comments for all players."""
-    print("\n\t--- Tous les commentaires du staff ---\n")
+    print("\n\t--- Tous les commentaires du staff ---\n\n")
     for file_name in os.listdir("players_list"):
         file_path = os.path.join("players_list", file_name)
         player_data = read_player_file(file_path)
         if player_data['comments']:
             print(f"\n\t--- Commentaires pour {player_data['name']} ---")
             print("\n" + player_data['comments'] + "\n")
+        print("\n")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_all_warnings():
@@ -260,6 +261,7 @@ def display_all_warnings():
             for comment in comments:
                 if "Avertissement" in comment:
                     print("\n" + comment + "\n")
+        print("\n")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):

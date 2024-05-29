@@ -107,7 +107,7 @@ def increment_sessions(entries):
         if entry.startswith("+") or entry.startswith("-") or entry.startswith("="):
             parts = entry[1:].strip().split(" ")
             if len(parts) < 2:
-                print(f"\n\t[!] Entrée mal formee pour {entry}: Il manque le nombre de sessions.")
+                print(f"\n\t[!] Entrée mal formée pour {entry}: Il manque le nombre de sessions.")
                 continue
 
             name = " ".join(parts[:-1]).strip()
@@ -120,20 +120,20 @@ def increment_sessions(entries):
             file_path = os.path.join("players_list", f"{name}.txt")
             player_data = read_player_file(file_path)
             if 'sessions' not in player_data:
-                print(f"\n\t[!] Erreur : Les donnees de session sont manquantes pour {name}.")
+                print(f"\n\t[!] Erreur : Les données de session sont manquantes pour {name}.")
                 continue
 
             if entry.startswith("+"):
                 player_data['sessions'] += value
                 player_data['rp_points'] += 1
-                log_operation(f"Ajout de 1 point RP et de {value} session(s) a {name}")
+                log_operation(f"Ajout de 1 point RP et de {value} session(s) à {name}")
             elif entry.startswith("-"):
                 player_data['sessions'] += value
                 player_data['rp_points'] -= 1
-                log_operation(f"Retrait de 1 point RP et ajout de {value} session(s) a {name}")
+                log_operation(f"Retrait de 1 point RP et ajout de {value} session(s) à {name}")
             elif entry.startswith("="):
                 player_data['sessions'] += value
-                log_operation(f"Ajout de {value} session(s) a {name}")
+                log_operation(f"Ajout de {value} session(s) à {name}")
 
             new_grade = determine_grade(player_data['sessions'])
             old_grade = player_data['grade']
@@ -143,8 +143,9 @@ def increment_sessions(entries):
 
             if new_grade != old_grade:
                 updated_players.append((name, new_grade))
+                print(f"\n\t{name} passe {new_grade}. Félicitations !")
         else:
-            print(f"\n\t[!] Entree mal formee pour {entry}")
+            print(f"\n\t[!] Entrée mal formée pour {entry}")
     input("\n\t| Tapez entrer quand c'est bon |")
     return updated_players
 

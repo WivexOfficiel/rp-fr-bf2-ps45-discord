@@ -307,40 +307,49 @@ def main():
             print("\n\t[+] Les sessions ont été mise à jour")
             print("\n")
             git_push()
+            os.system("clear")
 
         elif choice == '2':
             add_player()
             print("\n")
             git_push()
+            os.system("clear")
 
         elif choice == '3':
             modify_player()
             print("\n")
             git_push()
+            os.system("clear")
 
         elif choice == '4':
             delete_player()
             print("\n")
             git_push()
+            os.system("clear")
 
         elif choice == '5':
             add_staff_comment()
             print("\n")
             git_push()
+            os.system("clear")
 
         elif choice == '6':
             add_warning()
             print("\n")
             git_push()
+            os.system("clear")
 
         elif choice == '7':
             display_player_info()
+            os.system("clear")
 
         elif choice == '8':
             display_all_staff_comments()
+            os.system("clear")
 
         elif choice == '9':
             display_all_warnings()
+            os.system("clear")
 
         elif choice == '10':
             break

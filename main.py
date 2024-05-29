@@ -281,6 +281,7 @@ def git_pull():
 
 def main():
     git_pull()
+    os.system("clear")
     create_player_directory()
 
     while True:

@@ -7,6 +7,10 @@ def create_directory_if_not_exists(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
+def create_player_directory():
+    """Creates the players_list directory if it does not exist."""
+    create_directory_if_not_exists("players_list")
+
 def create_player_file(player_name, discord_name):
     """Creates a file for the new player with the specified details."""
     file_path = os.path.join("players_list", f"{player_name}.txt")
@@ -199,201 +203,56 @@ def delete_player():
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
     time.sleep(2)
 
-def add_staff_comment():
-    """Adds a staff comment to a player's file."""
-    name = input("\n\tEntrez le nom du joueur : ").strip()
-    staff = input("\n\tEntrez le nom du staff : ").strip()
-    comment = input("\n\tEntrez le commentaire : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        player_data = read_player_file(file_path)
-        player_data['comments'] += f"\n\nCommentaire du staff {staff} : {comment}"
-        write_player_file(name, player_data)
-        print(f"\n\t[+] Le commentaire a ete ajoute pour {name}.")
-    else:
-        print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
-    time.sleep(2)
-
-def add_warning():
-    """Adds a warning to a player's file."""
-    name = input("\n\tEntrez le nom du joueur : ").strip()
-    reason = input("\n\tEntrez la raison de l'avertissement : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        player_data = read_player_file(file_path)
-        player_data['warnings'] += 1
-        player_data['comments'] += f"\n\nAvertissement {player_data['warnings']} : {reason}"
-        write_player_file(name, player_data)
-        print(f"\n\t[+] L'avertissement a ete ajoute pour {name}.")
-    else:
-        print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
-    time.sleep(2)
-
-def display_player_info():
-    """Displays information about a specific player."""
-    name = input("\n\tEntrez le nom du joueur : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as file:
-            print(f"\n\t--- Informations pour {name} ---\n")
-            print(file.read())
-    else:
-        print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
-    input("\n\t| Tapez entrer quand c'est bon |")
-
-def display_all_staff_comments():
-    """Displays all staff comments for all players."""
-    print("\n\t--- Tous les commentaires du staff ---\n")
-    for file_name in os.listdir("players_list"):
-        file_path = os.path.join("players_list", file_name)
-        player_data = read_player_file(file_path)
-        if player_data['comments']:
-            print(f"\n\t--- Commentaires pour {player_data['name']} ---")
-            print(player_data['comments'])
-    input("\n\t| Tapez entrer quand c'est bon |")
-
-def display_all_warnings():
-    """Displays all warnings for all players."""
-    print("\n\t--- Toutes les raisons d'avertissements ---\n")
-    for file_name in os.listdir("players_list"):
-        file_path = os.path.join("players_list", file_name)
-        player_data = read_player_file(file_path)
-        if player_data['warnings'] > 0:
-            print(f"\n\t--- Avertissements pour {player_data['name']} ---")
-            print(f"\tNombre d'avertissements : {player_data['warnings']}")
-            comments = player_data['comments'].split('\n')
-            for comment in comments:
-                if "Avertissement" in comment:
-                    print(comment)
-    input("\n\t| Tapez entrer quand c'est bon |")
-
-def reinstate_player():
-    """Reinstates a player from the deleted_players directory to the players_list directory."""
-    name = input("\n\tEntrez le nom du joueur à réintégrer : ").strip()
-    file_path = os.path.join("deleted_players", f"{name}.txt")
-    if os.path.exists(file_path):
-        verification = input(f"\n\tEs-tu sûr de vouloir réintégrer le joueur {name} ? (Y/N) : ")
-        if verification.upper() in ["Y", "YES", "OUI"]:
-            new_file_path = os.path.join("players_list", f"{name}.txt")
-            os.rename(file_path, new_file_path)
-            log_operation(f"Réintégration du joueur : {name}")
-            print(f"\n\t[+] Le joueur {name} a été réintégré.")
-        elif verification.upper() in ["N", "NO", "NON"]:
-            print("\n\t[+] Commande annulée")
-        else:
-            print("\n\t[-] Choix invalide")
-    else:
-        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers deleted_players.")
-    time.sleep(2)
-
 def log_operation(operation):
-    """Logs operations performed on the players."""
-    with open("operations_log.txt", "a") as log_file:
-        log_file.write(f"{datetime.datetime.now()}: {operation}\n")
+    """Logs an operation with the current timestamp."""
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open("log.txt", 'a') as file:
+        file.write(f"[{timestamp}] {operation}\n")
 
-def git_push():
-    """Adds specified files, commits with a message, and force pushes to the main branch."""
-    os.system("git add main.py operations_log.txt players_list")
-    os.system('git commit -m "modification apportees"')
-    os.system("git push --force origin main")
-    print("\n\t[+] Les modifications ont ete poussees au depot distant.")
+def show_player_list():
+    """Displays the list of players and their details."""
+    create_directory_if_not_exists("players_list")
+    print("\n\tListe des joueurs :")
+    player_files = sorted(os.listdir("players_list"))
+    for player_file in player_files:
+        player_data = read_player_file(os.path.join("players_list", player_file))
+        print(f"\t- Nom : {player_data['name']}, Grade : {player_data['grade']}, Sessions : {player_data['sessions']}, Points RP : {player_data['rp_points']}, Avertissements : {player_data['warnings']}")
 
-def git_pull():
-    """Pulls the latest code from the main branch of the repository."""
-    os.system("git pull origin main")
-    print("\n\t[+] Le code a ete mis a jour depuis le depot distant.")
+def main_menu():
+    """Displays the main menu and handles user input."""
+    while True:
+        os.system("cls" if os.name == "nt" else "clear")
+        print("\n\t---- Gestion des Joueurs ----\n")
+        print("\t1. Ajouter un nouveau joueur")
+        print("\t2. Modifier le nom d'un joueur")
+        print("\t3. Supprimer un joueur")
+        print("\t4. Afficher la liste des joueurs")
+        print("\t5. Mettre à jour les sessions des joueurs")
+        print("\t0. Quitter")
+        choice = input("\n\tVotre choix : ")
 
-def main():
-    git_pull()
-    os.system("clear")
-    create_player_directory()
-    create_directory_if_not_exists("deleted_players")
-    main = True
-    
-    while main:
-        print("\n\n\n\n\tMenu :\n\n")
-        print("\t1. Incrémenter les sessions des joueurs et mettre à jour les points RP\n")
-        print("\t2. Ajouter un nouveau joueur\n")
-        print("\t3. Modifier le nom d'un joueur\n")
-        print("\t4. Supprimer un joueur\n")
-        print("\t5. Ajouter un commentaire du staff\n")
-        print("\t6. Ajouter un avertissement\n")
-        print("\t7. Afficher les informations d'un joueur\n")
-        print("\t8. Afficher tous les commentaires du staff\n")
-        print("\t9. Afficher toutes les raisons d'avertissements\n")
-        print("\t10. Réintégrer un joueur supprimé\n")
-        print("\t11. Quitter en sauvegardant\n")
-        print("\t12. Quitter sans sauvegarder\n")
-
-        choice = input("\tEntrez votre choix : ").strip()
-
-        if choice == '1':
-            entries = input("\n\tEntrez les noms des joueurs avec + ou - pour les points RP (séparés par des virgules) : ").split(",")
-            updated_players = increment_sessions(entries)
-            for name, new_grade in updated_players:
-                print(f"\n\t{name} a maintenant été promu à {new_grade}.")
-            print("\n\t[+] Les sessions ont été mise à jour")
-            print("\n")
-            os.system("clear")
-
-        elif choice == '2':
+        if choice == "1":
             add_player()
-            print("\n")
-            os.system("clear")
-
-        elif choice == '3':
+        elif choice == "2":
             modify_player()
-            print("\n")
-            os.system("clear")
-
-        elif choice == '4':
+        elif choice == "3":
             delete_player()
-            print("\n")
-            os.system("clear")
-
-        elif choice == '5':
-            add_staff_comment()
-            print("\n")
-            os.system("clear")
-
-        elif choice == '6':
-            add_warning()
-            print("\n")
-            os.system("clear")
-
-        elif choice == '7':
-            display_player_info()
-            os.system("clear")
-
-        elif choice == '8':
-            display_all_staff_comments()
-            os.system("clear")
-
-        elif choice == '9':
-            display_all_warnings()
-            os.system("clear")
-
-        elif choice == '10':
-            reinstate_player()
-            os.system("clear")
-
-        elif choice == '11':
-            git_push()
+        elif choice == "4":
+            show_player_list()
+            input("\n\t| Tapez entrer pour revenir au menu |")
+        elif choice == "5":
+            entries = input("\n\tEntrez les mises à jour des sessions (une par ligne, format +Nom Nb, -Nom Nb, =Nom Nb) :\n\t").strip().split("\n")
+            updated_players = increment_sessions(entries)
+            if updated_players:
+                print("\n\tMises à jour des grades :")
+                for name, grade in updated_players:
+                    print(f"\t- {name} est maintenant {grade}.")
+            input("\n\t| Tapez entrer pour revenir au menu |")
+        elif choice == "0":
             break
-
-        elif choice == '12':
-            while True:
-                sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
-                if sure.upper() in ['YES', 'OUI', 'Y', 'O']:
-                    main = False
-                    break
-                elif sure.upper() in ['NO', 'NON', 'N']:
-                    break
-                else:
-                    print("\n\t[!] Choix invalide. Veuillez réessayer.")
-
         else:
-            print("\n\t[!] Choix invalide. Veuillez réessayer.")
+            print("\n\tChoix invalide. Veuillez réessayer.")
 
 if __name__ == "__main__":
-    main()
+    create_player_directory()
+    main_menu()

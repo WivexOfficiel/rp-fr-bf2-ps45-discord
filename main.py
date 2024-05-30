@@ -330,45 +330,6 @@ def add_warning():
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
     time.sleep(2)
 
-def remove_old_warnings():
-    """Removes warnings that are older than one month."""
-    current_date = datetime.datetime.now()
-    updated_players = []
-
-    for file_name in os.listdir("players_list"):
-        file_path = os.path.join("players_list", file_name)
-        player_data = read_player_file(file_path)
-        comments = player_data['comments'].split('\n\n')
-        new_comments = []
-        warnings_to_remove = 0
-
-        for comment in comments:
-            if "Avertissement" in comment:
-                try:
-                    date_str = comment.split(') ')[0].strip('(')
-                    warning_date = datetime.datetime.strptime(date_str, "%d-%m-%y | %H:%M:%S")
-                    if (current_date - warning_date).days <= 30:
-                        new_comments.append(comment)
-                    else:
-                        warnings_to_remove += 1
-                except ValueError:
-                    new_comments.append(comment)
-            else:
-                new_comments.append(comment)
-
-        if warnings_to_remove > 0:
-            player_data['warnings'] -= warnings_to_remove
-            player_data['comments'] = '\n\n'.join(new_comments)
-            write_player_file(player_data['name'], player_data)
-            updated_players.append(player_data['name'])
-            log_operation(f"Retrait de {warnings_to_remove} avertissement(s) pour le joueur {player_data['name']}")
-
-    if updated_players:
-        print(f"\n\t[+] Les avertissements de plus d'un mois ont été retirés pour les joueurs suivants : {', '.join(updated_players)}")
-    else:
-        print("\n\t[+] Aucun avertissement à retirer.")
-    input("\n\t| Tapez entrer quand c'est bon |")
-
 def display_player_info():
     """Displays information about a specific player."""
     name = input("\n\tEntrez le nom du joueur : ").strip()
@@ -405,6 +366,46 @@ def display_all_warnings():
             for comment in comments:
                 if "Avertissement" in comment:
                     print(comment)
+    input("\n\t| Tapez entrer quand c'est bon |")
+
+def remove_old_warnings():
+    """Removes warnings that are older than one month."""
+    current_date = datetime.datetime.now()
+    updated_players = []
+
+    for file_name in os.listdir("players_list"):
+        file_path = os.path.join("players_list", file_name)
+        player_data = read_player_file(file_path)
+        comments = player_data['comments'].split('\n\n')
+        new_comments = []
+        warnings_to_remove = 0
+
+        for comment in comments:
+            if "Avertissement" in comment:
+                try:
+                    # Extract the date from the comment
+                    date_str = comment.split(') ')[0].strip('(')
+                    warning_date = datetime.datetime.strptime(date_str, "%d-%m-%y | %H:%M:%S")
+                    if (current_date - warning_date).days <= 30:
+                        new_comments.append(comment)
+                    else:
+                        warnings_to_remove += 1
+                except ValueError:
+                    new_comments.append(comment)
+            else:
+                new_comments.append(comment)
+
+        if warnings_to_remove > 0:
+            player_data['warnings'] -= warnings_to_remove
+            player_data['comments'] = '\n\n'.join(new_comments)
+            write_player_file(player_data['name'], player_data)
+            updated_players.append(player_data['name'])
+            log_operation(f"Retrait de {warnings_to_remove} avertissement(s) pour le joueur {player_data['name']}")
+
+    if updated_players:
+        print(f"\n\t[+] Les avertissements de plus d'un mois ont été retirés pour les joueurs suivants : {', '.join(updated_players)}")
+    else:
+        print("\n\t[+] Aucun avertissement à retirer.")
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):

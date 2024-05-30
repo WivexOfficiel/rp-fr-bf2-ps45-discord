@@ -322,12 +322,14 @@ def add_warning():
     if os.path.exists(file_path):
         player_data = read_player_file(file_path)
         player_data['warnings'] += 1
-        player_data['comments'] += f"\n\nAvertissement {player_data['warnings']} : {reason}"
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+        player_data['comments'] += f"\n\n({current_date}) Avertissement {player_data['warnings']} : {reason}"
         write_player_file(name, player_data)
-        print(f"\n\t[+] L'avertissement a ete ajoute pour {name}.")
+        print(f"\n\t[+] L'avertissement a été ajouté pour {name}.")
     else:
-        print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
     time.sleep(2)
+
 
 def display_player_info():
     """Displays information about a specific player."""

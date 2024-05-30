@@ -188,10 +188,10 @@ def delete_player():
     """Deletes a player from the players directory or reserve directory."""
     while True:
         print("\n\n\n\n\tMenu de suppression :\n\n")
-        print("\t1. Supprimer un joueur de la liste principale\n")
-        print("\t2. Supprimer un joueur de la réserve\n")
-        print("\t3. Supprimer tous les joueurs de la réserve\n")
-        print("\t4. Quitter\n")
+        print("\n\t1. Supprimer un joueur de la liste principale\n")
+        print("\n\t2. Supprimer un joueur de la réserve\n")
+        print("\n\t3. Supprimer tous les joueurs de la réserve\n")
+        print("\n\t4. Quitter\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 

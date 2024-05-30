@@ -5,6 +5,4 @@ Grade : Caporal
 Point(s) RP : 0
 Nombre d'avertissement(s) : 1
 
-
-
-Avertissement 1 : No raison provided
+(2024-05-30 | 21:07:22) Avertissement 1 : No raison provided

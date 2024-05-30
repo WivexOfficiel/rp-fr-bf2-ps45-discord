@@ -380,10 +380,10 @@ def remove_old_warnings():
         new_comments = []
         warnings_to_remove = 0
 
+        # Filtrer les avertissements trop anciens
         for comment in comments:
             if "Avertissement" in comment:
                 try:
-                    # Extract the date from the comment
                     date_str = comment.split(') ')[0].strip('(')
                     warning_date = datetime.datetime.strptime(date_str, "%d-%m-%y | %H:%M:%S")
                     if (current_date - warning_date).days <= 30:
@@ -395,9 +395,21 @@ def remove_old_warnings():
             else:
                 new_comments.append(comment)
 
+        # Réindexer les avertissements restants
+        reindexed_comments = []
+        warning_count = 1
+        for comment in new_comments:
+            if "Avertissement" in comment:
+                parts = comment.split(' ', 2)
+                reindexed_comment = f"{parts[0]} Avertissement {warning_count} : {parts[2]}"
+                reindexed_comments.append(reindexed_comment)
+                warning_count += 1
+            else:
+                reindexed_comments.append(comment)
+
         if warnings_to_remove > 0:
             player_data['warnings'] -= warnings_to_remove
-            player_data['comments'] = '\n\n'.join(new_comments)
+            player_data['comments'] = '\n\n'.join(reindexed_comments)
             write_player_file(player_data['name'], player_data)
             updated_players.append(player_data['name'])
             log_operation(f"Retrait de {warnings_to_remove} avertissement(s) pour le joueur {player_data['name']}")

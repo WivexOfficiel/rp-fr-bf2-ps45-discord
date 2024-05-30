@@ -315,20 +315,47 @@ def add_staff_comment():
     time.sleep(2)
 
 def add_warning():
-    """Adds a warning to a player's file."""
-    name = input("\n\tEntrez le nom du joueur : ").strip()
-    reason = input("\n\tEntrez la raison de l'avertissement : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        player_data = read_player_file(file_path)
-        player_data['warnings'] += 1
-        current_date = datetime.datetime.now().strftime("%Y-%m-%d")
-        player_data['comments'] += f"\n\n({current_date}) Avertissement {player_data['warnings']} : {reason}"
-        write_player_file(name, player_data)
-        print(f"\n\t[+] L'avertissement a été ajouté pour {name}.")
+    """Add a warning to a player."""
+    player_name = input("\n\tEntrez le nom du joueur : ").strip()
+    file_path = os.path.join("players_list", f"{player_name}.txt")
+
+    if not os.path.exists(file_path):
+        print("\n\t[!] Le joueur n'existe pas.")
+        return
+
+    # Choisir le type d'avertissement
+    print("\n\tChoisissez le type d'avertissement :")
+    print("\t1. Non présent à une session")
+    print("\t2. Insulte (préciser l'insulte et envers qui)")
+    print("\t3. Autre")
+    warning_type_choice = input("\tVotre choix : ").strip()
+
+    if warning_type_choice == '1':
+        warning_type = "Non présent à une session"
+        warning_details = ""
+    elif warning_type_choice == '2':
+        insult = input("\n\tPrécisez l'insulte : ").strip()
+        target = input("\tEnvers qui : ").strip()
+        warning_type = "Insulte"
+        warning_details = f"{insult} envers {target}"
+    elif warning_type_choice == '3':
+        warning_type = input("\n\tPrécisez le type d'avertissement : ").strip()
+        warning_details = input("\tDétails : ").strip()
     else:
-        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
-    time.sleep(2)
+        print("\n\t[!] Choix invalide.")
+        return
+
+    current_time = datetime.datetime.now().strftime("%d-%m-%y | %H:%M:%S")
+    new_warning = f"({current_time}) Avertissement {warning_type} : {warning_details}"
+
+    player_data = read_player_file(file_path)
+    player_data['warnings'] += 1
+    player_data['comments'] += f"\n\n{new_warning}"
+
+    write_player_file(player_data['name'], player_data)
+    log_operation(f"Ajout d'un avertissement pour le joueur {player_data['name']}: {warning_type} - {warning_details}")
+    print(f"\n\t[+] Avertissement ajouté pour {player_data['name']}.")
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_player_info():
     """Displays information about a specific player."""

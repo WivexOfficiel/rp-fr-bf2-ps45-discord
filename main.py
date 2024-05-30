@@ -331,6 +331,7 @@ def main():
     git_pull()
     os.system("clear")
     create_player_directory()
+    create_reserve_directory()
     main = True
     
     while main:
@@ -339,13 +340,15 @@ def main():
         print("\t2. Ajouter un nouveau joueur\n")
         print("\t3. Modifier le nom d'un joueur\n")
         print("\t4. Supprimer un joueur\n")
-        print("\t5. Ajouter un commentaire du staff\n")
-        print("\t6. Ajouter un avertissement\n")
-        print("\t7. Afficher les informations d'un joueur\n")
-        print("\t8. Afficher tous les commentaires du staff\n")
-        print("\t9. Afficher toutes les raisons d'avertissements\n")
-        print("\t10. Quitter en sauvegardant\n")
-        print("\t11. Quitter sans sauvegarder\n")
+        print("\t5. Déplacer un joueur vers la réserve\n")
+        print("\t6. Restaurer un joueur de la réserve\n")  # Nouvelle option
+        print("\t7. Ajouter un commentaire du staff\n")
+        print("\t8. Ajouter un avertissement\n")
+        print("\t9. Afficher les informations d'un joueur\n")
+        print("\t10. Afficher tous les commentaires du staff\n")
+        print("\t11. Afficher toutes les raisons d'avertissements\n")
+        print("\t12. Quitter en sauvegardant\n")
+        print("\t13. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -354,7 +357,7 @@ def main():
             updated_players = increment_sessions(entries)
             for name, new_grade in updated_players:
                 print(f"\n\t{name} a maintenant été promu à {new_grade}.")
-            print("\n\t[+] Les sessions ont été mise à jour")
+            print("\n\t[+] Les sessions ont été mises à jour")
             print("\n")
             os.system("clear")
 
@@ -374,34 +377,44 @@ def main():
             os.system("clear")
 
         elif choice == '5':
-            add_staff_comment()
+            move_player_to_reserve()
             print("\n")
             os.system("clear")
 
         elif choice == '6':
-            add_warning()
+            restore_player_from_reserve()
             print("\n")
             os.system("clear")
 
         elif choice == '7':
-            display_player_info()
+            add_staff_comment()
+            print("\n")
             os.system("clear")
 
         elif choice == '8':
-            display_all_staff_comments()
+            add_warning()
+            print("\n")
             os.system("clear")
 
         elif choice == '9':
-            display_all_warnings()
+            display_player_info()
             os.system("clear")
 
         elif choice == '10':
+            display_all_staff_comments()
+            os.system("clear")
+
+        elif choice == '11':
+            display_all_warnings()
+            os.system("clear")
+
+        elif choice == '12':
             git_push()
             break
 
-        elif choice == '11':
+        elif choice == '13':
             while True:
-                sure = input("\n\tEs-tu sur de vouloir quitter sans sauvegarder ? (Y/N) : ")
+                sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:
                     main = False
                     break

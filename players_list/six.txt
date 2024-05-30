@@ -5,5 +5,5 @@ Grade : Sergent Major
 Point(s) RP : 0
 Nombre d'avertissement(s) : 2
 
-(2024-05-24 | 21:07:22) Avertissement : Ce joueur a skip 1 session dans son compte de session.
-(2024-05-24 | 21:07:44) Avertissement : Ce joueur a skip 1 session dans son compte de session.
+(2024-05-24 | 21:07:22) Avertissement 1 : Ce joueur a skip 1 session dans son compte de session.
+(2024-05-24 | 21:07:44) Avertissement 2 : Ce joueur a skip 1 session dans son compte de session.

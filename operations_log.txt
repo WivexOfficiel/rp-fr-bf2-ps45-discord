@@ -481,3 +481,5 @@
 2024-05-30 22:15:56: Retrait de 1 avertissement(s) pour le joueur wivex
 2024-05-30 23:01:27: Ajout d'un avertissement pour le joueur dex: Non présent à une session - 
 2024-05-30 23:05:32: Ajout d'un avertissement pour le joueur dex: Non présent à une session - A coché présent à une session mais n'est pas venu
+2024-05-30 23:07:42: Ajout d'un avertissement pour le joueur wivex:  - 
+2024-05-30 23:09:13: Ajout d'un avertissement pour le joueur wivex: Traitre - mangeur de traitre

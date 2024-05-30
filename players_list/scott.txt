@@ -5,14 +5,14 @@ Grade : Soldat (trooper)
 Point(s) RP : 0
 Nombre d'avertissement(s) : 12
 
-Avertissement 7 : No raison provided
+Avertissement 1 : No raison provided
 
-Avertissement 8 : No raison provided
+Avertissement 2 : No raison provided
 
-Avertissement 9 : No raison provided
+Avertissement 3 : No raison provided
 
-Avertissement 10 : No raison provided
+Avertissement 4 : No raison provided
 
-Avertissement 11 : No raison provided
+Avertissement 5 : No raison provided
 
-Avertissement 12 : No raison provided
+Avertissement 6 : No raison provided

@@ -5,10 +5,10 @@ Grade : Caporal chef
 Point(s) RP : 0
 Nombre d'avertissement(s) : 4
 
-Avertissement 1 : No raison provided
+(2024-05-30 | 21:07:22) Avertissement 1 : No raison provided
 
-Avertissement 2 : No raison provided
+(2024-05-30 | 21:07:22) Avertissement 2 : No raison provided
 
-Avertissement 3 : No raison provided
+(2024-05-30 | 21:07:22) Avertissement 3 : No raison provided
 
-Avertissement 4 : No raison provided
+(2024-05-30 | 21:07:22) Avertissement 4 : No raison provided

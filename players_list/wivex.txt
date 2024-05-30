@@ -3,8 +3,4 @@ Pseudo Discord : wivex
 Nombre de session(s) : 68
 Grade : Capitaine en second
 Point(s) RP : 2
-Nombre d'avertissement(s) : 2
-
-(30-03-24 Avertissement 1 : 22:13:05) Avertissement Insulte : Sale merde envers wivex
-
-(30-05-24 Avertissement 2 : 22:13:17) Avertissement jsp : jsp
+Nombre d'avertissement(s) : 0

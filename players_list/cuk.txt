@@ -3,7 +3,4 @@ Pseudo Discord : doc8105
 Nombre de session(s) : 0
 Grade : Recrue (cadet)
 Point(s) RP : 0
-Nombre d'avertissement(s) : 1
-
-
-(2024-05-28 | 21:44:15) Avertissement 1 : Absence a une session (14-04-2024)
+Nombre d'avertissement(s) : 0

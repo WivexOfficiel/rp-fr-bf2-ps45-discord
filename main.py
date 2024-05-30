@@ -332,7 +332,7 @@ def add_warning():
 
     if warning_type_choice == '1':
         warning_type = "Non présent à une session"
-        warning_details = ""
+        warning_details = "A coché présent à une session mais n'est pas venu"
     elif warning_type_choice == '2':
         insult = input("\n\tPrécisez l'insulte : ").strip()
         target = input("\tEnvers qui : ").strip()

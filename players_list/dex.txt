@@ -5,6 +5,4 @@ Grade : Soldat (trooper)
 Point(s) RP : 0
 Nombre d'avertissement(s) : 2
 
-(30-05-24 | 23:01:27) Avertissement Non prÃ©sent Ã  une session
-
 (30-05-24 | 23:05:32) Avertissement Non présent à une session : A coché présent à une session mais n'est pas venu

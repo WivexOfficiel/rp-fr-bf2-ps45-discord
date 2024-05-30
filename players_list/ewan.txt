@@ -3,5 +3,8 @@ Pseudo Discord : obewan12
 Nombre de session(s) : 59
 Grade : Lieutenant en second
 Point(s) RP : 0
-Nombre d'avertissement(s) : 0
+Nombre d'avertissement(s) : 1
 
+
+
+Avertissement 1 : No raison provided

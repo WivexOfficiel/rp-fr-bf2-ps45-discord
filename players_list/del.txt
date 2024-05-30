@@ -3,5 +3,8 @@ Pseudo Discord : beyond72
 Nombre de session(s) : 36
 Grade : Adjudant
 Point(s) RP : 0
-Nombre d'avertissement(s) : 0
+Nombre d'avertissement(s) : 1
 
+
+
+Avertissement 1 : No raison provided

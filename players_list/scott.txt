@@ -3,5 +3,10 @@ Pseudo Discord : mwdiablo06
 Nombre de session(s) : 4
 Grade : Soldat (trooper)
 Point(s) RP : 0
-Nombre d'avertissement(s) : 6
+Nombre d'avertissement(s) : 9
 
+Avertissement 7 : No raison provided
+
+Avertissement 8 : No raison provided
+
+Avertissement 9 : No raison provided

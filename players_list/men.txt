@@ -3,5 +3,8 @@ Pseudo Discord : men1674
 Nombre de session(s) : 9
 Grade : Caporal
 Point(s) RP : 0
-Nombre d'avertissement(s) : 0
+Nombre d'avertissement(s) : 1
 
+
+
+Avertissement 1 : No raison provided

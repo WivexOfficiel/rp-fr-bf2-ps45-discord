@@ -3,5 +3,8 @@ Pseudo Discord : cody5539
 Nombre de session(s) : 6
 Grade : Caporal
 Point(s) RP : 0
-Nombre d'avertissement(s) : 0
+Nombre d'avertissement(s) : 1
 
+
+
+Avertissement 1 : No raison provided

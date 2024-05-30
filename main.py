@@ -186,27 +186,84 @@ def modify_player():
 
 def delete_player():
     """Deletes a player from the players directory or reserve directory."""
+    while True:
+        print("\n\n\n\n\tMenu de suppression :\n\n")
+        print("\t1. Supprimer un joueur de la liste principale\n")
+        print("\t2. Supprimer un joueur de la réserve\n")
+        print("\t3. Supprimer tous les joueurs de la réserve\n")
+        print("\t4. Quitter\n")
+
+        choice = input("\tEntrez votre choix : ").strip()
+
+        if choice == '1':
+            delete_main_player()
+            print("\n")
+            os.system("clear")
+        elif choice == '2':
+            delete_reserve_player()
+            print("\n")
+            os.system("clear")
+        elif choice == '3':
+            delete_all_reserve_players()
+            print("\n")
+            os.system("clear")
+        elif choice == '4':
+            print("\n\t[+] Sortie du menu de suppression")
+            break
+        else:
+            print("\n\t[!] Choix invalide. Veuillez réessayer.")
+def delete_main_player():
+    """Deletes a player from the main players directory."""
     name = input("\n\tEntrez le nom du joueur à supprimer : ").strip()
     file_path_main = os.path.join("players_list", f"{name}.txt")
-    file_path_reserve = os.path.join("reserve_players_list", f"{name}.txt")
     
-    if os.path.exists(file_path_main) or os.path.exists(file_path_reserve):
+    if os.path.exists(file_path_main):
         verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} ? (Y/N) : ")
         if verification.upper() in ["Y", "YES", "OUI"]:
-            if os.path.exists(file_path_main):
-                os.remove(file_path_main)
-                log_operation(f"Suppression du joueur : {name} de players_list")
-                print(f"\n\t[-] Le joueur {name} a été supprimé de players_list.")
-            if os.path.exists(file_path_reserve):
-                os.remove(file_path_reserve)
-                log_operation(f"Suppression du joueur : {name} de reserve_players_list")
-                print(f"\n\t[-] Le joueur {name} a été supprimé de reserve_players_list.")
+            os.remove(file_path_main)
+            log_operation(f"Suppression du joueur : {name} de players_list")
+            print(f"\n\t[-] Le joueur {name} a été supprimé de players_list.")
         elif verification.upper() in ["N", "NO", "NON"]:
             print("\n\t[+] Commande annulée")
         else:
             print("\n\t[-] Choix invalide")
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+    time.sleep(2)
+
+def delete_reserve_player():
+    """Deletes a player from the reserve_players_list directory."""
+    name = input("\n\tEntrez le nom du joueur de la réserve à supprimer : ").strip()
+    file_path_reserve = os.path.join("reserve_players_list", f"{name}.txt")
+    
+    if os.path.exists(file_path_reserve):
+        verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} de la réserve ? (Y/N) : ")
+        if verification.upper() in ["Y", "YES", "OUI"]:
+            os.remove(file_path_reserve)
+            log_operation(f"Suppression du joueur : {name} de reserve_players_list")
+            print(f"\n\t[-] Le joueur {name} a été supprimé de reserve_players_list.")
+        elif verification.upper() in ["N", "NO", "NON"]:
+            print("\n\t[+] Commande annulée")
+        else:
+            print("\n\t[-] Choix invalide")
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la réserve.")
+    time.sleep(2)
+
+def delete_all_reserve_players():
+    """Deletes all players from the reserve_players_list directory."""
+    verification = input("\n\tEs-tu sûr de vouloir supprimer tous les joueurs de la réserve ? (Y/N) : ")
+    if verification.upper() in ["Y", "YES", "OUI"]:
+        folder_path = "reserve_players_list"
+        for file_name in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, file_name)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+        print("\n\t[-] Tous les joueurs de la réserve ont été supprimés.")
+    elif verification.upper() in ["N", "NO", "NON"]:
+        print("\n\t[+] Commande annulée")
+    else:
+        print("\n\t[-] Choix invalide")
     time.sleep(2)
 
 def move_player_to_reserve():

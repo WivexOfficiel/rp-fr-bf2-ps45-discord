@@ -3,12 +3,4 @@ Pseudo Discord : dosca94
 Nombre de session(s) : 11
 Grade : Caporal chef
 Point(s) RP : 0
-Nombre d'avertissement(s) : 4
-
-(2024-05-30 | 21:07:22) Avertissement 1 : No raison provided
-
-(2024-05-30 | 21:07:22) Avertissement 2 : No raison provided
-
-(2024-05-30 | 21:07:22) Avertissement 3 : No raison provided
-
-(2024-05-30 | 21:07:22) Avertissement 4 : No raison provided
+Nombre d'avertissement(s) : 0

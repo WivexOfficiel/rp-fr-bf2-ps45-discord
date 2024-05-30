@@ -3,8 +3,4 @@ Pseudo Discord : wivex
 Nombre de session(s) : 68
 Grade : Capitaine en second
 Point(s) RP : 2
-Nombre d'avertissement(s) : 2
-
-(30-05-24 | 23:07:42) Avertissement  :
-
-(30-05-24 | 23:09:13) Avertissement Traitre : mangeur de traitre
+Nombre d'avertissement(s) : 0

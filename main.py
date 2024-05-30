@@ -7,6 +7,11 @@ def create_player_directory():
     if not os.path.exists("players_list"):
         os.makedirs("players_list")
 
+def create_reserve_directory():
+    """Creates the reserve_players_list directory if it does not exist."""
+    if not os.path.exists("reserve_players_list"):
+        os.makedirs("reserve_players_list")
+
 def create_player_file(player_name, discord_name):
     """Creates a file for the new player with the specified details."""
     file_path = os.path.join("players_list", f"{player_name}.txt")
@@ -180,21 +185,61 @@ def modify_player():
     time.sleep(2)
 
 def delete_player():
-    """Deletes a player from the players directory."""
-    name = input("\n\tEntrez le nom du joueur a supprimer : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        verification = input(f"\n\tEs-tu sur de vouloir supprimer le joueur {name} ? (Y/N) : ")
+    """Deletes a player from the players directory or reserve directory."""
+    name = input("\n\tEntrez le nom du joueur à supprimer : ").strip()
+    file_path_main = os.path.join("players_list", f"{name}.txt")
+    file_path_reserve = os.path.join("reserve_players_list", f"{name}.txt")
+    
+    if os.path.exists(file_path_main) or os.path.exists(file_path_reserve):
+        verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} ? (Y/N) : ")
         if verification.upper() in ["Y", "YES", "OUI"]:
-            os.remove(file_path)
-            log_operation(f"Suppression du joueur : {name}")
-            print(f"\n\t[-] Le joueur {name} a ete supprime.")
+            if os.path.exists(file_path_main):
+                os.remove(file_path_main)
+                log_operation(f"Suppression du joueur : {name} de players_list")
+                print(f"\n\t[-] Le joueur {name} a été supprimé de players_list.")
+            if os.path.exists(file_path_reserve):
+                os.remove(file_path_reserve)
+                log_operation(f"Suppression du joueur : {name} de reserve_players_list")
+                print(f"\n\t[-] Le joueur {name} a été supprimé de reserve_players_list.")
         elif verification.upper() in ["N", "NO", "NON"]:
-            print("\n\t[+] Commande annulee")
+            print("\n\t[+] Commande annulée")
         else:
             print("\n\t[-] Choix invalide")
     else:
-        print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+    time.sleep(2)
+
+def move_player_to_reserve():
+    """Moves a player file to the reserve_players_list directory."""
+    name = input("\n\tEntrez le nom du joueur à déplacer en réserve : ").strip()
+    file_path = os.path.join("players_list", f"{name}.txt")
+    if os.path.exists(file_path):
+        verification = input(f"\n\tEs-tu sûr de vouloir déplacer le joueur {name} en réserve ? (Y/N) : ")
+        if verification.upper() in ["Y", "YES", "OUI"]:
+            reserve_path = os.path.join("reserve_players_list", f"{name}.txt")
+            os.rename(file_path, reserve_path)
+            log_operation(f"Déplacement du joueur {name} vers la réserve")
+            print(f"\n\t[+] Le joueur {name} a été déplacé en réserve.")
+        elif verification.upper() in ["N", "NO", "NON"]:
+            print("\n\t[+] Commande annulée")
+        else:
+            print("\n\t[-] Choix invalide")
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+    time.sleep(2)
+
+def restore_player_from_reserve():
+    """Restores a player from the reserve_players_list directory to the players_list directory."""
+    name = input("\n\tEntrez le nom du joueur à restaurer de la réserve : ").strip()
+    reserve_path = os.path.join("reserve_players_list", f"{name}.txt")
+    
+    if os.path.exists(reserve_path):
+        file_path = os.path.join("players_list", f"{name}.txt")
+        os.rename(reserve_path, file_path)
+        log_operation(f"Restauration du joueur {name} de la réserve")
+        print(f"\n\t[+] Le joueur {name} a été restauré de la réserve.")
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la réserve.")
     time.sleep(2)
 
 def add_staff_comment():

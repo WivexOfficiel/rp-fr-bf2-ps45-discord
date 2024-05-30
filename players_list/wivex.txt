@@ -3,6 +3,8 @@ Pseudo Discord : wivex
 Nombre de session(s) : 68
 Grade : Capitaine en second
 Point(s) RP : 2
-Nombre d'avertissement(s) : 0
+Nombre d'avertissement(s) : 2
 
+(14-05-24 Avertissement 1 : 06:45:07) Avertissement 2 : Abus de pouvoir
 
+(26-05-24 Avertissement 2 : 16:17:52) Avertissement 3 : Non repsect des classes

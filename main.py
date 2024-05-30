@@ -324,23 +324,23 @@ def add_warning():
         return
 
     # Choisir le type d'avertissement
-    print("\n\tChoisissez le type d'avertissement :")
-    print("\t1. Non présent à une session")
-    print("\t2. Insulte (préciser l'insulte et envers qui)")
-    print("\t3. Autre")
-    warning_type_choice = input("\tVotre choix : ").strip()
+    print("\n\tChoisissez le type d'avertissement :\n")
+    print("\n\t1. Non présent à une session")
+    print("\n\t2. Insulte (préciser l'insulte et envers qui)")
+    print("\n\t3. Autre")
+    warning_type_choice = input("\n\tVotre choix : ").strip()
 
     if warning_type_choice == '1':
         warning_type = "Non présent à une session"
         warning_details = "A coché présent à une session mais n'est pas venu"
     elif warning_type_choice == '2':
         insult = input("\n\tPrécisez l'insulte : ").strip()
-        target = input("\tEnvers qui : ").strip()
+        target = input("\n\tEnvers qui : ").strip()
         warning_type = "Insulte"
         warning_details = f"{insult} envers {target}"
     elif warning_type_choice == '3':
         warning_type = input("\n\tPrécisez le type d'avertissement : ").strip()
-        warning_details = input("\tDétails : ").strip()
+        warning_details = input("\n\tDétails : ").strip()
     else:
         print("\n\t[!] Choix invalide.")
         return

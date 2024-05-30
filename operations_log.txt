@@ -469,3 +469,4 @@
 2024-05-29 18:48:12.014407: Ajout de 1 session(s) à luck
 2024-05-29 18:48:12.014597: Ajout de 1 session(s) à troff
 2024-05-29 18:48:12.014743: Ajout de 1 session(s) à volgth
+2024-05-30 17:59:03.674357: Déplacement du joueur yoz vers la réserve

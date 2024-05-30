@@ -64,11 +64,13 @@ def write_player_file(player_name, player_data):
 
 def determine_grade(sessions):
     """Determines the grade based on the number of sessions."""
-    if sessions >= 125:
+    if sessions >= 150:
         return 'General'
+    elif sessions >= 120:
+        return 'Colonel'
     elif sessions >= 110:
-        return 'Commandant marechal'
-    elif sessions >= 95:
+        return 'Lieutenant Colonel'
+    elif sessions >= 100:
         return 'Commandant'
     elif sessions >= 80:
         return 'Capitaine'

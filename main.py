@@ -330,6 +330,44 @@ def add_warning():
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
     time.sleep(2)
 
+def remove_old_warnings():
+    """Removes warnings that are older than one month."""
+    current_date = datetime.datetime.now()
+    updated_players = []
+
+    for file_name in os.listdir("players_list"):
+        file_path = os.path.join("players_list", file_name)
+        player_data = read_player_file(file_path)
+        comments = player_data['comments'].split('\n\n')
+        new_comments = []
+        warnings_to_remove = 0
+
+        for comment in comments:
+            if "Avertissement" in comment:
+                try:
+                    date_str = comment.split(') ')[0].strip('(')
+                    warning_date = datetime.datetime.strptime(date_str, "%d-%m-%y | %H:%M:%S")
+                    if (current_date - warning_date).days <= 30:
+                        new_comments.append(comment)
+                    else:
+                        warnings_to_remove += 1
+                except ValueError:
+                    new_comments.append(comment)
+            else:
+                new_comments.append(comment)
+
+        if warnings_to_remove > 0:
+            player_data['warnings'] -= warnings_to_remove
+            player_data['comments'] = '\n\n'.join(new_comments)
+            write_player_file(player_data['name'], player_data)
+            updated_players.append(player_data['name'])
+            log_operation(f"Retrait de {warnings_to_remove} avertissement(s) pour le joueur {player_data['name']}")
+
+    if updated_players:
+        print(f"\n\t[+] Les avertissements de plus d'un mois ont été retirés pour les joueurs suivants : {', '.join(updated_players)}")
+    else:
+        print("\n\t[+] Aucun avertissement à retirer.")
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_player_info():
     """Displays information about a specific player."""
@@ -372,7 +410,7 @@ def display_all_warnings():
 def log_operation(operation):
     """Logs operations performed on the players."""
     with open("operations_log.txt", "a") as log_file:
-        log_file.write(f"{datetime.datetime.now()}: {operation}\n")
+        log_file.write(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}: {operation}\n")
 
 def git_push():
     """Adds specified files, commits with a message, and force pushes to the main branch."""
@@ -400,14 +438,15 @@ def main():
         print("\t3. Modifier le nom d'un joueur\n")
         print("\t4. Supprimer un joueur\n")
         print("\t5. Déplacer un joueur vers la réserve\n")
-        print("\t6. Restaurer un joueur de la réserve\n")  # Nouvelle option
+        print("\t6. Restaurer un joueur de la réserve\n")  
         print("\t7. Ajouter un commentaire du staff\n")
         print("\t8. Ajouter un avertissement\n")
         print("\t9. Afficher les informations d'un joueur\n")
         print("\t10. Afficher tous les commentaires du staff\n")
         print("\t11. Afficher toutes les raisons d'avertissements\n")
-        print("\t12. Quitter en sauvegardant\n")
-        print("\t13. Quitter sans sauvegarder\n")
+        print("\t12. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
+        print("\t13. Quitter en sauvegardant\n")
+        print("\t14. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -468,10 +507,14 @@ def main():
             os.system("clear")
 
         elif choice == '12':
+            remove_old_warnings()
+            os.system("clear")
+
+        elif choice == '13':
             git_push()
             break
 
-        elif choice == '13':
+        elif choice == '14':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

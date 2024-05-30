@@ -479,3 +479,4 @@
 2024-05-30 22:13:05: Ajout d'un avertissement pour le joueur wivex: Insulte - Sale merde envers wivex
 2024-05-30 22:13:17: Ajout d'un avertissement pour le joueur wivex: jsp - jsp
 2024-05-30 22:15:56: Retrait de 1 avertissement(s) pour le joueur wivex
+2024-05-30 23:01:27: Ajout d'un avertissement pour le joueur dex: Non présent à une session - 

@@ -3,6 +3,4 @@ Pseudo Discord : foxy_renard
 Nombre de session(s) : 3
 Grade : Soldat (trooper)
 Point(s) RP : 0
-Nombre d'avertissement(s) : 1
-
-(2024-05-30 | 21:07:22) Avertissement 1 : No raison provided
+Nombre d'avertissement(s) : 0

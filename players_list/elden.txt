@@ -3,5 +3,8 @@ Pseudo Discord : jemefaisniker
 Nombre de session(s) : 68
 Grade : Lieutenant
 Point(s) RP : 0
-Nombre d'avertissement(s) : 0
+Nombre d'avertissement(s) : 1
 
+
+
+(31-05-24 | 21:57:19) Avertissement Non présent à une session : A coché présent à une session mais n'est pas venu

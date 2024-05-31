@@ -504,3 +504,5 @@
 2024-05-31 19:24:04: Ajout de 1 session(s) a hawk_eye
 2024-05-31 19:24:04: Ajout de 1 session(s) a blackbird
 2024-05-31 19:24:04: Ajout de 1 session(s) a miles
+2024-05-31 19:39:08: Creation d'un nouveau joueur nomme : test
+2024-05-31 19:39:14: Déplacement du joueur test vers la réserve

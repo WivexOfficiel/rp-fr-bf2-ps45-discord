@@ -1,146 +1,146 @@
 2024-05-23 19:25:24 - Ajout d'un avertissement pour : wivex
 2024-05-23 19:26:17 - Suppression du joueur : wivex
-2024-05-23 19:27:07 - Création d'un nouveau joueur nommé : wivex
+2024-05-23 19:27:07 - CrÃ©ation d'un nouveau joueur nommÃ© : wivex
 2024-05-23 19:27:26 - Suppression du joueur : wivex
-2024-05-23 19:27:39 - Création d'un nouveau joueur nommé : wivex
-2024-05-23 19:28:04 - Création d'un nouveau joueur nommé : 
-2024-05-23 19:33:56 - Création d'un nouveau joueur nommé : kido
-2024-05-23 19:34:18 - Création d'un nouveau joueur nommé : ghost
-2024-05-23 19:34:29 - Création d'un nouveau joueur nommé : fuze
-2024-05-23 19:34:56 - Création d'un nouveau joueur nommé : foxy
-2024-05-23 19:35:10 - Création d'un nouveau joueur nommé : wild
-2024-05-23 19:35:39 - Création d'un nouveau joueur nommé : mephistos
-2024-05-23 19:35:51 - Création d'un nouveau joueur nommé : blazer
-2024-05-23 19:36:16 - Création d'un nouveau joueur nommé : stryker
-2024-05-23 19:36:34 - Création d'un nouveau joueur nommé : raptor
-2024-05-23 19:36:49 - Création d'un nouveau joueur nommé : rhys
-2024-05-23 19:37:06 - Création d'un nouveau joueur nommé : lucsray
-2024-05-23 19:37:34 - Création d'un nouveau joueur nommé : lucky
-2024-05-23 19:38:02 - Création d'un nouveau joueur nommé : jonix
-2024-05-23 19:38:15 - Création d'un nouveau joueur nommé : calipso
-2024-05-23 19:38:32 - Création d'un nouveau joueur nommé : only
+2024-05-23 19:27:39 - CrÃ©ation d'un nouveau joueur nommÃ© : wivex
+2024-05-23 19:28:04 - CrÃ©ation d'un nouveau joueur nommÃ© : 
+2024-05-23 19:33:56 - CrÃ©ation d'un nouveau joueur nommÃ© : kido
+2024-05-23 19:34:18 - CrÃ©ation d'un nouveau joueur nommÃ© : ghost
+2024-05-23 19:34:29 - CrÃ©ation d'un nouveau joueur nommÃ© : fuze
+2024-05-23 19:34:56 - CrÃ©ation d'un nouveau joueur nommÃ© : foxy
+2024-05-23 19:35:10 - CrÃ©ation d'un nouveau joueur nommÃ© : wild
+2024-05-23 19:35:39 - CrÃ©ation d'un nouveau joueur nommÃ© : mephistos
+2024-05-23 19:35:51 - CrÃ©ation d'un nouveau joueur nommÃ© : blazer
+2024-05-23 19:36:16 - CrÃ©ation d'un nouveau joueur nommÃ© : stryker
+2024-05-23 19:36:34 - CrÃ©ation d'un nouveau joueur nommÃ© : raptor
+2024-05-23 19:36:49 - CrÃ©ation d'un nouveau joueur nommÃ© : rhys
+2024-05-23 19:37:06 - CrÃ©ation d'un nouveau joueur nommÃ© : lucsray
+2024-05-23 19:37:34 - CrÃ©ation d'un nouveau joueur nommÃ© : lucky
+2024-05-23 19:38:02 - CrÃ©ation d'un nouveau joueur nommÃ© : jonix
+2024-05-23 19:38:15 - CrÃ©ation d'un nouveau joueur nommÃ© : calipso
+2024-05-23 19:38:32 - CrÃ©ation d'un nouveau joueur nommÃ© : only
 2024-05-23 19:41:19 - Ajout de commentaire pour wivex: bg bg
 2024-05-23 19:41:26 - Ajout de commentaire pour wivex: bg auok
-2024-05-23 19:44:25 - Création d'un nouveau joueur nommé : glitch
-2024-05-23 19:44:40 - Création d'un nouveau joueur nommé : lonely
-2024-05-23 19:46:05 - Création d'un nouveau joueur nommé : deathclaw
-2024-05-23 19:46:23 - Création d'un nouveau joueur nommé : matt
-2024-05-23 19:47:02 - Création d'un nouveau joueur nommé : kenji
-2024-05-23 19:47:31 - Création d'un nouveau joueur nommé : boby
-2024-05-23 19:48:06 - Création d'un nouveau joueur nommé : exotique
-2024-05-23 19:48:34 - Création d'un nouveau joueur nommé : spartan
-2024-05-23 19:49:08 - Création d'un nouveau joueur nommé : commandos
-2024-05-23 19:49:29 - Création d'un nouveau joueur nommé : hell
-2024-05-23 19:49:56 - Création d'un nouveau joueur nommé : ajax
-2024-05-23 19:50:18 - Création d'un nouveau joueur nommé : wayne
-2024-05-23 19:50:30 - Création d'un nouveau joueur nommé : head
-2024-05-23 19:50:45 - Création d'un nouveau joueur nommé : stix
-2024-05-23 19:54:04 - Création d'un nouveau joueur nommé : trax
-2024-05-23 19:54:15 - Création d'un nouveau joueur nommé : luck
-2024-05-23 19:54:50 - Création d'un nouveau joueur nommé : hawk_eye
-2024-05-23 19:55:12 - Création d'un nouveau joueur nommé : rayko
-2024-05-23 19:55:47 - Création d'un nouveau joueur nommé : hunk
-2024-05-23 19:56:10 - Création d'un nouveau joueur nommé : del
-2024-05-23 19:56:24 - Création d'un nouveau joueur nommé : bob
-2024-05-23 19:56:38 - Création d'un nouveau joueur nommé : souly
-2024-05-23 19:56:47 - Création d'un nouveau joueur nommé : demka
-2024-05-23 19:57:14 - Création d'un nouveau joueur nommé : agoti
-2024-05-23 19:57:29 - Création d'un nouveau joueur nommé : grif
-2024-05-23 19:57:47 - Création d'un nouveau joueur nommé : nax
-2024-05-23 19:58:23 - Création d'un nouveau joueur nommé : raptor572
-2024-05-23 20:01:08 - Création d'un nouveau joueur nommé : pylo
+2024-05-23 19:44:25 - CrÃ©ation d'un nouveau joueur nommÃ© : glitch
+2024-05-23 19:44:40 - CrÃ©ation d'un nouveau joueur nommÃ© : lonely
+2024-05-23 19:46:05 - CrÃ©ation d'un nouveau joueur nommÃ© : deathclaw
+2024-05-23 19:46:23 - CrÃ©ation d'un nouveau joueur nommÃ© : matt
+2024-05-23 19:47:02 - CrÃ©ation d'un nouveau joueur nommÃ© : kenji
+2024-05-23 19:47:31 - CrÃ©ation d'un nouveau joueur nommÃ© : boby
+2024-05-23 19:48:06 - CrÃ©ation d'un nouveau joueur nommÃ© : exotique
+2024-05-23 19:48:34 - CrÃ©ation d'un nouveau joueur nommÃ© : spartan
+2024-05-23 19:49:08 - CrÃ©ation d'un nouveau joueur nommÃ© : commandos
+2024-05-23 19:49:29 - CrÃ©ation d'un nouveau joueur nommÃ© : hell
+2024-05-23 19:49:56 - CrÃ©ation d'un nouveau joueur nommÃ© : ajax
+2024-05-23 19:50:18 - CrÃ©ation d'un nouveau joueur nommÃ© : wayne
+2024-05-23 19:50:30 - CrÃ©ation d'un nouveau joueur nommÃ© : head
+2024-05-23 19:50:45 - CrÃ©ation d'un nouveau joueur nommÃ© : stix
+2024-05-23 19:54:04 - CrÃ©ation d'un nouveau joueur nommÃ© : trax
+2024-05-23 19:54:15 - CrÃ©ation d'un nouveau joueur nommÃ© : luck
+2024-05-23 19:54:50 - CrÃ©ation d'un nouveau joueur nommÃ© : hawk_eye
+2024-05-23 19:55:12 - CrÃ©ation d'un nouveau joueur nommÃ© : rayko
+2024-05-23 19:55:47 - CrÃ©ation d'un nouveau joueur nommÃ© : hunk
+2024-05-23 19:56:10 - CrÃ©ation d'un nouveau joueur nommÃ© : del
+2024-05-23 19:56:24 - CrÃ©ation d'un nouveau joueur nommÃ© : bob
+2024-05-23 19:56:38 - CrÃ©ation d'un nouveau joueur nommÃ© : souly
+2024-05-23 19:56:47 - CrÃ©ation d'un nouveau joueur nommÃ© : demka
+2024-05-23 19:57:14 - CrÃ©ation d'un nouveau joueur nommÃ© : agoti
+2024-05-23 19:57:29 - CrÃ©ation d'un nouveau joueur nommÃ© : grif
+2024-05-23 19:57:47 - CrÃ©ation d'un nouveau joueur nommÃ© : nax
+2024-05-23 19:58:23 - CrÃ©ation d'un nouveau joueur nommÃ© : raptor572
+2024-05-23 20:01:08 - CrÃ©ation d'un nouveau joueur nommÃ© : pylo
 2024-05-23 20:01:13 - Suppression du joueur : pylo
-2024-05-23 20:01:23 - Création d'un nouveau joueur nommé : jack
-2024-05-23 20:12:54 - Création d'un nouveau joueur nommé : kin
-2024-05-23 20:16:50 - Création d'un nouveau joueur nommé : rox
-2024-05-23 20:20:06 - Création d'un nouveau joueur nommé : dred
-2024-05-23 20:21:16 - Création d'un nouveau joueur nommé : evni
-2024-05-23 20:22:42 - Création d'un nouveau joueur nommé : raven
-2024-05-23 20:23:10 - Création d'un nouveau joueur nommé : bebert
-2024-05-23 20:23:27 - Création d'un nouveau joueur nommé : revenge
-2024-05-23 20:23:57 - Création d'un nouveau joueur nommé : arky
-2024-05-23 20:24:09 - Création d'un nouveau joueur nommé : azura
-2024-05-23 20:26:07 - Création d'un nouveau joueur nommé : falcon
-2024-05-23 20:26:30 - Création d'un nouveau joueur nommé : scraper
-2024-05-23 20:26:48 - Création d'un nouveau joueur nommé : tom
-2024-05-23 20:27:18 - Création d'un nouveau joueur nommé : anderson
-2024-05-23 20:27:37 - Création d'un nouveau joueur nommé : blackbird
-2024-05-23 20:28:00 - Création d'un nouveau joueur nommé : paradox
-2024-05-23 20:28:25 - Création d'un nouveau joueur nommé : devilside
-2024-05-23 20:29:22 - Création d'un nouveau joueur nommé : seth
-2024-05-23 20:29:45 - Création d'un nouveau joueur nommé : crash
-2024-05-23 20:30:06 - Création d'un nouveau joueur nommé : red
-2024-05-23 20:38:41 - Création d'un nouveau joueur nommé : spike
-2024-05-23 20:38:57 - Création d'un nouveau joueur nommé : spok
-2024-05-23 20:39:33 - Création d'un nouveau joueur nommé : gideon
-2024-05-23 20:39:52 - Création d'un nouveau joueur nommé : coil
-2024-05-23 20:40:09 - Création d'un nouveau joueur nommé : perdo
-2024-05-23 20:40:29 - Création d'un nouveau joueur nommé : taro
-2024-05-23 20:41:16 - Création d'un nouveau joueur nommé : stone
-2024-05-23 20:41:34 - Création d'un nouveau joueur nommé : troff
-2024-05-23 20:44:57 - Création d'un nouveau joueur nommé : akiato
-2024-05-23 20:45:14 - Création d'un nouveau joueur nommé : right
-2024-05-23 20:45:38 - Création d'un nouveau joueur nommé : dex
-2024-05-23 20:45:55 - Création d'un nouveau joueur nommé : caden
-2024-05-23 20:46:16 - Création d'un nouveau joueur nommé : winter
-2024-05-23 20:46:35 - Création d'un nouveau joueur nommé : miles
-2024-05-23 20:46:51 - Création d'un nouveau joueur nommé : sand
-2024-05-23 20:47:07 - Création d'un nouveau joueur nommé : zeus
-2024-05-23 20:47:28 - Création d'un nouveau joueur nommé : harpper
-2024-05-23 20:47:48 - Création d'un nouveau joueur nommé : scott
-2024-05-23 20:48:14 - Création d'un nouveau joueur nommé : hickor
-2024-05-23 20:49:14 - Création d'un nouveau joueur nommé : sam
-2024-05-23 20:50:49 - Création d'un nouveau joueur nommé : void
-2024-05-23 20:51:11 - Création d'un nouveau joueur nommé : fire
-2024-05-23 20:51:35 - Création d'un nouveau joueur nommé : sami
-2024-05-23 20:52:10 - Création d'un nouveau joueur nommé : warriors
-2024-05-23 20:53:05 - Création d'un nouveau joueur nommé : tayco
-2024-05-23 20:53:29 - Création d'un nouveau joueur nommé : jenkins
-2024-05-23 20:58:49 - Ajout de commentaire pour eve : il est très beau
-2024-05-23 21:01:04 - Création d'un nouveau joueur nommé : soap
+2024-05-23 20:01:23 - CrÃ©ation d'un nouveau joueur nommÃ© : jack
+2024-05-23 20:12:54 - CrÃ©ation d'un nouveau joueur nommÃ© : kin
+2024-05-23 20:16:50 - CrÃ©ation d'un nouveau joueur nommÃ© : rox
+2024-05-23 20:20:06 - CrÃ©ation d'un nouveau joueur nommÃ© : dred
+2024-05-23 20:21:16 - CrÃ©ation d'un nouveau joueur nommÃ© : evni
+2024-05-23 20:22:42 - CrÃ©ation d'un nouveau joueur nommÃ© : raven
+2024-05-23 20:23:10 - CrÃ©ation d'un nouveau joueur nommÃ© : bebert
+2024-05-23 20:23:27 - CrÃ©ation d'un nouveau joueur nommÃ© : revenge
+2024-05-23 20:23:57 - CrÃ©ation d'un nouveau joueur nommÃ© : arky
+2024-05-23 20:24:09 - CrÃ©ation d'un nouveau joueur nommÃ© : azura
+2024-05-23 20:26:07 - CrÃ©ation d'un nouveau joueur nommÃ© : falcon
+2024-05-23 20:26:30 - CrÃ©ation d'un nouveau joueur nommÃ© : scraper
+2024-05-23 20:26:48 - CrÃ©ation d'un nouveau joueur nommÃ© : tom
+2024-05-23 20:27:18 - CrÃ©ation d'un nouveau joueur nommÃ© : anderson
+2024-05-23 20:27:37 - CrÃ©ation d'un nouveau joueur nommÃ© : blackbird
+2024-05-23 20:28:00 - CrÃ©ation d'un nouveau joueur nommÃ© : paradox
+2024-05-23 20:28:25 - CrÃ©ation d'un nouveau joueur nommÃ© : devilside
+2024-05-23 20:29:22 - CrÃ©ation d'un nouveau joueur nommÃ© : seth
+2024-05-23 20:29:45 - CrÃ©ation d'un nouveau joueur nommÃ© : crash
+2024-05-23 20:30:06 - CrÃ©ation d'un nouveau joueur nommÃ© : red
+2024-05-23 20:38:41 - CrÃ©ation d'un nouveau joueur nommÃ© : spike
+2024-05-23 20:38:57 - CrÃ©ation d'un nouveau joueur nommÃ© : spok
+2024-05-23 20:39:33 - CrÃ©ation d'un nouveau joueur nommÃ© : gideon
+2024-05-23 20:39:52 - CrÃ©ation d'un nouveau joueur nommÃ© : coil
+2024-05-23 20:40:09 - CrÃ©ation d'un nouveau joueur nommÃ© : perdo
+2024-05-23 20:40:29 - CrÃ©ation d'un nouveau joueur nommÃ© : taro
+2024-05-23 20:41:16 - CrÃ©ation d'un nouveau joueur nommÃ© : stone
+2024-05-23 20:41:34 - CrÃ©ation d'un nouveau joueur nommÃ© : troff
+2024-05-23 20:44:57 - CrÃ©ation d'un nouveau joueur nommÃ© : akiato
+2024-05-23 20:45:14 - CrÃ©ation d'un nouveau joueur nommÃ© : right
+2024-05-23 20:45:38 - CrÃ©ation d'un nouveau joueur nommÃ© : dex
+2024-05-23 20:45:55 - CrÃ©ation d'un nouveau joueur nommÃ© : caden
+2024-05-23 20:46:16 - CrÃ©ation d'un nouveau joueur nommÃ© : winter
+2024-05-23 20:46:35 - CrÃ©ation d'un nouveau joueur nommÃ© : miles
+2024-05-23 20:46:51 - CrÃ©ation d'un nouveau joueur nommÃ© : sand
+2024-05-23 20:47:07 - CrÃ©ation d'un nouveau joueur nommÃ© : zeus
+2024-05-23 20:47:28 - CrÃ©ation d'un nouveau joueur nommÃ© : harpper
+2024-05-23 20:47:48 - CrÃ©ation d'un nouveau joueur nommÃ© : scott
+2024-05-23 20:48:14 - CrÃ©ation d'un nouveau joueur nommÃ© : hickor
+2024-05-23 20:49:14 - CrÃ©ation d'un nouveau joueur nommÃ© : sam
+2024-05-23 20:50:49 - CrÃ©ation d'un nouveau joueur nommÃ© : void
+2024-05-23 20:51:11 - CrÃ©ation d'un nouveau joueur nommÃ© : fire
+2024-05-23 20:51:35 - CrÃ©ation d'un nouveau joueur nommÃ© : sami
+2024-05-23 20:52:10 - CrÃ©ation d'un nouveau joueur nommÃ© : warriors
+2024-05-23 20:53:05 - CrÃ©ation d'un nouveau joueur nommÃ© : tayco
+2024-05-23 20:53:29 - CrÃ©ation d'un nouveau joueur nommÃ© : jenkins
+2024-05-23 20:58:49 - Ajout de commentaire pour eve : il est trÃ¨s beau
+2024-05-23 21:01:04 - CrÃ©ation d'un nouveau joueur nommÃ© : soap
 2024-05-23 21:01:28 - Ajout d'un avertissement pour : scott
 2024-05-23 21:01:34 - Ajout d'un avertissement pour : scott
 2024-05-23 21:01:39 - Ajout d'un avertissement pour : scott
 2024-05-23 21:02:08 - Ajout d'un avertissement pour : scott
 2024-05-23 21:02:14 - Ajout d'un avertissement pour : scott
 2024-05-23 21:02:21 - Ajout d'un avertissement pour : scott
-2024-05-23 21:05:53 - Création d'un nouveau joueur nommé : flash
-2024-05-23 21:06:17 - Création d'un nouveau joueur nommé : tiger
-2024-05-23 21:06:36 - Création d'un nouveau joueur nommé : fly
-2024-05-23 21:07:10 - Création d'un nouveau joueur nommé : cuk
-2024-05-23 21:07:28 - Création d'un nouveau joueur nommé : tatin
-2024-05-23 21:09:03 - Création d'un nouveau joueur nommé : foxer
-2024-05-23 21:11:07 - Création d'un nouveau joueur nommé : neptinus
-2024-05-23 21:11:30 - Création d'un nouveau joueur nommé : rider
-2024-05-23 21:11:44 - Création d'un nouveau joueur nommé : guss
-2024-05-23 21:12:09 - Création d'un nouveau joueur nommé : miko
-2024-05-23 21:12:20 - Création d'un nouveau joueur nommé : abbas
-2024-05-23 21:12:38 - Création d'un nouveau joueur nommé : slayer
-2024-05-23 21:13:08 - Création d'un nouveau joueur nommé : hops
-2024-05-23 21:13:21 - Création d'un nouveau joueur nommé : flo
-2024-05-23 21:13:36 - Création d'un nouveau joueur nommé : light
-2024-05-23 21:14:02 - Création d'un nouveau joueur nommé : ib
-2024-05-23 21:14:55 - Création d'un nouveau joueur nommé : silvertake
-2024-05-23 21:15:08 - Création d'un nouveau joueur nommé : loulou
-2024-05-23 21:15:27 - Création d'un nouveau joueur nommé : nonuche
-2024-05-23 21:15:52 - Création d'un nouveau joueur nommé : toms
-2024-05-23 21:16:16 - Création d'un nouveau joueur nommé : faust
-2024-05-23 21:16:43 - Ajout de commentaire pour wild : coucou mon choubidou à la crème
-2024-05-23 21:18:28 - Création d'un nouveau joueur nommé : alex
-2024-05-23 21:19:50 - Création d'un nouveau joueur nommé : vlosh
-2024-05-23 21:20:11 - Création d'un nouveau joueur nommé : samsam
-2024-05-23 21:20:35 - Création d'un nouveau joueur nommé : mob
-2024-05-23 21:20:53 - Création d'un nouveau joueur nommé : marquez
-2024-05-23 21:21:24 - Création d'un nouveau joueur nommé : iron
-2024-05-23 21:21:53 - Création d'un nouveau joueur nommé : kapo
-2024-05-23 21:22:14 - Création d'un nouveau joueur nommé : sonny
-2024-05-23 21:22:45 - Création d'un nouveau joueur nommé : dust
-2024-05-23 21:23:03 - Création d'un nouveau joueur nommé : aigle
-2024-05-23 21:26:50 - Création d'un nouveau joueur nommé : loubar
-2024-05-23 21:29:08 - Création d'un nouveau joueur nommé : ewan
-2024-05-23 21:29:27 - Création d'un nouveau joueur nommé : invi
-2024-05-23 22:07:00 - Création d'un nouveau joueur nommé : brunec
-2024-05-23 22:07:29 - Création d'un nouveau joueur nommé : wick
+2024-05-23 21:05:53 - CrÃ©ation d'un nouveau joueur nommÃ© : flash
+2024-05-23 21:06:17 - CrÃ©ation d'un nouveau joueur nommÃ© : tiger
+2024-05-23 21:06:36 - CrÃ©ation d'un nouveau joueur nommÃ© : fly
+2024-05-23 21:07:10 - CrÃ©ation d'un nouveau joueur nommÃ© : cuk
+2024-05-23 21:07:28 - CrÃ©ation d'un nouveau joueur nommÃ© : tatin
+2024-05-23 21:09:03 - CrÃ©ation d'un nouveau joueur nommÃ© : foxer
+2024-05-23 21:11:07 - CrÃ©ation d'un nouveau joueur nommÃ© : neptinus
+2024-05-23 21:11:30 - CrÃ©ation d'un nouveau joueur nommÃ© : rider
+2024-05-23 21:11:44 - CrÃ©ation d'un nouveau joueur nommÃ© : guss
+2024-05-23 21:12:09 - CrÃ©ation d'un nouveau joueur nommÃ© : miko
+2024-05-23 21:12:20 - CrÃ©ation d'un nouveau joueur nommÃ© : abbas
+2024-05-23 21:12:38 - CrÃ©ation d'un nouveau joueur nommÃ© : slayer
+2024-05-23 21:13:08 - CrÃ©ation d'un nouveau joueur nommÃ© : hops
+2024-05-23 21:13:21 - CrÃ©ation d'un nouveau joueur nommÃ© : flo
+2024-05-23 21:13:36 - CrÃ©ation d'un nouveau joueur nommÃ© : light
+2024-05-23 21:14:02 - CrÃ©ation d'un nouveau joueur nommÃ© : ib
+2024-05-23 21:14:55 - CrÃ©ation d'un nouveau joueur nommÃ© : silvertake
+2024-05-23 21:15:08 - CrÃ©ation d'un nouveau joueur nommÃ© : loulou
+2024-05-23 21:15:27 - CrÃ©ation d'un nouveau joueur nommÃ© : nonuche
+2024-05-23 21:15:52 - CrÃ©ation d'un nouveau joueur nommÃ© : toms
+2024-05-23 21:16:16 - CrÃ©ation d'un nouveau joueur nommÃ© : faust
+2024-05-23 21:16:43 - Ajout de commentaire pour wild : coucou mon choubidou Ã  la crÃ¨me
+2024-05-23 21:18:28 - CrÃ©ation d'un nouveau joueur nommÃ© : alex
+2024-05-23 21:19:50 - CrÃ©ation d'un nouveau joueur nommÃ© : vlosh
+2024-05-23 21:20:11 - CrÃ©ation d'un nouveau joueur nommÃ© : samsam
+2024-05-23 21:20:35 - CrÃ©ation d'un nouveau joueur nommÃ© : mob
+2024-05-23 21:20:53 - CrÃ©ation d'un nouveau joueur nommÃ© : marquez
+2024-05-23 21:21:24 - CrÃ©ation d'un nouveau joueur nommÃ© : iron
+2024-05-23 21:21:53 - CrÃ©ation d'un nouveau joueur nommÃ© : kapo
+2024-05-23 21:22:14 - CrÃ©ation d'un nouveau joueur nommÃ© : sonny
+2024-05-23 21:22:45 - CrÃ©ation d'un nouveau joueur nommÃ© : dust
+2024-05-23 21:23:03 - CrÃ©ation d'un nouveau joueur nommÃ© : aigle
+2024-05-23 21:26:50 - CrÃ©ation d'un nouveau joueur nommÃ© : loubar
+2024-05-23 21:29:08 - CrÃ©ation d'un nouveau joueur nommÃ© : ewan
+2024-05-23 21:29:27 - CrÃ©ation d'un nouveau joueur nommÃ© : invi
+2024-05-23 22:07:00 - CrÃ©ation d'un nouveau joueur nommÃ© : brunec
+2024-05-23 22:07:29 - CrÃ©ation d'un nouveau joueur nommÃ© : wick
 2024-05-24 17:25:24 - Suppression du joueur : loubar
 2024-05-24 17:53:10 - Suppression du joueur : wivex
 2024-05-24 17:53:18 - Suppression du joueur : revenge
@@ -148,266 +148,266 @@
 2024-05-24 17:53:46 - Suppression du joueur : luck
 2024-05-24 17:53:56 - Suppression du joueur : bebert
 2024-05-24 17:54:51 - Suppression du joueur : gorus
-2024-05-24 17:55:08 - Création d'un nouveau joueur nommé : gorus
-2024-05-24 17:56:36 - Création d'un nouveau joueur nommé : guss
-2024-05-24 17:57:03 - Création d'un nouveau joueur nommé : revenge
-2024-05-24 17:57:48 - Création d'un nouveau joueur nommé : luck
-2024-05-24 17:58:12 - Création d'un nouveau joueur nommé : bebert
-2024-05-24 17:58:28 - Création d'un nouveau joueur nommé : wivex
-2024-05-24 19:14:56 - Création d'un nouveau joueur nommé : niks
-2024-05-24 20:19:02 - Ajout de commentaire pour invi : Ce joueur à fait preuve de beaucoup de respect envers un lieutenant, il a posé une question j'ai répondu que je n'avais pas compris et il m'a répondu ceci : Desolé mon lieutenant je demande juste si du monde est actuellement engagé dans une session et si il y’a de la place pour moi
-2024-05-24 21:07:22 - Ajout d'un avertissement pour six : Ce joueur à skip 1 session dans son compte de session.
-2024-05-24 21:07:44 - Ajout d'un avertissement pour six : Ce joueur à skip 1 session dans son compte de session.
+2024-05-24 17:55:08 - CrÃ©ation d'un nouveau joueur nommÃ© : gorus
+2024-05-24 17:56:36 - CrÃ©ation d'un nouveau joueur nommÃ© : guss
+2024-05-24 17:57:03 - CrÃ©ation d'un nouveau joueur nommÃ© : revenge
+2024-05-24 17:57:48 - CrÃ©ation d'un nouveau joueur nommÃ© : luck
+2024-05-24 17:58:12 - CrÃ©ation d'un nouveau joueur nommÃ© : bebert
+2024-05-24 17:58:28 - CrÃ©ation d'un nouveau joueur nommÃ© : wivex
+2024-05-24 19:14:56 - CrÃ©ation d'un nouveau joueur nommÃ© : niks
+2024-05-24 20:19:02 - Ajout de commentaire pour invi : Ce joueur Ã  fait preuve de beaucoup de respect envers un lieutenant, il a posÃ© une question j'ai rÃ©pondu que je n'avais pas compris et il m'a rÃ©pondu ceci : DesolÃ© mon lieutenant je demande juste si du monde est actuellement engagÃ© dans une session et si il yÂ’a de la place pour moi
+2024-05-24 21:07:22 - Ajout d'un avertissement pour six : Ce joueur Ã  skip 1 session dans son compte de session.
+2024-05-24 21:07:44 - Ajout d'un avertissement pour six : Ce joueur Ã  skip 1 session dans son compte de session.
 2024-05-24 21:16:32 - Ajout de commentaire pour six : grosse merde
 2024-05-24 21:18:42 - Ajout de commentaire pour six : grosse merde
-2024-05-24 22:09:00 - Création d'un nouveau joueur nommé : loubar
-2024-05-24 23:40:41 - Création d'un nouveau joueur nommé lm
-2024-05-24 23:43:14 - Ajout de 96 session(s) à only
+2024-05-24 22:09:00 - CrÃ©ation d'un nouveau joueur nommÃ© : loubar
+2024-05-24 23:40:41 - CrÃ©ation d'un nouveau joueur nommÃ© lm
+2024-05-24 23:43:14 - Ajout de 96 session(s) Ã  only
 2024-05-24 23:44:00 - Ajout de commentaire pour wivex: bg
 2024-05-24 23:48:10 - Ajout de commentaire pour wivex: bg
-2024-05-24 23:51:29 - Ajout de 96 session(s) à only
-2024-05-24 23:51:29 - Ajout de 128 session(s) à gorus
-2024-05-24 23:51:29 - Ajout de 53 session(s) à niks
-2024-05-24 23:51:29 - Ajout de 22 session(s) à elden
-2024-05-24 23:51:29 - Ajout de 14 session(s) à zain
-2024-05-24 23:51:29 - Ajout de 20 session(s) à tom
-2024-05-24 23:51:29 - Ajout de 20 session(s) à rox
-2024-05-24 23:51:29 - Ajout de 55 session(s) à ewan
-2024-05-24 23:51:29 - Ajout de 21 session(s) à exotique
-2024-05-24 23:51:29 - Ajout de 44 session(s) à hawk_eye
-2024-05-24 23:51:29 - Ajout de 45 session(s) à bebert
-2024-05-24 23:51:29 - Ajout de 55 session(s) à wayne
-2024-05-24 23:51:29 - Ajout de 23 session(s) à miles
-2024-05-24 23:51:29 - Ajout de 20 session(s) à fuze
-2024-05-24 23:51:29 - Ajout de 38 session(s) à revenge
-2024-05-24 23:51:29 - Ajout de 33 session(s) à grif
-2024-05-24 23:51:29 - Ajout de 35 session(s) à del
-2024-05-24 23:51:29 - Ajout de 30 session(s) à blackbird
-2024-05-24 23:51:29 - Ajout de 1 session(s) à red
-2024-05-24 23:54:15 - Ajout de 96 session(s) à only
-2024-05-24 23:54:15 - Ajout de 128 session(s) à gorus
-2024-05-24 23:54:15 - Ajout de 53 session(s) à niks
-2024-05-24 23:54:15 - Ajout de 22 session(s) à elden
-2024-05-24 23:54:15 - Ajout de 14 session(s) à zain
-2024-05-24 23:54:15 - Ajout de 20 session(s) à tom
-2024-05-24 23:54:15 - Ajout de 20 session(s) à rox
-2024-05-24 23:54:15 - Ajout de 55 session(s) à ewan
-2024-05-24 23:54:15 - Ajout de 21 session(s) à exotique
-2024-05-24 23:54:15 - Ajout de 44 session(s) à hawk_eye
-2024-05-24 23:54:15 - Ajout de 45 session(s) à bebert
-2024-05-24 23:54:15 - Ajout de 55 session(s) à wayne
-2024-05-24 23:54:15 - Ajout de 23 session(s) à miles
-2024-05-24 23:54:15 - Ajout de 20 session(s) à fuze
-2024-05-24 23:54:15 - Ajout de 38 session(s) à revenge
-2024-05-24 23:54:15 - Ajout de 33 session(s) à grif
-2024-05-24 23:54:15 - Ajout de 35 session(s) à del
-2024-05-24 23:54:15 - Ajout de 30 session(s) à blackbird
-2024-05-24 23:54:15 - Ajout de 1 session(s) à red
-2024-05-24 23:54:15 - Ajout de 1 session(s) à pedro
-2024-05-24 23:54:15 - Ajout de 17 session(s) à hickor
-2024-05-24 23:54:15 - Ajout de 23 session(s) à horn
-2024-05-24 23:54:15 - Ajout de 1 session(s) à dust
-2024-05-24 23:54:15 - Ajout de 2 session(s) à seven
-2024-05-24 23:54:15 - Ajout de 3 session(s) à nonuche
-2024-05-24 23:54:15 - Ajout de 4 session(s) à samsam
-2024-05-24 23:54:15 - Ajout de 4 session(s) à scraper
-2024-05-24 23:54:15 - Ajout de 1 session(s) à raf
-2024-05-24 23:54:15 - Ajout de 10 session(s) à crash
-2024-05-24 23:54:15 - Ajout de 3 session(s) à foxy
-2024-05-24 23:54:15 - Ajout de 4 session(s) à sandstorm
-2024-05-24 23:54:15 - Ajout de 2 session(s) à trax
-2024-05-24 23:54:15 - Ajout de 1 session(s) à embo
-2024-05-24 23:54:15 - Ajout de 6 session(s) à alex
-2024-05-24 23:54:15 - Ajout de 9 session(s) à tayco
-2024-05-24 23:54:15 - Ajout de 1 session(s) à gideon
-2024-05-24 23:54:15 - Ajout de 8 session(s) à right
-2024-05-24 23:54:15 - Ajout de 2 session(s) à bob
-2024-05-24 23:54:15 - Ajout de 14 session(s) à kin
-2024-05-24 23:54:15 - Ajout de 1 session(s) à light
-2024-05-24 23:54:15 - Ajout de 8 session(s) à mob
-2024-05-24 23:54:15 - Ajout de 1 session(s) à kapo
-2024-05-24 23:54:15 - Ajout de 4 session(s) à scott
-2024-05-24 23:54:15 - Ajout de 2 session(s) à faust
-2024-05-24 23:54:15 - Ajout de 2 session(s) à paradox
-2024-05-24 23:54:15 - Ajout de 1 session(s) à ib
-2024-05-24 23:54:15 - Ajout de 7 session(s) à sonny
-2024-05-24 23:54:15 - Ajout de 7 session(s) à kenji
-2024-05-24 23:54:15 - Ajout de 11 session(s) à slayer
-2024-05-24 23:54:15 - Ajout de 6 session(s) à sami
-2024-05-24 23:54:15 - Ajout de 6 session(s) à silvertake
-2024-05-24 23:54:15 - Ajout de 16 session(s) à foxer
-2024-05-24 23:54:15 - Ajout de 2 session(s) à stone
-2024-05-24 23:54:15 - Ajout de 49 session(s) à black-out
-2024-05-24 23:54:15 - Ajout de 7 session(s) à tatin
-2024-05-24 23:54:15 - Ajout de 2 session(s) à lucky
-2024-05-24 23:54:15 - Ajout de 4 session(s) à seth
-2024-05-24 23:54:15 - Ajout de 4 session(s) à rider
-2024-05-24 23:54:15 - Ajout de 4 session(s) à winter
-2024-05-24 23:54:15 - Ajout de 1 session(s) à demka
-2024-05-24 23:54:15 - Ajout de 3 session(s) à azura
-2024-05-24 23:54:15 - Ajout de 2 session(s) à dex
-2024-05-24 23:54:15 - Ajout de 3 session(s) à kido
-2024-05-24 23:54:15 - Ajout de 1 session(s) à raven
-2024-05-24 23:54:15 - Ajout de 2 session(s) à sam
-2024-05-24 23:54:15 - Ajout de 5 session(s) à falcon
-2024-05-24 23:54:15 - Ajout de 3 session(s) à zeus
-2024-05-24 23:54:15 - Ajout de 4 session(s) à ben
-2024-05-24 23:54:15 - Ajout de 26 session(s) à luck
-2024-05-24 23:54:15 - Ajout de 3 session(s) à agoti
-2024-05-24 23:54:15 - Ajout de 12 session(s) à rayko
-2024-05-24 23:54:15 - Ajout de 26 session(s) à lonely
-2024-05-24 23:54:15 - Ajout de 2 session(s) à evni
-2024-05-24 23:54:15 - Ajout de 8 session(s) à rhys
-2024-05-24 23:54:15 - Ajout de 1 session(s) à storm
-2024-05-24 23:54:15 - Ajout de 1 session(s) à akiato
-2024-05-24 23:54:15 - Ajout de 3 session(s) à koffman
-2024-05-24 23:54:15 - Ajout de 12 session(s) à void
-2024-05-24 23:54:15 - Ajout de 14 session(s) à guss
-2024-05-24 23:54:15 - Ajout de 5 session(s) à hell
-2024-05-24 23:54:15 - Ajout de 1 session(s) à nexus
-2024-05-24 23:54:15 - Ajout de 4 session(s) à nok
-2024-05-24 23:54:15 - Ajout de 2 session(s) à hunk
-2024-05-24 23:54:15 - Ajout de 1 session(s) à glitch
-2024-05-24 23:54:15 - Ajout de 4 session(s) à sand
-2024-05-24 23:54:15 - Ajout de 6 session(s) à raptor
-2024-05-24 23:54:15 - Ajout de 6 session(s) à stix
-2024-05-24 23:54:15 - Ajout de 110 session(s) à mister
-2024-05-24 23:54:15 - Ajout de 68 session(s) à wivex
-2024-05-24 23:54:15 - Ajout de 79 session(s) à eve
-2024-05-24 23:54:15 - Ajout de 103 session(s) à legendary
-2024-05-24 23:54:15 - Ajout de 33 session(s) à lolo
-2024-05-24 23:54:15 - Ajout de 109 session(s) à wild
-2024-05-24 23:54:15 - Ajout de 110 session(s) à vikiks
-2024-05-24 23:54:15 - Ajout de 125 session(s) à sword
-2024-05-24 23:54:15 - Ajout de 4 session(s) à marquez
-2024-05-24 23:54:15 - Ajout de 11 session(s) à gabriel
-2024-05-24 23:54:15 - Ajout de 9 session(s) à men
-2024-05-24 23:54:15 - Ajout de 9 session(s) à dave
-2024-05-24 23:54:15 - Ajout de 11 session(s) à vek
-2024-05-24 23:54:15 - Ajout de 2 session(s) à vlosh
-2024-05-24 23:54:15 - Ajout de 1 session(s) à nax
-2024-05-24 23:54:15 - Ajout de 6 session(s) à lucsray
-2024-05-24 23:54:15 - Ajout de 5 session(s) à boby
-2024-05-24 23:54:15 - Ajout de 4 session(s) à flo
-2024-05-24 23:54:15 - Ajout de 1 session(s) à neptinus
-2024-05-24 23:54:15 - Ajout de 4 session(s) à ajax
+2024-05-24 23:51:29 - Ajout de 96 session(s) Ã  only
+2024-05-24 23:51:29 - Ajout de 128 session(s) Ã  gorus
+2024-05-24 23:51:29 - Ajout de 53 session(s) Ã  niks
+2024-05-24 23:51:29 - Ajout de 22 session(s) Ã  elden
+2024-05-24 23:51:29 - Ajout de 14 session(s) Ã  zain
+2024-05-24 23:51:29 - Ajout de 20 session(s) Ã  tom
+2024-05-24 23:51:29 - Ajout de 20 session(s) Ã  rox
+2024-05-24 23:51:29 - Ajout de 55 session(s) Ã  ewan
+2024-05-24 23:51:29 - Ajout de 21 session(s) Ã  exotique
+2024-05-24 23:51:29 - Ajout de 44 session(s) Ã  hawk_eye
+2024-05-24 23:51:29 - Ajout de 45 session(s) Ã  bebert
+2024-05-24 23:51:29 - Ajout de 55 session(s) Ã  wayne
+2024-05-24 23:51:29 - Ajout de 23 session(s) Ã  miles
+2024-05-24 23:51:29 - Ajout de 20 session(s) Ã  fuze
+2024-05-24 23:51:29 - Ajout de 38 session(s) Ã  revenge
+2024-05-24 23:51:29 - Ajout de 33 session(s) Ã  grif
+2024-05-24 23:51:29 - Ajout de 35 session(s) Ã  del
+2024-05-24 23:51:29 - Ajout de 30 session(s) Ã  blackbird
+2024-05-24 23:51:29 - Ajout de 1 session(s) Ã  red
+2024-05-24 23:54:15 - Ajout de 96 session(s) Ã  only
+2024-05-24 23:54:15 - Ajout de 128 session(s) Ã  gorus
+2024-05-24 23:54:15 - Ajout de 53 session(s) Ã  niks
+2024-05-24 23:54:15 - Ajout de 22 session(s) Ã  elden
+2024-05-24 23:54:15 - Ajout de 14 session(s) Ã  zain
+2024-05-24 23:54:15 - Ajout de 20 session(s) Ã  tom
+2024-05-24 23:54:15 - Ajout de 20 session(s) Ã  rox
+2024-05-24 23:54:15 - Ajout de 55 session(s) Ã  ewan
+2024-05-24 23:54:15 - Ajout de 21 session(s) Ã  exotique
+2024-05-24 23:54:15 - Ajout de 44 session(s) Ã  hawk_eye
+2024-05-24 23:54:15 - Ajout de 45 session(s) Ã  bebert
+2024-05-24 23:54:15 - Ajout de 55 session(s) Ã  wayne
+2024-05-24 23:54:15 - Ajout de 23 session(s) Ã  miles
+2024-05-24 23:54:15 - Ajout de 20 session(s) Ã  fuze
+2024-05-24 23:54:15 - Ajout de 38 session(s) Ã  revenge
+2024-05-24 23:54:15 - Ajout de 33 session(s) Ã  grif
+2024-05-24 23:54:15 - Ajout de 35 session(s) Ã  del
+2024-05-24 23:54:15 - Ajout de 30 session(s) Ã  blackbird
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  red
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  pedro
+2024-05-24 23:54:15 - Ajout de 17 session(s) Ã  hickor
+2024-05-24 23:54:15 - Ajout de 23 session(s) Ã  horn
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  dust
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  seven
+2024-05-24 23:54:15 - Ajout de 3 session(s) Ã  nonuche
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  samsam
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  scraper
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  raf
+2024-05-24 23:54:15 - Ajout de 10 session(s) Ã  crash
+2024-05-24 23:54:15 - Ajout de 3 session(s) Ã  foxy
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  sandstorm
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  trax
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  embo
+2024-05-24 23:54:15 - Ajout de 6 session(s) Ã  alex
+2024-05-24 23:54:15 - Ajout de 9 session(s) Ã  tayco
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  gideon
+2024-05-24 23:54:15 - Ajout de 8 session(s) Ã  right
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  bob
+2024-05-24 23:54:15 - Ajout de 14 session(s) Ã  kin
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  light
+2024-05-24 23:54:15 - Ajout de 8 session(s) Ã  mob
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  kapo
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  scott
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  faust
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  paradox
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  ib
+2024-05-24 23:54:15 - Ajout de 7 session(s) Ã  sonny
+2024-05-24 23:54:15 - Ajout de 7 session(s) Ã  kenji
+2024-05-24 23:54:15 - Ajout de 11 session(s) Ã  slayer
+2024-05-24 23:54:15 - Ajout de 6 session(s) Ã  sami
+2024-05-24 23:54:15 - Ajout de 6 session(s) Ã  silvertake
+2024-05-24 23:54:15 - Ajout de 16 session(s) Ã  foxer
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  stone
+2024-05-24 23:54:15 - Ajout de 49 session(s) Ã  black-out
+2024-05-24 23:54:15 - Ajout de 7 session(s) Ã  tatin
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  lucky
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  seth
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  rider
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  winter
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  demka
+2024-05-24 23:54:15 - Ajout de 3 session(s) Ã  azura
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  dex
+2024-05-24 23:54:15 - Ajout de 3 session(s) Ã  kido
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  raven
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  sam
+2024-05-24 23:54:15 - Ajout de 5 session(s) Ã  falcon
+2024-05-24 23:54:15 - Ajout de 3 session(s) Ã  zeus
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  ben
+2024-05-24 23:54:15 - Ajout de 26 session(s) Ã  luck
+2024-05-24 23:54:15 - Ajout de 3 session(s) Ã  agoti
+2024-05-24 23:54:15 - Ajout de 12 session(s) Ã  rayko
+2024-05-24 23:54:15 - Ajout de 26 session(s) Ã  lonely
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  evni
+2024-05-24 23:54:15 - Ajout de 8 session(s) Ã  rhys
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  storm
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  akiato
+2024-05-24 23:54:15 - Ajout de 3 session(s) Ã  koffman
+2024-05-24 23:54:15 - Ajout de 12 session(s) Ã  void
+2024-05-24 23:54:15 - Ajout de 14 session(s) Ã  guss
+2024-05-24 23:54:15 - Ajout de 5 session(s) Ã  hell
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  nexus
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  nok
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  hunk
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  glitch
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  sand
+2024-05-24 23:54:15 - Ajout de 6 session(s) Ã  raptor
+2024-05-24 23:54:15 - Ajout de 6 session(s) Ã  stix
+2024-05-24 23:54:15 - Ajout de 110 session(s) Ã  mister
+2024-05-24 23:54:15 - Ajout de 68 session(s) Ã  wivex
+2024-05-24 23:54:15 - Ajout de 79 session(s) Ã  eve
+2024-05-24 23:54:15 - Ajout de 103 session(s) Ã  legendary
+2024-05-24 23:54:15 - Ajout de 33 session(s) Ã  lolo
+2024-05-24 23:54:15 - Ajout de 109 session(s) Ã  wild
+2024-05-24 23:54:15 - Ajout de 110 session(s) Ã  vikiks
+2024-05-24 23:54:15 - Ajout de 125 session(s) Ã  sword
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  marquez
+2024-05-24 23:54:15 - Ajout de 11 session(s) Ã  gabriel
+2024-05-24 23:54:15 - Ajout de 9 session(s) Ã  men
+2024-05-24 23:54:15 - Ajout de 9 session(s) Ã  dave
+2024-05-24 23:54:15 - Ajout de 11 session(s) Ã  vek
+2024-05-24 23:54:15 - Ajout de 2 session(s) Ã  vlosh
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  nax
+2024-05-24 23:54:15 - Ajout de 6 session(s) Ã  lucsray
+2024-05-24 23:54:15 - Ajout de 5 session(s) Ã  boby
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  flo
+2024-05-24 23:54:15 - Ajout de 1 session(s) Ã  neptinus
+2024-05-24 23:54:15 - Ajout de 4 session(s) Ã  ajax
 2024-05-24 23:54:58 - Ajout de commentaire pour wivex: LET'S GOOOOOOOOOOOOO
 2024-05-24 23:55:50 - Ajout d'un avertissement pour wivex avec raison : yooooooo
 2024-05-24 23:59:41 - Ajout de commentaire pour wild: coucou
 2024-05-24 23:59:47 - Ajout d'un avertissement pour wild avec raison : tg
-2024-05-25 15:46:21 - Ajout de 65 session(s) à yoz
-2024-05-25 15:46:21 - Ajout de 25 session(s) à six
-2024-05-25 15:46:21 - Ajout de 6 session(s) à head
-2024-05-25 15:46:21 - Ajout de 1 session(s) à cayd
-2024-05-25 15:46:21 - Ajout de 1 session(s) à ban
-2024-05-25 15:46:21 - Ajout de 1 session(s) à flash
-2024-05-25 15:46:21 - Ajout de 1 session(s) à hops
-2024-05-25 15:46:21 - Ajout de 6 session(s) à skop
-2024-05-25 15:46:21 - Ajout de 6 session(s) à eagle
-2024-05-25 15:46:21 - Ajout de 1 session(s) à ghost
-2024-05-25 15:46:21 - Ajout de 1 session(s) à loulou
-2024-05-25 15:46:21 - Ajout de 6 session(s) à troff
-2024-05-25 15:46:21 - Ajout de 11 session(s) à stryker
-2024-05-25 15:46:21 - Ajout de 1 session(s) à iron
-2024-05-25 15:46:21 - Ajout de 1 session(s) à zakx
-2024-05-25 15:46:21 - Ajout de 1 session(s) à blazer
-2024-05-25 16:07:20 - Ajout de 1 session(s) à ewan
-2024-05-25 20:19:35 - Ajout de 1 session(s) à gorus
-2024-05-25 20:19:35 - Ajout de 1 session(s) à ewan
-2024-05-25 20:19:35 - Ajout de 1 session(s) à sami
-2024-05-25 20:19:35 - Ajout de 1 session(s) à foxer
-2024-05-25 20:19:35 - Ajout de 1 session(s) à light
-2024-05-25 20:19:35 - Ajout de 1 session(s) à legendary
-2024-05-25 20:19:35 - Ajout de 1 session(s) à bebert
-2024-05-25 20:19:36 - Ajout de 1 session(s) à samsam
-2024-05-25 20:19:36 - Ajout de 1 session(s) à rox
-2024-05-25 20:19:36 - Ajout de 1 session(s) à slayer
-2024-05-25 20:19:36 - Ajout de 1 session(s) à faust
-2024-05-25 20:19:36 - Ajout de 1 session(s) à loulou
-2024-05-25 20:19:36 - Ajout de 1 session(s) à black-out
-2024-05-25 20:19:36 - Ajout de 1 session(s) à revenge
-2024-05-25 20:19:36 - Ajout de 1 session(s) à davis
-2024-05-25 20:19:36 - Ajout de 1 session(s) à invi
-2024-05-25 20:19:36 - Ajout de 1 session(s) à tayco
-2024-05-25 20:19:36 - Ajout de 1 session(s) à wild
-2024-05-25 20:19:36 - Ajout de 1 session(s) à sonny
-2024-05-25 20:19:36 - Ajout de 1 session(s) à kenji
-2024-05-25 20:29:37 - Ajout de 1 session(s) à bebert
-2024-05-25 20:29:37 - Ajout de 1 session(s) à del
-2024-05-25 20:29:37 - Ajout de 1 session(s) à gorus
-2024-05-25 20:29:37 - Ajout de 1 session(s) à hawk_eye
-2024-05-25 20:29:37 - Ajout de 1 session(s) à legendary
-2024-05-25 20:29:37 - Ajout de 1 session(s) à only
-2024-05-25 20:29:37 - Ajout de 1 session(s) à revenge
-2024-05-25 20:29:37 - Ajout de 1 session(s) à wayne
-2024-05-25 20:29:37 - Ajout de 1 session(s) à wild
-2024-05-25 20:30:17 - Ajout de 1 session(s) à wivex
-2024-05-25 20:36:52 - Ajout de 1 point RP et de 1 session(s) à wivex
-2024-05-25 20:37:37 - Ajout de 1 session(s) à wivex
-2024-05-25 20:38:03 - Ajout de 1 session(s) à wivex
-2024-05-25 20:43:54 - Ajout de 1 session(s) à wivex
-2024-05-25 20:44:23 - Ajout de 1 session(s) à wivex
-2024-05-25 20:44:54 - Ajout de 1 session(s) à wivex
-2024-05-25 20:45:42 - Ajout de 1 session(s) à wivex
-2024-05-25 20:46:21 - Ajout de 0 session(s) à wivex
-2024-05-25 20:46:33 - Ajout de 2 session(s) à wivex
-2024-05-25 20:46:46 - Ajout de 0 session(s) à wivex
-2024-05-26 18:57:16 - Ajout de 1 session(s) à hickor
-2024-05-26 18:57:16 - Ajout de 1 session(s) à foxer
-2024-05-26 18:57:16 - Ajout de 1 session(s) à grif
-2024-05-26 18:57:16 - Ajout de 1 session(s) à del
-2024-05-26 18:57:16 - Ajout de 1 session(s) à guss
-2024-05-26 18:57:16 - Ajout de 1 session(s) à kenji
-2024-05-26 18:57:16 - Ajout de 1 session(s) à legendary
-2024-05-26 18:57:16 - Ajout de 1 session(s) à hawk_eye
-2024-05-26 18:57:16 - Ajout de 1 session(s) à troff
-2024-05-26 18:57:16 - Ajout de 1 session(s) à sonny
-2024-05-26 18:57:16 - Ajout de 1 session(s) à flo
-2024-05-26 18:57:16 - Ajout de 1 point RP et de 1 session(s) à slayer
-2024-05-26 18:57:16 - Ajout de 1 point RP et de 1 session(s) à bebert
-2024-05-26 18:57:16 - Ajout de 1 session(s) à invi
-2024-05-26 18:57:16 - Ajout de 1 session(s) à blackbird
-2024-05-26 18:57:16 - Ajout de 1 session(s) à black-out
-2024-05-26 18:57:16 - Ajout de 1 session(s) à only
-2024-05-26 18:57:16 - Ajout de 1 session(s) à lm
-2024-05-26 18:57:16 - Ajout de 1 session(s) à sami
-2024-05-26 18:57:16 - Ajout de 1 session(s) à ewan
+2024-05-25 15:46:21 - Ajout de 65 session(s) Ã  yoz
+2024-05-25 15:46:21 - Ajout de 25 session(s) Ã  six
+2024-05-25 15:46:21 - Ajout de 6 session(s) Ã  head
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  cayd
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  ban
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  flash
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  hops
+2024-05-25 15:46:21 - Ajout de 6 session(s) Ã  skop
+2024-05-25 15:46:21 - Ajout de 6 session(s) Ã  eagle
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  ghost
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  loulou
+2024-05-25 15:46:21 - Ajout de 6 session(s) Ã  troff
+2024-05-25 15:46:21 - Ajout de 11 session(s) Ã  stryker
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  iron
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  zakx
+2024-05-25 15:46:21 - Ajout de 1 session(s) Ã  blazer
+2024-05-25 16:07:20 - Ajout de 1 session(s) Ã  ewan
+2024-05-25 20:19:35 - Ajout de 1 session(s) Ã  gorus
+2024-05-25 20:19:35 - Ajout de 1 session(s) Ã  ewan
+2024-05-25 20:19:35 - Ajout de 1 session(s) Ã  sami
+2024-05-25 20:19:35 - Ajout de 1 session(s) Ã  foxer
+2024-05-25 20:19:35 - Ajout de 1 session(s) Ã  light
+2024-05-25 20:19:35 - Ajout de 1 session(s) Ã  legendary
+2024-05-25 20:19:35 - Ajout de 1 session(s) Ã  bebert
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  samsam
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  rox
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  slayer
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  faust
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  loulou
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  black-out
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  revenge
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  davis
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  invi
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  tayco
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  wild
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  sonny
+2024-05-25 20:19:36 - Ajout de 1 session(s) Ã  kenji
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  bebert
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  del
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  gorus
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  hawk_eye
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  legendary
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  only
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  revenge
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  wayne
+2024-05-25 20:29:37 - Ajout de 1 session(s) Ã  wild
+2024-05-25 20:30:17 - Ajout de 1 session(s) Ã  wivex
+2024-05-25 20:36:52 - Ajout de 1 point RP et de 1 session(s) Ã  wivex
+2024-05-25 20:37:37 - Ajout de 1 session(s) Ã  wivex
+2024-05-25 20:38:03 - Ajout de 1 session(s) Ã  wivex
+2024-05-25 20:43:54 - Ajout de 1 session(s) Ã  wivex
+2024-05-25 20:44:23 - Ajout de 1 session(s) Ã  wivex
+2024-05-25 20:44:54 - Ajout de 1 session(s) Ã  wivex
+2024-05-25 20:45:42 - Ajout de 1 session(s) Ã  wivex
+2024-05-25 20:46:21 - Ajout de 0 session(s) Ã  wivex
+2024-05-25 20:46:33 - Ajout de 2 session(s) Ã  wivex
+2024-05-25 20:46:46 - Ajout de 0 session(s) Ã  wivex
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  hickor
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  foxer
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  grif
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  del
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  guss
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  kenji
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  legendary
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  hawk_eye
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  troff
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  sonny
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  flo
+2024-05-26 18:57:16 - Ajout de 1 point RP et de 1 session(s) Ã  slayer
+2024-05-26 18:57:16 - Ajout de 1 point RP et de 1 session(s) Ã  bebert
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  invi
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  blackbird
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  black-out
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  only
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  lm
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  sami
+2024-05-26 18:57:16 - Ajout de 1 session(s) Ã  ewan
 2024-05-26 22:03:57 - Ajout d'un avertissement pour wivex avec raison : jsp
 2024-05-26 22:08:28 - Ajout de commentaire pour legendary: PLutot beau gosse
-2024-05-27 20:55:51 - Ajout de 1 session(s) à light
-2024-05-27 20:55:51 - Ajout de 1 session(s) à wild
-2024-05-27 20:55:51 - Ajout de 1 session(s) à davis
-2024-05-27 20:55:51 - Ajout de 1 session(s) à brunec
-2024-05-27 21:00:05 - Création d'un nouveau joueur nommé : volgth
-2024-05-27 21:03:38 - Ajout de 0 session(s) à wivex
-2024-05-27 21:49:40 - Ajout de commentaire pour flo: Délire h24, il ne sait pas s'arrêter. Il cherche la petite bête.
-2024-05-27 21:56:23 - Création d'un nouveau joueur nommé : test
+2024-05-27 20:55:51 - Ajout de 1 session(s) Ã  light
+2024-05-27 20:55:51 - Ajout de 1 session(s) Ã  wild
+2024-05-27 20:55:51 - Ajout de 1 session(s) Ã  davis
+2024-05-27 20:55:51 - Ajout de 1 session(s) Ã  brunec
+2024-05-27 21:00:05 - CrÃ©ation d'un nouveau joueur nommÃ© : volgth
+2024-05-27 21:03:38 - Ajout de 0 session(s) Ã  wivex
+2024-05-27 21:49:40 - Ajout de commentaire pour flo: DÃ©lire h24, il ne sait pas s'arrÃªter. Il cherche la petite bÃªte.
+2024-05-27 21:56:23 - CrÃ©ation d'un nouveau joueur nommÃ© : test
 2024-05-27 21:58:50 - Suppression du joueur : test
-2024-05-27 21:59:31 - Création d'un nouveau joueur nommé : test
+2024-05-27 21:59:31 - CrÃ©ation d'un nouveau joueur nommÃ© : test
 2024-05-27 21:59:42 - Suppression du joueur : test
-2024-05-27 22:01:01 - Ajout de commentaire pour light: Ça va mais attention aux petits dérapages.
-2024-05-27 22:04:27 - Ajout de commentaire pour light par Gorus : Délire h24, il ne sait pas s'arrêter. Il cherche la petite bête.
-2024-05-27 22:06:55 - Ajout de commentaire pour flo par Gorus : Délire h24, il ne sait pas s'arrêter. Il cherche la petite bête.
-2024-05-27 22:07:18 - Ajout de commentaire pour light par Gorus : Ça va mais attention aux petits dérapages.
-2024-05-28 18:55:24 - Ajout de 0 session(s) Ã  wivex
-2024-05-28 18:55:32 - CrÃ©ation d'un nouveau joueur nommÃ© : test
+2024-05-27 22:01:01 - Ajout de commentaire pour light: Ã‡a va mais attention aux petits dÃ©rapages.
+2024-05-27 22:04:27 - Ajout de commentaire pour light par Gorus : DÃ©lire h24, il ne sait pas s'arrÃªter. Il cherche la petite bÃªte.
+2024-05-27 22:06:55 - Ajout de commentaire pour flo par Gorus : DÃ©lire h24, il ne sait pas s'arrÃªter. Il cherche la petite bÃªte.
+2024-05-27 22:07:18 - Ajout de commentaire pour light par Gorus : Ã‡a va mais attention aux petits dÃ©rapages.
+2024-05-28 18:55:24 - Ajout de 0 session(s) ÃƒÂ  wivex
+2024-05-28 18:55:32 - CrÃƒÂ©ation d'un nouveau joueur nommÃƒÂ© : test
 2024-05-28 18:55:50 - Suppression du joueur : test
 2024-05-28 18:56:07 - Ajout de commentaire pour wivex par wivex : Test
 2024-05-28 18:56:18 - Ajout d'un avertissement pour wivex avec raison : test
-2024-05-28 19:01:45 - CrÃ©ation d'un nouveau joueur nommÃ© : test
+2024-05-28 19:01:45 - CrÃƒÂ©ation d'un nouveau joueur nommÃƒÂ© : test
 2024-05-28 19:20:38 - Suppression du joueur : a
 2024-05-28 21:38:09 - Ajout d'un avertissement pour stryker avec raison : No raison provided
 2024-05-28 21:38:26 - Ajout d'un avertissement pour stryker avec raison : No raison provided
-2024-05-28 21:39:09 - Ajout d'un avertissement pour stryker avec raison : Absence Ã  une session (03-01-2024)
-2024-05-28 21:39:56 - Ajout d'un avertissement pour sami avec raison : Absence Ã  une session (06-04-2024)
+2024-05-28 21:39:09 - Ajout d'un avertissement pour stryker avec raison : Absence ÃƒÂ  une session (03-01-2024)
+2024-05-28 21:39:56 - Ajout d'un avertissement pour sami avec raison : Absence ÃƒÂ  une session (06-04-2024)
 2024-05-28 21:41:23 - Ajout d'un avertissement pour grif avec raison : Hrp au court d'une session
 2024-05-28 21:41:37 - Ajout d'un avertissement pour revenge avec raison : Hrp au court d'une session
-2024-05-28 21:43:56 - Ajout d'un avertissement pour dex avec raison : Absence Ã  une session (14-04-2024)
-2024-05-28 21:44:15 - Ajout d'un avertissement pour cuk avec raison : Absence Ã  une session (14-04-2024)
-2024-05-28 21:45:12 - Ajout d'un avertissement pour right avec raison : Absence Ã  une session (17-04-2024)
-2024-05-28 21:45:49 - Ajout d'un avertissement pour light avec raison : Absence Ã  une session (21-04-2024)
-2024-05-28 21:46:29 - Ajout d'un avertissement pour dex avec raison : Absence Ã  une session (15-05-2024)
-2024-05-29 15:20:33.885179: Ajout de 0 session(s) Ã  wivex
+2024-05-28 21:43:56 - Ajout d'un avertissement pour dex avec raison : Absence ÃƒÂ  une session (14-04-2024)
+2024-05-28 21:44:15 - Ajout d'un avertissement pour cuk avec raison : Absence ÃƒÂ  une session (14-04-2024)
+2024-05-28 21:45:12 - Ajout d'un avertissement pour right avec raison : Absence ÃƒÂ  une session (17-04-2024)
+2024-05-28 21:45:49 - Ajout d'un avertissement pour light avec raison : Absence ÃƒÂ  une session (21-04-2024)
+2024-05-28 21:46:29 - Ajout d'un avertissement pour dex avec raison : Absence ÃƒÂ  une session (15-05-2024)
+2024-05-29 15:20:33.885179: Ajout de 0 session(s) ÃƒÂ  wivex
 2024-05-29 15:37:29.990830: Ajout de 0 session(s) a wivex
 2024-05-29 15:39:02.454683: Ajout de 0 session(s) a wivex
 2024-05-29 15:39:14.877364: Creation d'un nouveau joueur nomme : test
@@ -443,44 +443,44 @@
 2024-05-29 18:42:28.343129: Ajout de 1 session(s) a luck
 2024-05-29 18:42:28.343405: Ajout de 1 session(s) a troff
 2024-05-29 18:42:28.343705: Ajout de 1 session(s) a volgth
-2024-05-29 18:48:12.009803: Ajout de 1 session(s) Ã  only
-2024-05-29 18:48:12.010074: Ajout de 1 session(s) Ã  storm
-2024-05-29 18:48:12.010284: Ajout de 1 session(s) Ã  foxer
-2024-05-29 18:48:12.010553: Ajout de 1 session(s) Ã  mob
-2024-05-29 18:48:12.010848: Ajout de 1 session(s) Ã  ewan
-2024-05-29 18:48:12.011003: Ajout de 1 session(s) Ã  hickor
-2024-05-29 18:48:12.011294: Ajout de 1 session(s) Ã  light
-2024-05-29 18:48:12.011461: Ajout de 1 session(s) Ã  sami
-2024-05-29 18:48:12.011609: Ajout de 1 session(s) Ã  sword
-2024-05-29 18:48:12.011764: Ajout de 1 session(s) Ã  alex
-2024-05-29 18:48:12.011982: Ajout de 1 session(s) Ã  eve
-2024-05-29 18:48:12.012129: Ajout de 1 session(s) Ã  miles
-2024-05-29 18:48:12.012324: Ajout de 1 session(s) Ã  nonuche
-2024-05-29 18:48:12.012520: Ajout de 1 session(s) Ã  bebert
-2024-05-29 18:48:12.012727: Ajout de 1 session(s) Ã  hawk_eye
-2024-05-29 18:48:12.012916: Ajout de 1 session(s) Ã  samsam
-2024-05-29 18:48:12.013111: Ajout de 1 session(s) Ã  black-out
-2024-05-29 18:48:12.013360: Ajout de 1 session(s) Ã  grif
-2024-05-29 18:48:12.013506: Ajout de 1 session(s) Ã  marquez
-2024-05-29 18:48:12.013699: Ajout de 1 session(s) Ã  guss
-2024-05-29 18:48:12.013927: Ajout de 1 session(s) Ã  gorus
-2024-05-29 18:48:12.014112: Ajout de 1 session(s) Ã  elden
-2024-05-29 18:48:12.014261: Ajout de 1 session(s) Ã  sonny
-2024-05-29 18:48:12.014407: Ajout de 1 session(s) Ã  luck
-2024-05-29 18:48:12.014597: Ajout de 1 session(s) Ã  troff
-2024-05-29 18:48:12.014743: Ajout de 1 session(s) Ã  volgth
-2024-05-30 17:59:03.674357: DÃ©placement du joueur yoz vers la rÃ©serve
-2024-05-30 17:59:58.118512: Restauration du joueur yoz de la rÃ©serve
-2024-05-30 18:00:23.363291: DÃ©placement du joueur yoz vers la rÃ©serve
+2024-05-29 18:48:12.009803: Ajout de 1 session(s) ÃƒÂ  only
+2024-05-29 18:48:12.010074: Ajout de 1 session(s) ÃƒÂ  storm
+2024-05-29 18:48:12.010284: Ajout de 1 session(s) ÃƒÂ  foxer
+2024-05-29 18:48:12.010553: Ajout de 1 session(s) ÃƒÂ  mob
+2024-05-29 18:48:12.010848: Ajout de 1 session(s) ÃƒÂ  ewan
+2024-05-29 18:48:12.011003: Ajout de 1 session(s) ÃƒÂ  hickor
+2024-05-29 18:48:12.011294: Ajout de 1 session(s) ÃƒÂ  light
+2024-05-29 18:48:12.011461: Ajout de 1 session(s) ÃƒÂ  sami
+2024-05-29 18:48:12.011609: Ajout de 1 session(s) ÃƒÂ  sword
+2024-05-29 18:48:12.011764: Ajout de 1 session(s) ÃƒÂ  alex
+2024-05-29 18:48:12.011982: Ajout de 1 session(s) ÃƒÂ  eve
+2024-05-29 18:48:12.012129: Ajout de 1 session(s) ÃƒÂ  miles
+2024-05-29 18:48:12.012324: Ajout de 1 session(s) ÃƒÂ  nonuche
+2024-05-29 18:48:12.012520: Ajout de 1 session(s) ÃƒÂ  bebert
+2024-05-29 18:48:12.012727: Ajout de 1 session(s) ÃƒÂ  hawk_eye
+2024-05-29 18:48:12.012916: Ajout de 1 session(s) ÃƒÂ  samsam
+2024-05-29 18:48:12.013111: Ajout de 1 session(s) ÃƒÂ  black-out
+2024-05-29 18:48:12.013360: Ajout de 1 session(s) ÃƒÂ  grif
+2024-05-29 18:48:12.013506: Ajout de 1 session(s) ÃƒÂ  marquez
+2024-05-29 18:48:12.013699: Ajout de 1 session(s) ÃƒÂ  guss
+2024-05-29 18:48:12.013927: Ajout de 1 session(s) ÃƒÂ  gorus
+2024-05-29 18:48:12.014112: Ajout de 1 session(s) ÃƒÂ  elden
+2024-05-29 18:48:12.014261: Ajout de 1 session(s) ÃƒÂ  sonny
+2024-05-29 18:48:12.014407: Ajout de 1 session(s) ÃƒÂ  luck
+2024-05-29 18:48:12.014597: Ajout de 1 session(s) ÃƒÂ  troff
+2024-05-29 18:48:12.014743: Ajout de 1 session(s) ÃƒÂ  volgth
+2024-05-30 17:59:03.674357: DÃƒÂ©placement du joueur yoz vers la rÃƒÂ©serve
+2024-05-30 17:59:58.118512: Restauration du joueur yoz de la rÃƒÂ©serve
+2024-05-30 18:00:23.363291: DÃƒÂ©placement du joueur yoz vers la rÃƒÂ©serve
 2024-05-30 21:24:12: Retrait de 1 avertissement(s) pour le joueur wivex
 2024-05-30 21:29:38: Retrait de 1 avertissement(s) pour le joueur wivex
 2024-05-30 21:31:07: Retrait de 1 avertissement(s) pour le joueur wivex
-2024-05-30 22:12:41: Ajout d'un avertissement pour le joueur wivex: Non prÃ©sent Ã  une session - 
+2024-05-30 22:12:41: Ajout d'un avertissement pour le joueur wivex: Non prÃƒÂ©sent ÃƒÂ  une session - 
 2024-05-30 22:13:05: Ajout d'un avertissement pour le joueur wivex: Insulte - Sale merde envers wivex
 2024-05-30 22:13:17: Ajout d'un avertissement pour le joueur wivex: jsp - jsp
 2024-05-30 22:15:56: Retrait de 1 avertissement(s) pour le joueur wivex
-2024-05-30 23:01:27: Ajout d'un avertissement pour le joueur dex: Non prÃ©sent Ã  une session - 
-2024-05-30 23:05:32: Ajout d'un avertissement pour le joueur dex: Non prÃ©sent Ã  une session - A cochÃ© prÃ©sent Ã  une session mais n'est pas venu
+2024-05-30 23:01:27: Ajout d'un avertissement pour le joueur dex: Non prÃƒÂ©sent ÃƒÂ  une session - 
+2024-05-30 23:05:32: Ajout d'un avertissement pour le joueur dex: Non prÃƒÂ©sent ÃƒÂ  une session - A cochÃƒÂ© prÃƒÂ©sent ÃƒÂ  une session mais n'est pas venu
 2024-05-30 23:07:42: Ajout d'un avertissement pour le joueur wivex:  - 
 2024-05-30 23:09:13: Ajout d'un avertissement pour le joueur wivex: Traitre - mangeur de traitre
 2024-05-31 19:10:41: Creation d'un nouveau joueur nomme : nolan_c_oim
@@ -498,11 +498,10 @@
 2024-05-31 19:24:04: Ajout de 1 session(s) a foxer
 2024-05-31 19:24:04: Ajout de 1 session(s) a sami
 2024-05-31 19:24:04: Ajout de 1 session(s) a sonny
-2024-05-31 19:24:04: Ajout de 1 session(s) a kenji
 2024-05-31 19:24:04: Ajout de 1 session(s) a eve
 2024-05-31 19:24:04: Ajout de 1 session(s) a rox
 2024-05-31 19:24:04: Ajout de 1 session(s) a hawk_eye
 2024-05-31 19:24:04: Ajout de 1 session(s) a blackbird
 2024-05-31 19:24:04: Ajout de 1 session(s) a miles
 2024-05-31 19:39:08: Creation d'un nouveau joueur nomme : test
-2024-05-31 19:39:14: DÃ©placement du joueur test vers la rÃ©serve
+2024-05-31 19:39:14: DÃƒÂ©placement du joueur test vers la rÃƒÂ©serve

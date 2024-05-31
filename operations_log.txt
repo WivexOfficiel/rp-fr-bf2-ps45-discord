@@ -483,3 +483,24 @@
 2024-05-30 23:05:32: Ajout d'un avertissement pour le joueur dex: Non présent à une session - A coché présent à une session mais n'est pas venu
 2024-05-30 23:07:42: Ajout d'un avertissement pour le joueur wivex:  - 
 2024-05-30 23:09:13: Ajout d'un avertissement pour le joueur wivex: Traitre - mangeur de traitre
+2024-05-31 19:10:41: Creation d'un nouveau joueur nomme : nolan_c_oim
+2024-05-31 19:11:55: Suppression du joueur : nolan_c_oim de players_list
+2024-05-31 19:24:04: Ajout de 1 session(s) a niks
+2024-05-31 19:24:04: Ajout de 1 session(s) a grif
+2024-05-31 19:24:04: Ajout de 1 session(s) a guss
+2024-05-31 19:24:04: Ajout de 1 session(s) a tayco
+2024-05-31 19:24:04: Ajout de 1 session(s) a revenge
+2024-05-31 19:24:04: Ajout de 1 session(s) a legendary
+2024-05-31 19:24:04: Ajout de 1 session(s) a invi
+2024-05-31 19:24:04: Ajout de 1 session(s) a bebert
+2024-05-31 19:24:04: Ajout de 1 session(s) a alex
+2024-05-31 19:24:04: Ajout de 1 session(s) a only
+2024-05-31 19:24:04: Ajout de 1 session(s) a foxer
+2024-05-31 19:24:04: Ajout de 1 session(s) a sami
+2024-05-31 19:24:04: Ajout de 1 session(s) a sonny
+2024-05-31 19:24:04: Ajout de 1 session(s) a kenji
+2024-05-31 19:24:04: Ajout de 1 session(s) a eve
+2024-05-31 19:24:04: Ajout de 1 session(s) a rox
+2024-05-31 19:24:04: Ajout de 1 session(s) a hawk_eye
+2024-05-31 19:24:04: Ajout de 1 session(s) a blackbird
+2024-05-31 19:24:04: Ajout de 1 session(s) a miles

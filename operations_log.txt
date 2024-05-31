@@ -505,3 +505,17 @@
 2024-05-31 19:24:04: Ajout de 1 session(s) a miles
 2024-05-31 19:39:08: Creation d'un nouveau joueur nomme : test
 2024-05-31 19:39:14: DÃ©placement du joueur test vers la rÃ©serve
+2024-05-31 21:19:35: Déplacement du joueur hell vers la réserve
+2024-05-31 21:19:42: Déplacement du joueur zain vers la réserve
+2024-05-31 21:19:58: Déplacement du joueur koffman vers la réserve
+2024-05-31 21:20:07: Déplacement du joueur akiato vers la réserve
+2024-05-31 21:20:18: Déplacement du joueur paradox vers la réserve
+2024-05-31 21:20:29: Déplacement du joueur azura vers la réserve
+2024-05-31 21:20:43: Déplacement du joueur hunk vers la réserve
+2024-05-31 21:20:50: Déplacement du joueur seven vers la réserve
+2024-05-31 21:20:59: Déplacement du joueur lucsray vers la réserve
+2024-05-31 21:21:14: Déplacement du joueur foxy vers la réserve
+2024-05-31 21:21:34: Déplacement du joueur cayde vers la réserve
+2024-05-31 21:21:42: Déplacement du joueur rayko vers la réserve
+2024-05-31 21:21:53: Déplacement du joueur gideon vers la réserve
+2024-05-31 21:22:00: Déplacement du joueur falcon vers la réserve

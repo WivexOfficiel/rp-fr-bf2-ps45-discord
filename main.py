@@ -193,17 +193,20 @@ def delete_player():
         print("\n\t3. Supprimer tous les joueurs de la réserve\n")
         print("\n\t4. Quitter\n")
 
-        choice = input("\tEntrez votre choix : ").strip()
+        choice = input("\n\tEntrez votre choix : ").strip()
 
         if choice == '1':
+            print("\n")
             delete_main_player()
             print("\n")
             os.system("clear")
         elif choice == '2':
+            print("\n")
             delete_reserve_player()
             print("\n")
             os.system("clear")
         elif choice == '3':
+            print("\n")
             delete_all_reserve_players()
             print("\n")
             os.system("clear")

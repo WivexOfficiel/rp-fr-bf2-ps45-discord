@@ -221,7 +221,7 @@ def delete_main_player():
     while True:
         print("\n\t1. Supprimer par nom de clone\n")
         print("\n\t2. Supprimer par pseudo Discord\n")
-        choice = input("\n\tEntrez votre choix : ").strip()
+        choice = input("\n\n\tEntrez votre choix : ").strip()
 
         if choice == '1':
             name = input("\n\tEntrez le nom du joueur à supprimer : ").strip()
@@ -275,7 +275,7 @@ def delete_reserve_player():
     while True:
         print("\n\t1. Supprimer par nom de clone\n")
         print("\n\t2. Supprimer par pseudo Discord\n")
-        choice = input("\n\tEntrez votre choix : ").strip()
+        choice = input("\n\n\tEntrez votre choix : ").strip()
 
         if choice == '1':
             name = input("\n\tEntrez le nom du joueur de la réserve à supprimer : ").strip()

@@ -212,42 +212,113 @@ def delete_player():
             break
         else:
             print("\n\t[!] Choix invalide. Veuillez réessayer.")
+            
 def delete_main_player():
     """Deletes a player from the main players directory."""
-    name = input("\n\tEntrez le nom du joueur à supprimer : ").strip()
-    file_path_main = os.path.join("players_list", f"{name}.txt")
-    
-    if os.path.exists(file_path_main):
-        verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} ? (Y/N) : ")
-        if verification.upper() in ["Y", "YES", "OUI"]:
-            os.remove(file_path_main)
-            log_operation(f"Suppression du joueur : {name} de players_list")
-            print(f"\n\t[-] Le joueur {name} a été supprimé de players_list.")
-        elif verification.upper() in ["N", "NO", "NON"]:
-            print("\n\t[+] Commande annulée")
+    while True:
+        print("\n\t1. Supprimer par nom de clone\n")
+        print("\n\t2. Supprimer par pseudo Discord\n")
+        choice = input("\tEntrez votre choix : ").strip()
+
+        if choice == '1':
+            name = input("\n\tEntrez le nom du joueur à supprimer : ").strip()
+            file_path_main = os.path.join("players_list", f"{name}.txt")
+
+            if os.path.exists(file_path_main):
+                verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} ? (Y/N) : ")
+                if verification.upper() in ["Y", "YES", "OUI"]:
+                    os.remove(file_path_main)
+                    log_operation(f"Suppression du joueur : {name} de players_list")
+                    print(f"\n\t[-] Le joueur {name} a été supprimé de players_list.")
+                elif verification.upper() in ["N", "NO", "NON"]:
+                    print("\n\t[+] Commande annulée")
+                else:
+                    print("\n\t[-] Choix invalide")
+            else:
+                print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+            break
+
+        elif choice == '2':
+            discord_name = input("\n\tEntrez le pseudo Discord du joueur à supprimer : ").strip()
+            found = False
+
+            for file_name in os.listdir("players_list"):
+                file_path = os.path.join("players_list", file_name)
+                player_data = read_player_file(file_path)
+                if player_data['discord'] == discord_name:
+                    name = player_data['name']
+                    verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} ? (Y/N) : ")
+                    if verification.upper() in ["Y", "YES", "OUI"]:
+                        os.remove(file_path)
+                        log_operation(f"Suppression du joueur : {name} de players_list")
+                        print(f"\n\t[-] Le joueur {name} a été supprimé de players_list.")
+                    elif verification.upper() in ["N", "NO", "NON"]:
+                        print("\n\t[+] Commande annulée")
+                    else:
+                        print("\n\t[-] Choix invalide")
+                    found = True
+                    break
+
+            if not found:
+                print(f"\n\t[!] Aucun joueur trouvé avec le pseudo Discord {discord_name}.")
+            break
+
         else:
-            print("\n\t[-] Choix invalide")
-    else:
-        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+            print("\n\t[!] Choix invalide. Veuillez réessayer.")
     time.sleep(2)
 
-def delete_reserve_player():
+def delete_reserve():
     """Deletes a player from the reserve_players_list directory."""
-    name = input("\n\tEntrez le nom du joueur de la réserve à supprimer : ").strip()
-    file_path_reserve = os.path.join("reserve_players_list", f"{name}.txt")
-    
-    if os.path.exists(file_path_reserve):
-        verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} de la réserve ? (Y/N) : ")
-        if verification.upper() in ["Y", "YES", "OUI"]:
-            os.remove(file_path_reserve)
-            log_operation(f"Suppression du joueur : {name} de reserve_players_list")
-            print(f"\n\t[-] Le joueur {name} a été supprimé de reserve_players_list.")
-        elif verification.upper() in ["N", "NO", "NON"]:
-            print("\n\t[+] Commande annulée")
+    while True:
+        print("\n\t1. Supprimer par nom de clone\n")
+        print("\n\t2. Supprimer par pseudo Discord\n")
+        choice = input("\tEntrez votre choix : ").strip()
+
+        if choice == '1':
+            name = input("\n\tEntrez le nom du joueur de la réserve à supprimer : ").strip()
+            file_path_reserve = os.path.join("reserve_players_list", f"{name}.txt")
+
+            if os.path.exists(file_path_reserve):
+                verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} de la réserve ? (Y/N) : ")
+                if verification.upper() in ["Y", "YES", "OUI"]:
+                    os.remove(file_path_reserve)
+                    log_operation(f"Suppression du joueur : {name} de reserve_players_list")
+                    print(f"\n\t[-] Le joueur {name} a été supprimé de reserve_players_list.")
+                elif verification.upper() in ["N", "NO", "NON"]:
+                    print("\n\t[+] Commande annulée")
+                else:
+                    print("\n\t[-] Choix invalide")
+            else:
+                print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la réserve.")
+            break
+
+        elif choice == '2':
+            discord_name = input("\n\tEntrez le pseudo Discord du joueur de la réserve à supprimer : ").strip()
+            found = False
+
+            for file_name in os.listdir("reserve_players_list"):
+                file_path = os.path.join("reserve_players_list", file_name)
+                player_data = read_player_file(file_path)
+                if player_data['discord'] == discord_name:
+                    name = player_data['name']
+                    verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} de la réserve ? (Y/N) : ")
+                    if verification.upper() in ["Y", "YES", "OUI"]:
+                        os.remove(file_path)
+                        log_operation(f"Suppression du joueur : {name} de reserve_players_list")
+                        print(f"\n\t[-] Le joueur {name} a été supprimé de reserve_players_list.")
+                    elif verification.upper() in ["N", "NO", "NON"]:
+                        print("\n\t[+] Commande annulée")
+                    else:
+                        print("\n\t[-] Choix invalide")
+                    found = True
+                    break
+
+            if not found:
+                print(f"\n\t[!] Aucun joueur trouvé avec le pseudo Discord {discord_name}.")
+            break
+
         else:
-            print("\n\t[-] Choix invalide")
-    else:
-        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la réserve.")
+            print("\n\t[!] Choix invalide. Veuillez réessayer.")
     time.sleep(2)
 
 def delete_all_reserve_players():

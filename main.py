@@ -267,7 +267,7 @@ def delete_main_player():
             print("\n\t[!] Choix invalide. Veuillez réessayer.")
     time.sleep(2)
 
-def delete_reserve():
+def delete_reserve_player():
     """Deletes a player from the reserve_players_list directory."""
     while True:
         print("\n\t1. Supprimer par nom de clone\n")

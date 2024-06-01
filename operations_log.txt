@@ -521,3 +521,4 @@
 2024-05-31 21:22:00: Déplacement du joueur falcon vers la réserve
 2024-05-31 21:57:19: Ajout d'un avertissement pour le joueur elden: Non présent à une session - A coché présent à une session mais n'est pas venu
 2024-06-01 18:37:45: Creation d'un nouveau joueur nomme : morgan
+2024-06-01 18:53:05: Suppression du joueur : spok de players_list

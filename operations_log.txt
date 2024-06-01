@@ -522,3 +522,21 @@
 2024-05-31 21:57:19: Ajout d'un avertissement pour le joueur elden: Non présent à une session - A coché présent à une session mais n'est pas venu
 2024-06-01 18:37:45: Creation d'un nouveau joueur nomme : morgan
 2024-06-01 18:53:05: Suppression du joueur : spok de players_list
+2024-06-01 20:40:00: Ajout de 1 session(s) a kenji
+2024-06-01 20:40:00: Ajout de 1 session(s) a scraper
+2024-06-01 20:40:00: Ajout de 1 session(s) a alex
+2024-06-01 20:40:00: Ajout de 1 session(s) a hawk_eye
+2024-06-01 20:42:17: Ajout de 1 session(s) a sami
+2024-06-01 20:42:17: Ajout de 1 session(s) a volgth
+2024-06-01 20:42:17: Ajout de 1 session(s) a davis
+2024-06-01 20:42:17: Ajout de 1 session(s) a foxer
+2024-06-01 20:42:17: Ajout de 1 session(s) a lonely
+2024-06-01 20:42:17: Ajout de 1 session(s) a bebert
+2024-06-01 20:42:17: Ajout de 1 session(s) a blackbird
+2024-06-01 20:42:17: Ajout de 1 session(s) a storm
+2024-06-01 20:42:17: Ajout de 1 session(s) a only
+2024-06-01 20:42:17: Ajout de 1 session(s) a gorus
+2024-06-01 20:42:17: Ajout de 1 session(s) a samsam
+2024-06-01 20:42:17: Ajout de 1 session(s) a black-out
+2024-06-01 20:42:17: Ajout de 1 session(s) a legendary
+2024-06-01 20:42:17: Ajout de 1 session(s) a hickor

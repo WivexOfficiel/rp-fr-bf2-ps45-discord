@@ -613,6 +613,20 @@ def display_player_in_blacklist():
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la black list.")
     input("\n\t| Tapez entrer quand c'est bon |")
 
+def display_all_players_in_blacklist():
+    """Displays all players in the blacklist."""
+    blacklist_directory = "blacklist_players_list"
+    if os.path.exists(blacklist_directory):
+        print("\n\t--- Joueurs dans la black list ---\n")
+        blacklist_players = os.listdir(blacklist_directory)
+        if blacklist_players:
+            for player in blacklist_players:
+                print(f"\t- {player[:-4]}")  # Remove '.txt' extension
+        else:
+            print("\tAucun joueur dans la black list.")
+    else:
+        print("\n\tLe dossier de la black list est vide.")
+
 def log_operation(operation):
     """Logs operations performed on the players."""
     with open("operations_log.txt", "a") as log_file:
@@ -640,23 +654,24 @@ def main():
     
     while main:
         print("\n\n\n\n\tMenu :\n\n")
-        print("\t1. Incrémenter les sessions des joueurs et mettre à jour les points RP\n")
-        print("\t2. Ajouter un nouveau joueur\n")
-        print("\t3. Modifier le nom d'un joueur\n")
-        print("\t4. Supprimer un joueur\n")
-        print("\t5. Déplacer un joueur vers la réserve\n")
-        print("\t6. Restaurer un joueur de la réserve\n")  
-        print("\t7. Ajouter un commentaire du staff\n")
-        print("\t8. Ajouter un avertissement\n")
-        print("\t9. Afficher les informations d'un joueur\n")
-        print("\t10. Afficher tous les commentaires du staff\n")
-        print("\t11. Afficher toutes les raisons d'avertissements\n")
-        print("\t12. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
-        print("\t13. Mettre un joueur dans la Black List\n")  # Add this option
-        print("\t14. Sortir un joueur de la Black List\n")  # Add this option
-        print("\t15. Afficher un joueur dans la Black List\n")  # Add this option
-        print("\t16. Quitter en sauvegardant\n")
-        print("\t17. Quitter sans sauvegarder\n") 
+        print("\n\t1. Incrémenter les sessions des joueurs et mettre à jour les points RP\n")
+        print("\n\t2. Ajouter un nouveau joueur\n")
+        print("\n\t3. Modifier le nom d'un joueur\n")
+        print("\n\t4. Supprimer un joueur\n")
+        print("\n\t5. Déplacer un joueur vers la réserve\n")
+        print("\n\t6. Restaurer un joueur de la réserve\n")  
+        print("\n\t7. Ajouter un commentaire du staff\n")
+        print("\n\t8. Ajouter un avertissement\n")
+        print("\n\t9. Afficher les informations d'un joueur\n")
+        print("\n\t10. Afficher tous les commentaires du staff\n")
+        print("\n\t11. Afficher toutes les raisons d'avertissements\n")
+        print("\n\t12. Retirer les avertissements de plus d'un mois\n")
+        print("\n\t13. Mettre un joueur dans la Black List\n")
+        print("\n\t14. Sortir un joueur de la Black List\n")
+        print("\n\t15. Afficher un joueur dans la Black List\n")
+        print("\n\t16. Afficher tous les joueurs dans la black list\n")
+        print("\n\t17. Quitter en sauvegardant\n")
+        print("\n\t18. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -738,13 +753,19 @@ def main():
 
         elif choice == '15':
             display_player_in_blacklist()
+            print("\n")
             os.system("clear")
 
         elif choice == '16':
+            display_all_players_in_blacklist()
+            print("\n")
+            os.system("clear")
+        
+        elif choice == '17':
             git_push()
             break
 
-        elif choice == '17':
+        elif choice == '18':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

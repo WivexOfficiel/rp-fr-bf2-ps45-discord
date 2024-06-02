@@ -545,6 +545,53 @@ def remove_old_warnings():
         print("\n\t[+] Aucun avertissement à retirer.")
     input("\n\t| Tapez entrer quand c'est bon |")
 
+def add_player_to_blacklist():
+    """Adds a player to the blacklist."""
+    name = input("\n\tEntrez le nom de clone du joueur à mettre dans la black list : ").strip()
+    file_path = os.path.join("players_list", f"{name}.txt")
+    if os.path.exists(file_path):
+        verification = input(f"\n\tEs-tu sûr de vouloir mettre le joueur {name} dans la black list ? (Y/N) : ")
+        if verification.upper() in ["Y", "YES", "OUI"]:
+            player_data = read_player_file(file_path)
+            write_blacklist_file(name, player_data)
+            os.remove(file_path)
+            log_operation(f"Mise du joueur {name} dans la black list")
+            print(f"\n\t[+] Le joueur {name} a été ajouté à la black list.")
+        elif verification.upper() in ["N", "NO", "NON"]:
+            print("\n\t[+] Commande annulée")
+        else:
+            print("\n\t[-] Choix invalide")
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+
+def remove_player_from_blacklist():
+    """Removes a player from the blacklist."""
+    name = input("\n\tEntrez le nom de clone du joueur à retirer de la black list : ").strip()
+    file_path = os.path.join("blacklist_players_list", f"{name}.txt")
+    if os.path.exists(file_path):
+        verification = input(f"\n\tEs-tu sûr de vouloir retirer le joueur {name} de la black list ? (Y/N) : ")
+        if verification.upper() in ["Y", "YES", "OUI"]:
+            os.remove(file_path)
+            log_operation(f"Retrait du joueur {name} de la black list")
+            print(f"\n\t[+] Le joueur {name} a été retiré de la black list.")
+        elif verification.upper() in ["N", "NO", "NON"]:
+            print("\n\t[+] Commande annulée")
+        else:
+            print("\n\t[-] Choix invalide")
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la black list.")
+
+def display_player_in_blacklist():
+    """Displays information about a player in the blacklist."""
+    name = input("\n\tEntrez le nom de clone du joueur à afficher dans la black list : ").strip()
+    file_path = os.path.join("blacklist_players_list", f"{name}.txt")
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as file:
+            print(f"\n\t--- Informations pour {name} ---\n")
+            print(file.read())
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la black list.")
+
 def log_operation(operation):
     """Logs operations performed on the players."""
     with open("operations_log.txt", "a") as log_file:
@@ -567,6 +614,7 @@ def main():
     os.system("clear")
     create_player_directory()
     create_reserve_directory()
+    create_blacklist_directory()  # Add this line to create the blacklist directory
     main = True
     
     while main:
@@ -583,13 +631,18 @@ def main():
         print("\t10. Afficher tous les commentaires du staff\n")
         print("\t11. Afficher toutes les raisons d'avertissements\n")
         print("\t12. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
-        print("\t13. Quitter en sauvegardant\n")
-        print("\t14. Quitter sans sauvegarder\n")
+        print("\t13. Mettre un joueur dans la Black List\n")  # Add this option
+        print("\t14. Sortir un joueur de la Black List\n")  # Add this option
+        print("\t15. Afficher un joueur dans la Black List\n")  # Add this option
+        print("\t16. Quitter en sauvegardant\n")
+        print("\t17. Quitter sans sauvegarder\n") 
 
         choice = input("\tEntrez votre choix : ").strip()
 
         if choice == '1':
-            entries = input("\n\tEntrez les noms des joueurs avec + ou - pour les points RP (séparés par des virgules) : ").split(",")
+            entries = input(
+                "\n\tEntrez les noms des joueurs avec + ou - pour les points RP (séparés par des virgules) : ").split(
+                ",")
             updated_players = increment_sessions(entries)
             for name, new_grade in updated_players:
                 print(f"\n\t{name} a maintenant été promu à {new_grade}.")
@@ -634,25 +687,43 @@ def main():
 
         elif choice == '9':
             display_player_info()
+            print("\n")
             os.system("clear")
 
         elif choice == '10':
             display_all_staff_comments()
+            print("\n")
             os.system("clear")
 
         elif choice == '11':
             display_all_warnings()
+            print("\n")
             os.system("clear")
 
         elif choice == '12':
             remove_old_warnings()
+            print("\n")
             os.system("clear")
 
         elif choice == '13':
+            move_player_to_blacklist()  # Add this function
+            print("\n")
+            os.system("clear")
+
+        elif choice == '14':
+            restore_player_from_blacklist()  # Add this function
+            print("\n")
+            os.system("clear")
+
+        elif choice == '15':
+            display_blacklist_player_info()  # Add this function
+            os.system("clear")
+
+        elif choice == '16':
             git_push()
             break
 
-        elif choice == '14':
+        elif choice == '17':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

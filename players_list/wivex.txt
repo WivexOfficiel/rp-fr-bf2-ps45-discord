@@ -4,8 +4,3 @@ Nombre de session(s) : 68
 Grade : Capitaine en second
 Point(s) RP : 2
 Nombre d'avertissement(s) : 0
-
-=======
->>>>>>> 5ab2d23120f331574406d62041c5d1f0c3b6f22a
-
-Commentaire du staff wivex : Trop bg (test)

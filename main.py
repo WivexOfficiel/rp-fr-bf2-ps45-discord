@@ -563,7 +563,7 @@ def remove_old_warnings():
         print("\n\t[+] Aucun avertissement à retirer.")
     input("\n\t| Tapez entrer quand c'est bon |")
 
-def add_player_to_blacklist():
+def move_player_to_blacklist():
     """Adds a player to the blacklist."""
     name = input("\n\tEntrez le nom de clone du joueur à mettre dans la black list : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
@@ -582,7 +582,7 @@ def add_player_to_blacklist():
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
 
-def remove_player_from_blacklist():
+def restore_player_from_blacklist():
     """Removes a player from the blacklist."""
     name = input("\n\tEntrez le nom de clone du joueur à retirer de la black list : ").strip()
     file_path = os.path.join("blacklist_players_list", f"{name}.txt")
@@ -724,17 +724,17 @@ def main():
             os.system("clear")
 
         elif choice == '13':
-            move_player_to_blacklist()  # Add this function
+            move_player_to_blacklist()
             print("\n")
             os.system("clear")
 
         elif choice == '14':
-            restore_player_from_blacklist()  # Add this function
+            restore_player_from_blacklist()
             print("\n")
             os.system("clear")
 
         elif choice == '15':
-            display_blacklist_player_info()  # Add this function
+            display_player_in_blacklist()
             os.system("clear")
 
         elif choice == '16':

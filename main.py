@@ -185,7 +185,7 @@ def add_player():
         create_player_file(name, discord_name)
         log_operation(f"Creation d'un nouveau joueur nomme : {name}")
         print(f"\n\t[+] Le joueur {name} a ete ajoute.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def modify_player():
     """Modifies the name of an existing player."""
@@ -200,7 +200,7 @@ def modify_player():
         print(f"\n\tLe joueur {old_name} a ete renomme en {new_name}.")
     else:
         print(f"\n\tLe joueur {old_name} n'a pas ete trouve dans les dossiers.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def delete_player():
     """Deletes a player from the players directory or reserve directory."""
@@ -286,7 +286,7 @@ def delete_main_player():
 
         else:
             print("\n\t[!] Choix invalide. Veuillez réessayer.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def delete_reserve_player():
     """Deletes a player from the reserve_players_list directory."""
@@ -340,7 +340,7 @@ def delete_reserve_player():
 
         else:
             print("\n\t[!] Choix invalide. Veuillez réessayer.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def delete_all_reserve_players():
     """Deletes all players from the reserve_players_list directory."""
@@ -356,7 +356,7 @@ def delete_all_reserve_players():
         print("\n\t[+] Commande annulée")
     else:
         print("\n\t[-] Choix invalide")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def move_player_to_reserve():
     """Moves a player file to the reserve_players_list directory."""
@@ -375,7 +375,7 @@ def move_player_to_reserve():
             print("\n\t[-] Choix invalide")
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def restore_player_from_reserve():
     """Restores a player from the reserve_players_list directory to the players_list directory."""
@@ -389,7 +389,7 @@ def restore_player_from_reserve():
         print(f"\n\t[+] Le joueur {name} a été restauré de la réserve.")
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la réserve.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def add_staff_comment():
     """Adds a staff comment to a player's file."""
@@ -404,7 +404,7 @@ def add_staff_comment():
         print(f"\n\t[+] Le commentaire a ete ajoute pour {name}.")
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def add_warning():
     """Add a warning to a player."""
@@ -626,6 +626,7 @@ def display_all_players_in_blacklist():
             print("\tAucun joueur dans la black list.")
     else:
         print("\n\tLe dossier de la black list est vide.")
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):
     """Logs operations performed on the players."""

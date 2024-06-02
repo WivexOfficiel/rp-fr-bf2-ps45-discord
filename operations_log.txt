@@ -568,3 +568,26 @@
 >>>>>>> 5ab2d23120f331574406d62041c5d1f0c3b6f22a
 2024-06-02 19:23:20: Creation d'un nouveau joueur nomme : butcher
 2024-06-02 19:23:53: Creation d'un nouveau joueur nomme : spartacus
+2024-06-02 19:31:28: Ajout de 1 session(s) a legendary
+2024-06-02 19:31:28: Ajout de 1 session(s) a bebert
+2024-06-02 19:31:28: Ajout de 1 session(s) a invi
+2024-06-02 19:31:28: Ajout de 1 session(s) a lonely
+2024-06-02 19:31:28: Ajout de 1 session(s) a loubar
+2024-06-02 19:31:28: Ajout de 1 session(s) a morgan
+2024-06-02 19:31:28: Ajout de 1 session(s) a dun
+2024-06-02 19:31:28: Ajout de 1 session(s) a only
+2024-06-02 19:31:28: Ajout de 1 session(s) a hickor
+2024-06-02 19:31:28: Ajout de 1 session(s) a foxer
+2024-06-02 19:31:28: Ajout de 1 session(s) a volgth
+2024-06-02 19:31:28: Ajout de 1 session(s) a tayco
+2024-06-02 19:31:28: Ajout de 1 session(s) a ewan
+2024-06-02 19:31:28: Ajout de 1 session(s) a light
+2024-06-02 19:31:28: Ajout de 1 session(s) a sami
+2024-06-02 19:31:28: Ajout de 1 session(s) a guss
+2024-06-02 19:31:28: Ajout de 1 session(s) a tom
+2024-06-02 19:31:28: Ajout de 1 session(s) a kenji
+2024-06-02 19:31:28: Ajout de 1 session(s) a sonny
+2024-06-02 19:31:28: Ajout de 1 session(s) a hawk_eye
+2024-06-02 19:31:28: Ajout de 1 session(s) a spartacus
+2024-06-02 19:31:28: Ajout de 1 session(s) a marquez
+2024-06-02 19:31:28: Ajout de 1 session(s) a iron

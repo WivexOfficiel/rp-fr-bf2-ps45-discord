@@ -12,6 +12,12 @@ def create_reserve_directory():
     if not os.path.exists("reserve_players_list"):
         os.makedirs("reserve_players_list")
 
+
+def create_blacklist_directory():
+    """Creates the blacklist_players_list directory if it does not exist."""
+    if not os.path.exists("blacklist_players_list"):
+        os.makedirs("blacklist_players_list")
+
 def create_player_file(player_name, discord_name):
     """Creates a file for the new player with the specified details."""
     file_path = os.path.join("players_list", f"{player_name}.txt")
@@ -66,6 +72,18 @@ def write_player_file(player_name, player_data):
         file.write(f"Point(s) RP : {player_data['rp_points']}\n")
         file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n\n")
         file.write(player_data['comments'])
+
+def write_blacklist_file(player_name, player_data):
+    """Writes player data to the blacklist file."""
+    file_path = os.path.join("blacklist_players_list", f"{player_name}.txt")
+    with open(file_path, 'w') as file:
+        file.write(f"--------------- Black List ---------------\n")
+        file.write(f"Nom de clone : {player_name}\n")
+        file.write(f"Pseudo Discord : {player_data['discord']}\n")
+        file.write(f"Nombre de session(s) : {player_data['sessions']}\n")
+        file.write(f"Grade : {player_data['grade']}\n")
+        file.write(f"Point(s) RP : {player_data['rp_points']}\n")
+        file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n\n")
 
 def determine_grade(sessions):
     """Determines the grade based on the number of sessions."""

@@ -432,15 +432,39 @@ def add_warning():
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_player_info():
-    """Displays information about a specific player."""
-    name = input("\n\tEntrez le nom du joueur : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as file:
-            print(f"\n\t--- Informations pour {name} ---\n")
-            print(file.read())
+    """Displays information about a specific player using either clone name or Discord name."""
+    search_option = input("\n\tVoulez-vous rechercher par nom de clone (1) ou par pseudo Discord (2) ? ").strip()
+
+    if search_option == '1':
+        name = input("\n\tEntrez le nom du joueur : ").strip()
+        file_path = os.path.join("players_list", f"{name}.txt")
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as file:
+                print(f"\n\t--- Informations pour {name} ---\n")
+                print(file.read())
+        else:
+            print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
+
+    elif search_option == '2':
+        discord_name = input("\n\tEntrez le pseudo Discord du joueur : ").strip()
+        found = False
+
+        for file_name in os.listdir("players_list"):
+            file_path = os.path.join("players_list", file_name)
+            player_data = read_player_file(file_path)
+            if player_data['discord'] == discord_name:
+                with open(file_path, 'r') as file:
+                    print(f"\n\t--- Informations pour {player_data['name']} ---\n")
+                    print(file.read())
+                found = True
+                break
+
+        if not found:
+            print(f"\n\t[!] Aucun joueur trouvé avec le pseudo Discord {discord_name}.")
+
     else:
-        print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
+        print("\n\t[!] Choix invalide. Veuillez réessayer.")
+
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_all_staff_comments():

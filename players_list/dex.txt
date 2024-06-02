@@ -3,7 +3,6 @@ Pseudo Discord : mrsmat2g
 Nombre de session(s) : 2
 Grade : Soldat (trooper)
 Point(s) RP : 0
-Nombre d'avertissement(s) : 2
+Nombre d'avertissement(s) : 1
 
-(2024-05-28 | 21:43:56) Avertissement : Absence a une session (14-04-2024)
-(2024-05-28 | 21:46:29) Avertissement : Absence a une session (15-05-2024)
+(15-05-24 | 15:00:00) Avertissement Non présent à une session : A coché présent à une session mais n'est pas venu

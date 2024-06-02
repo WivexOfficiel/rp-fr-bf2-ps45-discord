@@ -581,7 +581,7 @@ def move_player_to_blacklist():
             print("\n\t[-] Choix invalide")
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans les dossiers.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def restore_player_from_blacklist():
     """Removes a player from the blacklist."""
@@ -599,7 +599,7 @@ def restore_player_from_blacklist():
             print("\n\t[-] Choix invalide")
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la black list.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_player_in_blacklist():
     """Displays information about a player in the blacklist."""
@@ -611,7 +611,7 @@ def display_player_in_blacklist():
             print(file.read())
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la black list.")
-    time.sleep(2)
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):
     """Logs operations performed on the players."""

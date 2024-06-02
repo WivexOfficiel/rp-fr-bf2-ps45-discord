@@ -584,15 +584,33 @@ def move_player_to_blacklist():
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def restore_player_from_blacklist():
+    """Restores a player from the blacklist_players_list directory to the players_list directory."""
+    name = input("\n\tEntrez le nom du joueur à restaurer de la Black List : ").strip()
+    reserve_path = os.path.join("blacklist_players_list", f"{name}.txt")
+    
+    if os.path.exists(reserve_path):
+        file_path = os.path.join("players_list", f"{name}.txt")
+        with open(reserve_path, 'r') as blacklist_file:
+            player_info = blacklist_file.readlines()[6:]  # Exclude the first 6 lines
+        with open(file_path, 'w') as player_file:
+            player_file.writelines(player_info)
+        os.remove(reserve_path)  # Remove the file from blacklist directory
+        log_operation(f"Restauration du joueur {name} de la Black List")
+        print(f"\n\t[+] Le joueur {name} a été restauré de la Black List.")
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la Black List.")
+    input("\n\t| Tapez entrer quand c'est bon |")
+
+def remove_player_from_blacklist():
     """Removes a player from the blacklist."""
-    name = input("\n\tEntrez le nom de clone du joueur à retirer de la black list : ").strip()
+    name = input("\n\tEntrez le nom de clone du joueur à supprimer de la black list : ").strip()
     file_path = os.path.join("blacklist_players_list", f"{name}.txt")
     if os.path.exists(file_path):
-        verification = input(f"\n\tEs-tu sûr de vouloir retirer le joueur {name} de la black list ? (Y/N) : ")
+        verification = input(f"\n\tEs-tu sûr de vouloir supprimer le joueur {name} ? (Y/N) : ")
         if verification.upper() in ["Y", "YES", "OUI"]:
             os.remove(file_path)
-            log_operation(f"Retrait du joueur {name} de la black list")
-            print(f"\n\t[+] Le joueur {name} a été retiré de la black list.")
+            log_operation(f"Suppression du joueur {name}")
+            print(f"\n\t[+] Le joueur {name} a été supprimé.")
         elif verification.upper() in ["N", "NO", "NON"]:
             print("\n\t[+] Commande annulée")
         else:
@@ -669,10 +687,11 @@ def main():
         print("\t12. Retirer les avertissements de plus d'un mois\n")
         print("\t13. Mettre un joueur dans la Black List\n")
         print("\t14. Sortir un joueur de la Black List\n")
-        print("\t15. Afficher un joueur dans la Black List\n")
-        print("\t16. Afficher tous les joueurs dans la black list\n")
-        print("\t17. Quitter en sauvegardant\n")
-        print("\t18. Quitter sans sauvegarder\n")
+        print("\t15. Supprimer un joueur de la Black List\n")
+        print("\t16. Afficher un joueur dans la Black List\n")
+        print("\t17. Afficher tous les joueurs dans la black list\n")
+        print("\t18. Quitter en sauvegardant\n")
+        print("\t19. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -753,20 +772,25 @@ def main():
             os.system("clear")
 
         elif choice == '15':
+            remove_player_from_blacklist()
+            print("\n")
+            os.system("clear")
+        
+        elif choice == '16':
             display_player_in_blacklist()
             print("\n")
             os.system("clear")
 
-        elif choice == '16':
+        elif choice == '17':
             display_all_players_in_blacklist()
             print("\n")
             os.system("clear")
         
-        elif choice == '17':
+        elif choice == '18':
             git_push()
             break
 
-        elif choice == '18':
+        elif choice == '19':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

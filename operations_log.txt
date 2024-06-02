@@ -566,3 +566,5 @@
 2024-06-01 20:42:17: Ajout de 1 session(s) a legendary
 2024-06-01 20:42:17: Ajout de 1 session(s) a hickor
 >>>>>>> 5ab2d23120f331574406d62041c5d1f0c3b6f22a
+2024-06-02 19:23:20: Creation d'un nouveau joueur nomme : butcher
+2024-06-02 19:23:53: Creation d'un nouveau joueur nomme : spartacus

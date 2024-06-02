@@ -592,3 +592,7 @@
 2024-06-02 19:31:28: Ajout de 1 session(s) a iron
 2024-06-02 20:54:04: Mise du joueur dun dans la black list
 2024-06-02 21:21:05: Retrait du joueur dun de la black list
+2024-06-02 21:34:15: Creation d'un nouveau joueur nomme : test
+2024-06-02 21:34:27: Ajout de 2115642086468 session(s) a test
+2024-06-02 21:34:44: Ajout d'un avertissement pour le joueur test: Non présent à une session - A coché présent à une session mais n'est pas venu
+2024-06-02 21:34:58: Mise du joueur test dans la black list

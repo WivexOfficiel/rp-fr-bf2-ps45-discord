@@ -1,8 +1,0 @@
---------------- Black List ---------------
-Nom de clone : test
-Pseudo Discord : test
-Nombre de session(s) : 2115642086468
-Grade : General
-Point(s) RP : 0
-Nombre d'avertissement(s) : 1
-

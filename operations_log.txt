@@ -591,3 +591,4 @@
 2024-06-02 19:31:28: Ajout de 1 session(s) a spartacus
 2024-06-02 19:31:28: Ajout de 1 session(s) a marquez
 2024-06-02 19:31:28: Ajout de 1 session(s) a iron
+2024-06-02 20:54:04: Mise du joueur dun dans la black list

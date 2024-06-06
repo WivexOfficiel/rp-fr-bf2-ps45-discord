@@ -599,3 +599,30 @@
 2024-06-02 21:36:45: Restauration du joueur test de la Black List
 2024-06-02 21:40:32: Creation d'un nouveau joueur nomme : dun
 2024-06-02 21:40:38: Ajout de 1 session(s) a dun
+2024-06-06 20:09:20: Creation d'un nouveau joueur nomme : elisabeth
+2024-06-06 20:09:32: Déplacement du joueur elisabeth vers la blacklist
+2024-06-06 20:14:49: Ajout de 1 session(s) a niks
+2024-06-06 20:14:49: Ajout de 1 session(s) a revenge
+2024-06-06 20:14:49: Ajout de 1 session(s) a guss
+2024-06-06 20:14:49: Ajout de 1 session(s) a grif
+2024-06-06 20:14:49: Ajout de 1 session(s) a butcher
+2024-06-06 20:14:49: Ajout de 1 session(s) a gorus
+2024-06-06 20:14:49: Ajout de 1 session(s) a light
+2024-06-06 20:14:49: Ajout de 1 session(s) a foxer
+2024-06-06 20:14:49: Ajout de 1 session(s) a mob
+2024-06-06 20:14:49: Ajout de 1 session(s) a volgth
+2024-06-06 20:14:49: Ajout de 1 session(s) a obewan
+2024-06-06 20:14:49: Ajout de 1 session(s) a legendary
+2024-06-06 20:14:49: Ajout de 1 session(s) a bebert
+2024-06-06 20:14:49: Ajout de 1 session(s) a lonely
+2024-06-06 20:14:49: Ajout de 1 session(s) a dun
+2024-06-06 20:14:49: Ajout de 1 session(s) a sami
+2024-06-06 20:14:49: Ajout de 1 session(s) a hickor
+2024-06-06 20:14:49: Ajout de 1 session(s) a alex
+2024-06-06 20:14:49: Ajout de 1 session(s) a eve
+2024-06-06 20:14:49: Ajout de 1 session(s) a nonuche
+2024-06-06 20:14:49: Ajout de 1 session(s) a blackbird
+2024-06-06 20:14:49: Ajout de 1 session(s) a hawk_eye
+2024-06-06 20:14:49: Ajout de 1 session(s) a troff
+2024-06-06 20:14:49: Ajout de 1 session(s) a davis
+2024-06-06 20:16:53: Creation d'un nouveau joueur nomme : rade

@@ -545,6 +545,13 @@ def remove_old_warnings():
         print("\n\t[+] Aucun avertissement à retirer.")
     input("\n\t| Tapez entrer quand c'est bon |")
 
+def write_blacklist(filename="blacklist.txt"):
+    """Writes a player's pseudonym to a blacklist file."""
+    player = input("Entrez le pseudo discord du joueur à ajouter à la liste noire : ")
+    with open(filename, "a") as file:
+        file.write(f"\n- {player}\n")
+    print(f"Le joueur {player} a été ajouté à la liste noire.")
+
 def log_operation(operation):
     """Logs operations performed on the players."""
     with open("operations_log.txt", "a") as log_file:

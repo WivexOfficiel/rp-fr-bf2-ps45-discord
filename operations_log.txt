@@ -626,3 +626,9 @@
 2024-06-06 20:14:49: Ajout de 1 session(s) a troff
 2024-06-06 20:14:49: Ajout de 1 session(s) a davis
 2024-06-06 20:16:53: Creation d'un nouveau joueur nomme : rade
+2024-06-06 20:56:47: Creation d'un nouveau joueur nomme : test1
+2024-06-06 20:56:54: Creation d'un nouveau joueur nomme : test2
+2024-06-06 20:57:07: Creation d'un nouveau joueur nomme : test3
+2024-06-06 21:05:17: Suppression du joueur : test1 de players_list
+2024-06-06 21:05:42: Suppression du joueur : test2 de players_list
+2024-06-06 21:05:54: Suppression du joueur : test3 de players_list

@@ -676,15 +676,18 @@ def main():
             os.system("clear")
 
         elif choice == '13':
-            write_blacklist()
+            print("Cannot be use at the moment...")
+            time.sleep(2)
             os.system("cls")
 
         elif choice == '14':
-            remove_from_blacklist()
+            print("Cannot be use at the moment...")
+            time.sleep(2)
             os.system("cls")
 
         elif choice == '15':
-            show_blacklist()
+            print("Cannot be use at the moment...")
+            time.sleep(2)
             os.system("cls")
 
         elif choice == '16':

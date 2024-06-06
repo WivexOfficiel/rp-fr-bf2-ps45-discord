@@ -607,8 +607,11 @@ def main():
         print("\t10. Afficher tous les commentaires du staff\n")
         print("\t11. Afficher toutes les raisons d'avertissements\n")
         print("\t12. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
-        print("\t13. Quitter en sauvegardant\n")
-        print("\t14. Quitter sans sauvegarder\n")
+        print("\t13. Ajouter un joueur à la BlackList\n")
+        print("\t14. Supprimer un joueur de la BlackList\n")
+        print("\t15. Afficher la BlackList\n")
+        print("\t16. Quitter en sauvegardant\n")
+        print("\t17. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -672,15 +675,23 @@ def main():
             remove_old_warnings()
             os.system("clear")
 
-        elif choice == '14':
+        elif choice == '13':
             write_blacklist()
             os.system("cls")
 
-        elif choice == '13':
+        elif choice == '14':
+            remove_from_blacklist()
+            os.system("cls")
+
+        elif choice == '15':
+            show_blacklist()
+            os.system("cls")
+
+        elif choice == '16':
             git_push()
             break
 
-        elif choice == '14':
+        elif choice == '17':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

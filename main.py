@@ -678,17 +678,17 @@ def main():
         elif choice == '13':
             print("\n\tCannot be use at the moment...")
             time.sleep(4)
-            os.system("cls")
+            os.system("clear")
 
         elif choice == '14':
             print("\n\tCannot be use at the moment...")
             time.sleep(4)
-            os.system("cls")
+            os.system("clear")
 
         elif choice == '15':
             print("\n\tCannot be use at the moment...")
             time.sleep(4)
-            os.system("cls")
+            os.system("clear")
 
         elif choice == '16':
             git_push()

@@ -576,7 +576,7 @@ def log_operation(operation):
 
 def git_push():
     """Adds specified files, commits with a message, and force pushes to the main branch."""
-    os.system("git add main.py operations_log.txt players_list reserve_players_list")
+    os.system("git add main.py operations_log.txt players_list reserve_players_list blacklist.txt")
     os.system('git commit -m "modification apportees"')
     os.system("git push --force origin main")
     print("\n\t[+] Les modifications ont ete poussees au depot distant.")

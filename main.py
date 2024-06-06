@@ -686,7 +686,7 @@ def main():
             os.system("clear")
 
         elif choice == '15':
-            print("\n\tCannot be use at the moment...")
+            print("\n\tCannot be use at the moment... ;)")
             time.sleep(4)
             os.system("clear")
 

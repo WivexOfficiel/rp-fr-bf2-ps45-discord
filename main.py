@@ -676,17 +676,17 @@ def main():
             os.system("clear")
 
         elif choice == '13':
-            print("Cannot be use at the moment...")
+            print("\n\tannot be use at the moment...")
             time.sleep(2)
             os.system("cls")
 
         elif choice == '14':
-            print("Cannot be use at the moment...")
+            print("\n\tCannot be use at the moment...")
             time.sleep(2)
             os.system("cls")
 
         elif choice == '15':
-            print("Cannot be use at the moment...")
+            print("\n\tCannot be use at the moment...")
             time.sleep(2)
             os.system("cls")
 

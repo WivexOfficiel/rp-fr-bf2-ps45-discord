@@ -551,6 +551,23 @@ def write_blacklist(filename="blacklist.txt"):
     with open(filename, "a") as file:
         file.write(f"\n- {player}\n")
     print(f"Le joueur {player} a été ajouté à la liste noire.")
+    input("\n\t| Tapez entrer quand c'est bon |")
+
+def remove_from_blacklist(filename="blacklist.txt"):
+    """Removes a player's pseudonym from the blacklist file."""
+    player = input("Entrez le pseudo du joueur à retirer de la liste noire : ")
+    with open(filename, "r") as file:
+        lines = file.readlines()
+    with open(filename, "w") as file:
+        for line in lines:
+            if line.strip() != f"- {player}":
+                file.write(line)
+    print(f"Le joueur {player} a été retiré de la liste noire.")
+    input("\n\t| Tapez entrer quand c'est bon |")
+
+def show_blacklist(filename="blacklist.txt"):
+    os.system(f"cat {filename}\n")
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):
     """Logs operations performed on the players."""
@@ -654,6 +671,10 @@ def main():
         elif choice == '12':
             remove_old_warnings()
             os.system("clear")
+
+        elif choice == '14':
+            write_blacklist()
+            os.system("cls")
 
         elif choice == '13':
             git_push()

@@ -564,17 +564,18 @@ def remove_old_warnings():
     input("\n\t| Tapez entrer quand c'est bon |")
 
 def move_player_to_blacklist():
-    """Adds a player to the blacklist."""
-    name = input("\n\tEntrez le nom de clone du joueur à mettre dans la black list : ").strip()
+    """Moves a player file to the blacklist_players_list directory."""
+    name = input("\n\tEntrez le nom du joueur à déplacer en blacklist : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
     if os.path.exists(file_path):
-        verification = input(f"\n\tEs-tu sûr de vouloir mettre le joueur {name} dans la black list ? (Y/N) : ")
+        verification = input(f"\n\tEs-tu sûr de vouloir déplacer le joueur {name} en blacklist ? (Y/N) : ")
         if verification.upper() in ["Y", "YES", "OUI"]:
+            blacklist_path = os.path.join("blacklist_players_list", f"{name}.txt")
             player_data = read_player_file(file_path)
             write_blacklist_file(name, player_data)
             os.remove(file_path)
-            log_operation(f"Mise du joueur {name} dans la black list")
-            print(f"\n\t[+] Le joueur {name} a été ajouté à la black list.")
+            log_operation(f"Déplacement du joueur {name} vers la blacklist")
+            print(f"\n\t[+] Le joueur {name} a été déplacé en blacklist.")
         elif verification.upper() in ["N", "NO", "NON"]:
             print("\n\t[+] Commande annulée")
         else:
@@ -585,22 +586,20 @@ def move_player_to_blacklist():
 
 def restore_player_from_blacklist():
     """Restores a player from the blacklist_players_list directory to the players_list directory."""
-    name = input("\n\tEntrez le nom du joueur à restaurer de la Black List : ").strip()
-    reserve_path = os.path.join("blacklist_players_list", f"{name}.txt")
+    name = input("\n\tEntrez le nom du joueur à restaurer de la blacklist : ").strip()
+    blacklist_path = os.path.join("blacklist_players_list", f"{name}.txt")
     
-    if os.path.exists(reserve_path):
+    if os.path.exists(blacklist_path):
         file_path = os.path.join("players_list", f"{name}.txt")
-        with open(reserve_path, 'r') as blacklist_file:
-            player_info = blacklist_file.readlines()[6:]  # Exclude the first 6 lines
-        with open(file_path, 'w') as player_file:
-            player_file.writelines(player_info)
-        os.remove(reserve_path)  # Remove the file from blacklist directory
-        log_operation(f"Restauration du joueur {name} de la Black List")
-        print(f"\n\t[+] Le joueur {name} a été restauré de la Black List.")
+        player_data = read_player_file(blacklist_path)
+        write_player_file(name, player_data)
+        os.remove(blacklist_path)
+        log_operation(f"Restauration du joueur {name} de la blacklist")
+        print(f"\n\t[+] Le joueur {name} a été restauré de la blacklist.")
     else:
-        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la Black List.")
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé dans la blacklist.")
     input("\n\t| Tapez entrer quand c'est bon |")
-
+    
 def remove_player_from_blacklist():
     """Removes a player from the blacklist."""
     name = input("\n\tEntrez le nom de clone du joueur à supprimer de la black list : ").strip()

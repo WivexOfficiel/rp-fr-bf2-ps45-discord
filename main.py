@@ -586,11 +586,6 @@ def git_pull():
     os.system("git pull origin main")
     print("\n\t[+] Le code a ete mis a jour depuis le depot distant.")
 
-def git_restore():
-    """Restore working tree files"""
-    os.system("git restore main.py operations_log.txt players_list reserve_players_list")   #blacklist.txt
-    print("\n\t[+] Aucun changement n'a été effectué.")
-
 def main():
     git_pull()
     os.system("clear")
@@ -703,7 +698,7 @@ def main():
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:
-                    git_restore()
+                    git_pull()
                     main = False
                     break
                 elif sure.upper() in ['NO', 'NON', 'N']:

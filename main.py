@@ -588,7 +588,7 @@ def git_pull():
 
 def git_restore():
     """Restore working tree files"""
-    os.system("git restore")
+    os.system("git restore main.py operations_log.txt players_list reserve_players_list")   #blacklist.txt
     print("\n\t[+] Aucun changement n'a été effectué.")
 
 def main():

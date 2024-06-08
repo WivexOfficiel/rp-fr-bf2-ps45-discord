@@ -86,8 +86,6 @@ def determine_grade(sessions):
     elif sessions >= 57:
         return 'Lieutenant en second'
     elif sessions >= 50:
-        return 'Major'
-    elif sessions >= 45:
         return 'Major Aspirant'
     elif sessions >= 38:
         return 'Adjudant-chef'

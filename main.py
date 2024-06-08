@@ -342,7 +342,7 @@ def delete_all_reserve_players():
 
 def move_player_to_reserve():
     """Moves a player file to the reserve_players_list directory."""
-    name = input("\n\tEntrez le nom du joueur à déplacer en réserve : ").strip()
+    name = input("\n\n\tEntrez le nom du joueur à déplacer en réserve : ").strip()
     file_path = os.path.join("players_list", f"{name}.txt")
     if os.path.exists(file_path):
         verification = input(f"\n\tEs-tu sûr de vouloir déplacer le joueur {name} en réserve ? (Y/N) : ")
@@ -576,7 +576,7 @@ def log_operation(operation):
 
 def git_push():
     """Adds specified files, commits with a message, and force pushes to the main branch."""
-    os.system("git add/rm main.py operations_log.txt players_list reserve_players_list blacklist.txt")
+    os.system("git add main.py operations_log.txt players_list reserve_players_list blacklist.txt")
     os.system('git commit -m "modification apportees"')
     os.system("git push --force origin main")
     print("\n\t[+] Les modifications ont ete poussees au depot distant.")

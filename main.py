@@ -576,7 +576,7 @@ def log_operation(operation):
 
 def git_push():
     """Adds specified files, commits with a message, and force pushes to the main branch."""
-    os.system("git add main.py operations_log.txt players_list reserve_players_list blacklist.txt")
+    os.system("git add main.py operations_log.txt players_list reserve_players_list")   #blacklist.txt
     os.system('git commit -m "modification apportees"')
     os.system("git push --force origin main")
     print("\n\t[+] Les modifications ont ete poussees au depot distant.")
@@ -585,6 +585,11 @@ def git_pull():
     """Pulls the latest code from the main branch of the repository."""
     os.system("git pull origin main")
     print("\n\t[+] Le code a ete mis a jour depuis le depot distant.")
+
+def git_restore():
+    """Restore working tree files"""
+    os.system("git restore")
+    print("\n\t[+] Aucun changement n'a été effectué.")
 
 def main():
     git_pull()
@@ -698,6 +703,7 @@ def main():
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:
+                    git_restore()
                     main = False
                     break
                 elif sure.upper() in ['NO', 'NON', 'N']:

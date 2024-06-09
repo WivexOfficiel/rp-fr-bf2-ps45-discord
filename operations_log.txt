@@ -696,3 +696,29 @@
 2024-06-08 16:10:01: Ajout de 1 session(s) a invi
 2024-06-09 15:52:04: Ajout d'un avertissement pour le joueur stryker: Non présent à une session - A coché présent à une session mais n'est pas venu
 2024-06-09 15:52:18: Ajout d'un avertissement pour le joueur tom: Non présent à une session - A coché présent à une session mais n'est pas venu
+2024-06-09 20:08:57: Ajout de 1 session(s) a only
+2024-06-09 20:08:57: Ajout de 1 session(s) a hickor
+2024-06-09 20:08:57: Ajout de 1 session(s) a foxer
+2024-06-09 20:08:57: Ajout de 1 session(s) a volgth
+2024-06-09 20:08:57: Ajout de 1 session(s) a legendary
+2024-06-09 20:08:57: Ajout de 1 session(s) a guss
+2024-06-09 20:08:57: Ajout de 1 session(s) a revenge
+2024-06-09 20:08:57: Ajout de 1 session(s) a grif
+2024-06-09 20:08:57: Ajout de 1 session(s) a tayco
+2024-06-09 20:08:57: Ajout de 1 session(s) a eve
+2024-06-09 20:08:57: Ajout de 1 session(s) a slayer
+2024-06-09 20:08:57: Ajout de 1 session(s) a hawk_eye
+2024-06-09 20:08:57: Ajout de 1 session(s) a samsam
+2024-06-09 20:08:57: Ajout de 1 session(s) a papel
+2024-06-09 20:08:57: Ajout de 1 session(s) a nonuche
+2024-06-09 20:08:57: Ajout de 1 session(s) a vengers
+2024-06-09 20:08:57: Ajout de 1 session(s) a bebert
+2024-06-09 20:08:57: Ajout de 1 session(s) a invi
+2024-06-09 20:08:57: Ajout de 1 session(s) a lonely
+2024-06-09 20:08:57: Ajout de 1 session(s) a troff
+2024-06-09 20:08:57: Ajout de 1 session(s) a butcher
+2024-06-09 20:08:57: Ajout de 1 session(s) a ewan
+2024-06-09 20:08:57: Ajout de 1 session(s) a light
+2024-06-09 20:08:57: Ajout de 1 session(s) a kenji
+2024-06-09 20:08:57: Ajout de 1 session(s) a atlas
+2024-06-09 20:08:57: Ajout de 1 session(s) a rade

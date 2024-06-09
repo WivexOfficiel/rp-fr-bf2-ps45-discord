@@ -3,8 +3,4 @@ Pseudo Discord : nolhan6894
 Nombre de session(s) : 63
 Grade : Lieutenant en second
 Point(s) RP : 0
-Nombre d'avertissement(s) : 1
-
-
-
-(09-06-24 | 15:52:18) Avertissement Non présent à une session : A coché présent à une session mais n'est pas venu
+Nombre d'avertissement(s) : 0

@@ -694,3 +694,5 @@
 2024-06-08 16:10:01: Ajout de 1 session(s) a lonely
 2024-06-08 16:10:01: Ajout de 1 session(s) a scraper
 2024-06-08 16:10:01: Ajout de 1 session(s) a invi
+2024-06-09 15:52:04: Ajout d'un avertissement pour le joueur stryker: Non présent à une session - A coché présent à une session mais n'est pas venu
+2024-06-09 15:52:18: Ajout d'un avertissement pour le joueur tom: Non présent à une session - A coché présent à une session mais n'est pas venu

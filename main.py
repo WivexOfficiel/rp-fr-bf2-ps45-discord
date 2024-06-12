@@ -21,8 +21,7 @@ def create_player_file(player_name, discord_name):
         file.write("Nombre de session(s) : 0\n")
         file.write("Grade : Recrue (cadet)\n")
         file.write("Point(s) RP : 0\n")
-        file.write("Nombre d'avertissement(s) : 0\n")
-        file.write("Nombre de warn(s) : 0\n\n")
+        file.write("Nombre d'avertissement(s) : 0\n\n")
 
 def read_player_file(file_path):
     """Reads player data from the specified file and returns a dictionary."""
@@ -33,7 +32,6 @@ def read_player_file(file_path):
         'grade': '',
         'rp_points': 0,
         'warnings': 0,
-        'warns': 0,
         'comments': ''
     }
     try:
@@ -52,8 +50,6 @@ def read_player_file(file_path):
             if len(lines) > 5:
                 player_data['warnings'] = int(lines[5].split(": ")[1].strip())
             if len(lines) > 7:
-                player_data['warns'] = int(lines[5].split(": ")[1].strip())
-            if len(lines) > 9:
                 player_data['comments'] = "".join(lines[7:]).strip()
     except FileNotFoundError:
         pass
@@ -68,8 +64,7 @@ def write_player_file(player_name, player_data):
         file.write(f"Nombre de session(s) : {player_data['sessions']}\n")
         file.write(f"Grade : {player_data['grade']}\n")
         file.write(f"Point(s) RP : {player_data['rp_points']}\n")
-        file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n")
-        file.write(f"Nombre de warn(s) : {player_data['warns']}\n\n")
+        file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n\n")
         file.write(player_data['comments'])
 
 def determine_grade(sessions):
@@ -391,56 +386,48 @@ def add_staff_comment():
         print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     time.sleep(2)
 
-def add_warning_to_player():
-    """Adds a warning to a player's file."""
-    name = input("\n\tEntrez le nom du joueur à avertir : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        player_data = read_player_file(file_path)
-        player_data['warnings'] += 1
-        player_data['comments'] += f"{current_date}: Avertissement ajouté.\n"
+def add_warning():
+    """Add a warning to a player."""
+    player_name = input("\n\tEntrez le nom du joueur : ").strip()
+    file_path = os.path.join("players_list", f"{player_name}.txt")
 
-        # Convert warnings to warn if 3 warnings are reached
-        if player_data['warnings'] >= 3:
-            player_data['warnings'] -= 3
-            player_data['warns'] += 1
-            player_data['comments'] += f"{current_date}: Conversion de 3 avertissements en 1 warn.\n"
-            log_operation(f"Conversion de 3 avertissements en 1 warn pour {name}")
+    if not os.path.exists(file_path):
+        print("\n\t[!] Le joueur n'existe pas.")
+        return
 
-        write_player_file(name, player_data)
-        check_ban_player(name, player_data)
-        log_operation(f"Ajout d'avertissement pour {name}")
-        print(f"\n\t[+] Un avertissement a été ajouté pour le joueur {name}.")
+    # Choisir le type d'avertissement
+    print("\n\tChoisissez le type d'avertissement :\n")
+    print("\n\t1. Non présent à une session")
+    print("\n\t2. Insulte (préciser l'insulte et envers qui)")
+    print("\n\t3. Autre")
+    warning_type_choice = input("\n\tVotre choix : ").strip()
+
+    if warning_type_choice == '1':
+        warning_type = "Non présent à une session"
+        warning_details = "A coché présent à une session mais n'est pas venu"
+    elif warning_type_choice == '2':
+        insult = input("\n\tPrécisez l'insulte : ").strip()
+        target = input("\n\tEnvers qui : ").strip()
+        warning_type = "Insulte"
+        warning_details = f"{insult} envers {target}"
+    elif warning_type_choice == '3':
+        warning_type = input("\n\tPrécisez le type d'avertissement : ").strip()
+        warning_details = input("\n\tDétails : ").strip()
     else:
-        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé.")
-    time.sleep(2)
+        print("\n\t[!] Choix invalide.")
+        return
 
-def add_warn_to_player():
-    """Adds a warn to a player's file."""
-    name = input("\n\tEntrez le nom du joueur à warn : ").strip()
-    file_path = os.path.join("players_list", f"{name}.txt")
-    if os.path.exists(file_path):
-        current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        player_data = read_player_file(file_path)
-        player_data['warns'] += 1
-        player_data['comments'] += f"{current_date}: Warn ajouté.\n"
-        
-        # Écrire les données mises à jour dans le fichier du joueur
-        write_player_file(name, player_data)
-        check_ban_player(name, player_data)
-        log_operation(f"Ajout de warn pour {name}")
-        print(f"\n\t[+] Un warn a été ajouté pour le joueur {name}.")
-    else:
-        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé.")
-    time.sleep(2)
+    current_time = datetime.datetime.now().strftime("%d-%m-%y | %H:%M:%S")
+    new_warning = f"({current_time}) Avertissement {warning_type} : {warning_details}"
 
-def check_ban_player(name, player_data):
-    """Checks if the player should be banned based on the number of warns."""
-    if player_data['warns'] >= 3:
-        log_operation(f"Le joueur {name} a été banni après avoir reçu 3 warns.")
-        print(f"\n\t[!] Le joueur {name} a été banni après avoir reçu 3 warns.")
-        delete_main_player(name)
+    player_data = read_player_file(file_path)
+    player_data['warnings'] += 1
+    player_data['comments'] += f"\n\n{new_warning}"
+
+    write_player_file(player_data['name'], player_data)
+    log_operation(f"Ajout d'un avertissement pour le joueur {player_data['name']}: {warning_type} - {warning_details}")
+    print(f"\n\t[+] Avertissement ajouté pour {player_data['name']}.")
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def display_player_info():
     """Displays information about a specific player using either clone name or Discord name."""
@@ -614,16 +601,15 @@ def main():
         print("\t6. Restaurer un joueur de la réserve\n")  
         print("\t7. Ajouter un commentaire du staff\n")
         print("\t8. Ajouter un avertissement\n")
-        print("\t9. Ajouter un warn\n")
-        print("\t10. Afficher les informations d'un joueur\n")
-        print("\t11. Afficher tous les commentaires du staff\n")
-        print("\t12. Afficher toutes les raisons d'avertissements\n")
-        print("\t13. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
-        print("\t14. Ajouter un joueur à la BlackList\n")
-        print("\t15. Supprimer un joueur de la BlackList\n")
-        print("\t16. Afficher la BlackList\n")
-        print("\t17. Quitter en sauvegardant\n")
-        print("\t18. Quitter sans sauvegarder\n")
+        print("\t9. Afficher les informations d'un joueur\n")
+        print("\t10. Afficher tous les commentaires du staff\n")
+        print("\t11. Afficher toutes les raisons d'avertissements\n")
+        print("\t12. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
+        print("\t13. Ajouter un joueur à la BlackList\n")
+        print("\t14. Supprimer un joueur de la BlackList\n")
+        print("\t15. Afficher la BlackList\n")
+        print("\t16. Quitter en sauvegardant\n")
+        print("\t17. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 
@@ -667,29 +653,29 @@ def main():
             os.system("clear")
 
         elif choice == '8':
-            add_warning_to_player()
+            add_warning()
             print("\n")
             os.system("clear")
 
         elif choice == '9':
-            add_warn_to_player()
-            print("\n")
-            os.system("clear")
-
-        elif choice == '10':
             display_player_info()
             os.system("clear")
 
-        elif choice == '11':
+        elif choice == '10':
             display_all_staff_comments()
             os.system("clear")
 
-        elif choice == '12':
+        elif choice == '11':
             display_all_warnings()
             os.system("clear")
 
-        elif choice == '13':
+        elif choice == '12':
             remove_old_warnings()
+            os.system("clear")
+
+        elif choice == '13':
+            print("\n\tCannot be use at the moment...")
+            time.sleep(4)
             os.system("clear")
 
         elif choice == '14':
@@ -698,20 +684,15 @@ def main():
             os.system("clear")
 
         elif choice == '15':
-            print("\n\tCannot be use at the moment...")
-            time.sleep(4)
-            os.system("clear")
-
-        elif choice == '16':
             print("\n\tCannot be use at the moment... ;)")
             time.sleep(4)
             os.system("clear")
 
-        elif choice == '17':
+        elif choice == '16':
             git_push()
             break
 
-        elif choice == '18':
+        elif choice == '17':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

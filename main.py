@@ -667,7 +667,7 @@ def main():
             os.system("clear")
 
         elif choice == '8':
-            add_warning()
+            add_warning_to_player()
             print("\n")
             os.system("clear")
 

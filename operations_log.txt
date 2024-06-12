@@ -750,3 +750,26 @@
 2024-06-12 14:09:18: Le joueur t a été banni après avoir reçu 3 warns.
 2024-06-12 15:39:43: Creation d'un nouveau joueur nomme : flo
 2024-06-12 15:41:46: Ajout d'un avertissement pour le joueur flo: Message nazi et partage d'écran pornographique + insulte envers des membres de la 212. - 
+2024-06-12 16:26:46: Creation d'un nouveau joueur nomme : neuf
+2024-06-12 16:27:04: Creation d'un nouveau joueur nomme : silver
+2024-06-12 16:37:45: Ajout de 1 session(s) a gorus
+2024-06-12 16:37:45: Ajout de 1 session(s) a foxer
+2024-06-12 16:37:45: Ajout de 1 session(s) a mob
+2024-06-12 16:37:45: Ajout de 1 session(s) a kin
+2024-06-12 16:37:45: Ajout de 1 session(s) a juggernaut
+2024-06-12 16:37:45: Ajout de 1 session(s) a davis
+2024-06-12 16:37:45: Ajout de 1 session(s) a legendary
+2024-06-12 16:37:45: Ajout de 1 session(s) a slayer
+2024-06-12 16:37:45: Ajout de 1 session(s) a hawk_eye
+2024-06-12 16:37:45: Ajout de 1 session(s) a papel
+2024-06-12 16:37:45: Ajout de 1 session(s) a nonuche
+2024-06-12 16:37:45: Ajout de 1 session(s) a lonely
+2024-06-12 16:37:45: Ajout de 1 session(s) a spartacus
+2024-06-12 16:37:45: Ajout de 1 session(s) a eve
+2024-06-12 16:37:45: Ajout de 1 session(s) a flo
+2024-06-12 16:37:45: Ajout de 1 session(s) a grif
+2024-06-12 16:37:45: Ajout de 1 session(s) a marquez
+2024-06-12 16:37:45: Ajout de 1 session(s) a guss
+2024-06-12 16:37:45: Ajout de 1 session(s) a revenge
+2024-06-12 16:37:45: Ajout de 1 session(s) a tatin
+2024-06-12 16:42:51: Suppression du joueur : t de players_list

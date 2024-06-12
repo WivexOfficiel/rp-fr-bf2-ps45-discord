@@ -1,8 +1,7 @@
 Nom de clone : eve
 Pseudo Discord : eve_blz
-Nombre de session(s) : 86
+Nombre de session(s) : 87
 Grade : Capitaine
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
 

@@ -1,8 +1,7 @@
 Nom de clone : kin
 Pseudo Discord : kin4_50
-Nombre de session(s) : 15
+Nombre de session(s) : 16
 Grade : Caporal chef
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
 

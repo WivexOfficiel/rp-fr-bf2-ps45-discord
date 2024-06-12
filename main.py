@@ -386,48 +386,54 @@ def add_staff_comment():
         print(f"\n\t[!] Le joueur {name} n'a pas ete trouve dans les dossiers.")
     time.sleep(2)
 
-def add_warning():
-    """Add a warning to a player."""
-    player_name = input("\n\tEntrez le nom du joueur : ").strip()
-    file_path = os.path.join("players_list", f"{player_name}.txt")
+def add_warning_to_player():
+    """Adds a warning to a player's file."""
+    name = input("\n\tEntrez le nom du joueur à avertir : ").strip()
+    file_path = os.path.join("players_list", f"{name}.txt")
+    if os.path.exists(file_path):
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        player_data = read_player_file(file_path)
+        player_data['warnings'] += 1
+        player_data['comments'] += f"{current_date}: Avertissement ajouté.\n"
 
-    if not os.path.exists(file_path):
-        print("\n\t[!] Le joueur n'existe pas.")
-        return
+        # Convert warnings to warn if 3 warnings are reached
+        if player_data['warnings'] >= 3:
+            player_data['warnings'] -= 3
+            player_data['warns'] += 1
+            player_data['comments'] += f"{current_date}: Conversion de 3 avertissements en 1 warn.\n"
+            log_operation(f"Conversion de 3 avertissements en 1 warn pour {name}")
 
-    # Choisir le type d'avertissement
-    print("\n\tChoisissez le type d'avertissement :\n")
-    print("\n\t1. Non présent à une session")
-    print("\n\t2. Insulte (préciser l'insulte et envers qui)")
-    print("\n\t3. Autre")
-    warning_type_choice = input("\n\tVotre choix : ").strip()
-
-    if warning_type_choice == '1':
-        warning_type = "Non présent à une session"
-        warning_details = "A coché présent à une session mais n'est pas venu"
-    elif warning_type_choice == '2':
-        insult = input("\n\tPrécisez l'insulte : ").strip()
-        target = input("\n\tEnvers qui : ").strip()
-        warning_type = "Insulte"
-        warning_details = f"{insult} envers {target}"
-    elif warning_type_choice == '3':
-        warning_type = input("\n\tPrécisez le type d'avertissement : ").strip()
-        warning_details = input("\n\tDétails : ").strip()
+        write_player_file(name, player_data)
+        check_ban_player(name, player_data)
+        log_operation(f"Ajout d'avertissement pour {name}")
+        print(f"\n\t[+] Un avertissement a été ajouté pour le joueur {name}.")
     else:
-        print("\n\t[!] Choix invalide.")
-        return
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé.")
+    time.sleep(2)
 
-    current_time = datetime.datetime.now().strftime("%d-%m-%y | %H:%M:%S")
-    new_warning = f"({current_time}) Avertissement {warning_type} : {warning_details}"
+def add_warn_to_player():
+    """Adds a warn to a player's file."""
+    name = input("\n\tEntrez le nom du joueur à warn : ").strip()
+    file_path = os.path.join("players_list", f"{name}.txt")
+    if os.path.exists(file_path):
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        player_data = read_player_file(file_path)
+        player_data['warns'] += 1
+        player_data['comments'] += f"{current_date}: Warn ajouté.\n"
+        write_player_file(name, player_data)
+        check_ban_player(name, player_data)
+        log_operation(f"Ajout de warn pour {name}")
+        print(f"\n\t[+] Un warn a été ajouté pour le joueur {name}.")
+    else:
+        print(f"\n\t[!] Le joueur {name} n'a pas été trouvé.")
+    time.sleep(2)
 
-    player_data = read_player_file(file_path)
-    player_data['warnings'] += 1
-    player_data['comments'] += f"\n\n{new_warning}"
-
-    write_player_file(player_data['name'], player_data)
-    log_operation(f"Ajout d'un avertissement pour le joueur {player_data['name']}: {warning_type} - {warning_details}")
-    print(f"\n\t[+] Avertissement ajouté pour {player_data['name']}.")
-    input("\n\t| Tapez entrer quand c'est bon |")
+def check_ban_player(name, player_data):
+    """Checks if the player should be banned based on the number of warns."""
+    if player_data['warns'] >= 3:
+        log_operation(f"Le joueur {name} a été banni après avoir reçu 3 warns.")
+        print(f"\n\t[!] Le joueur {name} a été banni après avoir reçu 3 warns.")
+        delete_main_player(name)
 
 def display_player_info():
     """Displays information about a specific player using either clone name or Discord name."""

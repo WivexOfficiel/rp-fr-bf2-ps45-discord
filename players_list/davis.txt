@@ -1,8 +1,8 @@
 Nom de clone : davis
 Pseudo Discord : aksel0352_85455
 Nombre de session(s) : 5
-Grade : Soldat (Trooper)
+Grade : Soldat (trooper)
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warn(s) : 0
+Nombre de warns : 0
 

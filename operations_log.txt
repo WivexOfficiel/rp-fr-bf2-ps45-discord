@@ -728,3 +728,11 @@
 2024-06-12 13:41:02: Creation d'un nouveau joueur nomme : test
 2024-06-12 13:41:19: Ajout de warn pour test
 2024-06-12 13:41:30: Ajout de warn pour test
+2024-06-12 13:46:02: Creation d'un nouveau joueur nomme : test
+2024-06-12 13:46:15: Ajout de warn pour test
+2024-06-12 13:51:19: Suppression du joueur : test de players_list
+2024-06-12 13:51:29: Creation d'un nouveau joueur nomme : t
+2024-06-12 13:51:36: Ajout de warn pour t
+2024-06-12 13:51:54: Ajout de warn pour t
+2024-06-12 13:52:07: Ajout de warn pour t
+2024-06-12 13:53:20: Ajout de warn pour t

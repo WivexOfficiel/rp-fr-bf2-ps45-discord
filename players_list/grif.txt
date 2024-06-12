@@ -4,4 +4,5 @@ Nombre de session(s) : 40
 Grade : Adjudant-chef
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
+Nombre de warns : 0
 

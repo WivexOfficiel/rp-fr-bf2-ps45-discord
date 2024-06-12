@@ -4,4 +4,5 @@ Nombre de session(s) : 15
 Grade : Caporal chef
 Point(s) RP : 1
 Nombre d'avertissement(s) : 0
+Nombre de warns : 0
 

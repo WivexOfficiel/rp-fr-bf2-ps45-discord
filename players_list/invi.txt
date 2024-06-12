@@ -4,5 +4,6 @@ Nombre de session(s) : 6
 Grade : Caporal
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
+Nombre de warns : 0
 
 (2024-05-24 | 20:19:02) Commentaire : Ce joueur ÃÂÃÂ  fait preuve de beaucoup de respect envers un lieutenant, il a posÃÂÃÂ© une question j'ai rÃÂÃÂ©pondu que je n'avais pas compris et il m'a rÃÂÃÂ©pondu ceci : DesolÃÂÃÂ© mon lieutenant je demande juste si du monde est actuellement engagÃÂÃÂ© dans une session et si il yÃÂÃÂa de la place pour moi

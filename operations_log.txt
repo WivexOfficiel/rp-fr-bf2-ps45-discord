@@ -723,3 +723,8 @@
 2024-06-09 20:08:57: Ajout de 1 session(s) a atlas
 2024-06-09 20:08:57: Ajout de 1 session(s) a rade
 2024-06-09 20:39:37: Suppression du joueur : flo de players_list
+2024-06-12 13:11:03: Déplacement du joueur ben vers la réserve
+2024-06-12 13:23:47: Creation d'un nouveau joueur nomme : test
+2024-06-12 13:41:02: Creation d'un nouveau joueur nomme : test
+2024-06-12 13:41:19: Ajout de warn pour test
+2024-06-12 13:41:30: Ajout de warn pour test

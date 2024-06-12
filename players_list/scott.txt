@@ -4,6 +4,7 @@ Nombre de session(s) : 4
 Grade : Soldat (trooper)
 Point(s) RP : 0
 Nombre d'avertissement(s) : 6
+Nombre de warns : 0
 
 (2024-05-30 | 21:07:22) Avertissement 1 : No raison provided
 

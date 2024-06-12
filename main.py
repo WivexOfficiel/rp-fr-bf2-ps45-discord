@@ -51,7 +51,7 @@ def read_player_file(file_path):
                 player_data['rp_points'] = int(lines[4].split(": ")[1].strip())
             if len(lines) > 5:
                 player_data['warnings'] = int(lines[5].split(": ")[1].strip())
-            if len(lines) > 7:
+            if len(lines) > 6:
                 player_data['warns'] = int(lines[5].split(": ")[1].strip())
             if len(lines) > 10:
                 player_data['comments'] = "".join(lines[7:]).strip()
@@ -423,13 +423,7 @@ def add_warn_to_player():
     if os.path.exists(file_path):
         current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         player_data = read_player_file(file_path)
-        
-        # Vérifier si le joueur a déjà des warns
-        if 'warns' in player_data:
-            player_data['warns'] += 1
-        else:
-            player_data['warns'] = 1
-        
+        player_data['warns'] += 1
         player_data['comments'] += f"{current_date}: Warn ajouté.\n"
         
         # Écrire les données mises à jour dans le fichier du joueur

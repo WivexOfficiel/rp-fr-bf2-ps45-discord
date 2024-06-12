@@ -607,15 +607,16 @@ def main():
         print("\t6. Restaurer un joueur de la réserve\n")  
         print("\t7. Ajouter un commentaire du staff\n")
         print("\t8. Ajouter un avertissement\n")
-        print("\t9. Afficher les informations d'un joueur\n")
-        print("\t10. Afficher tous les commentaires du staff\n")
-        print("\t11. Afficher toutes les raisons d'avertissements\n")
-        print("\t12. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
-        print("\t13. Ajouter un joueur à la BlackList\n")
-        print("\t14. Supprimer un joueur de la BlackList\n")
-        print("\t15. Afficher la BlackList\n")
-        print("\t16. Quitter en sauvegardant\n")
-        print("\t17. Quitter sans sauvegarder\n")
+        print("\t9. Ajouter un warn\n")
+        print("\t10. Afficher les informations d'un joueur\n")
+        print("\t11. Afficher tous les commentaires du staff\n")
+        print("\t12. Afficher toutes les raisons d'avertissements\n")
+        print("\t13. Retirer les avertissements de plus d'un mois\n")  # Nouvelle option
+        print("\t14. Ajouter un joueur à la BlackList\n")
+        print("\t15. Supprimer un joueur de la BlackList\n")
+        print("\t16. Afficher la BlackList\n")
+        print("\t17. Quitter en sauvegardant\n")
+        print("\t18. Quitter sans sauvegarder\n")
 
         choice = input("\tEntrez votre choix : ").strip()
 

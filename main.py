@@ -51,7 +51,7 @@ def read_player_file(file_path):
                 player_data['rp_points'] = int(lines[4].split(": ")[1].strip())
             if len(lines) > 5:
                 player_data['warnings'] = int(lines[5].split(": ")[1].strip())
-            if len(lines) > 6:
+            if len(lines) > 7:
                 player_data['warns'] = int(lines[5].split(": ")[1].strip())
             if len(lines) > 9:
                 player_data['comments'] = "".join(lines[7:]).strip()

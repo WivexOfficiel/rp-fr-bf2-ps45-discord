@@ -68,7 +68,8 @@ def write_player_file(player_name, player_data):
         file.write(f"Nombre de session(s) : {player_data['sessions']}\n")
         file.write(f"Grade : {player_data['grade']}\n")
         file.write(f"Point(s) RP : {player_data['rp_points']}\n")
-        file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n\n")
+        file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n")
+        file.write(f"Nombre de warn(s) : {player_data['warns']}\n\n")
         file.write(player_data['comments'])
 
 def determine_grade(sessions):
@@ -424,6 +425,10 @@ def add_warn_to_player():
         player_data = read_player_file(file_path)
         player_data['warns'] += 1
         player_data['comments'] += f"{current_date}: Warn ajouté.\n"
+        
+        if 'warns' not in player_data:
+            player_data['warns'] = 0
+        
         write_player_file(name, player_data)
         check_ban_player(name, player_data)
         log_operation(f"Ajout de warn pour {name}")
@@ -431,6 +436,7 @@ def add_warn_to_player():
     else:
         print(f"\n\t[!] Le joueur {name} n'a pas été trouvé.")
     time.sleep(2)
+
 
 def check_ban_player(name, player_data):
     """Checks if the player should be banned based on the number of warns."""

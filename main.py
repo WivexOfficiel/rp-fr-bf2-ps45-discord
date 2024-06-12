@@ -665,24 +665,24 @@ def main():
             os.system("clear")
 
         elif choice == '9':
-            display_player_info()
+            add_warn()
+            print("\n")
             os.system("clear")
 
         elif choice == '10':
-            display_all_staff_comments()
+            display_player_info()
             os.system("clear")
 
         elif choice == '11':
-            display_all_warnings()
+            display_all_staff_comments()
             os.system("clear")
 
         elif choice == '12':
-            remove_old_warnings()
+            display_all_warnings()
             os.system("clear")
 
         elif choice == '13':
-            print("\n\tCannot be use at the moment...")
-            time.sleep(4)
+            remove_old_warnings()
             os.system("clear")
 
         elif choice == '14':
@@ -691,15 +691,20 @@ def main():
             os.system("clear")
 
         elif choice == '15':
-            print("\n\tCannot be use at the moment... ;)")
+            print("\n\tCannot be use at the moment...")
             time.sleep(4)
             os.system("clear")
 
         elif choice == '16':
+            print("\n\tCannot be use at the moment... ;)")
+            time.sleep(4)
+            os.system("clear")
+
+        elif choice == '17':
             git_push()
             break
 
-        elif choice == '17':
+        elif choice == '18':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

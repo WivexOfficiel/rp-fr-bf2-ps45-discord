@@ -665,7 +665,7 @@ def main():
             os.system("clear")
 
         elif choice == '9':
-            add_warn()
+            add_warn_to_player()
             print("\n")
             os.system("clear")
 

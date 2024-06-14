@@ -1,8 +1,7 @@
 Nom de clone : only
 Pseudo Discord : davy4487
-Nombre de session(s) : 103
+Nombre de session(s) : 104
 Grade : Commandant
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
 

@@ -1,8 +1,7 @@
 Nom de clone : sword
 Pseudo Discord : mayeul4594
-Nombre de session(s) : 127
-Grade : General
+Nombre de session(s) : 128
+Grade : Colonel
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
 

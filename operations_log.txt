@@ -773,3 +773,19 @@
 2024-06-12 16:37:45: Ajout de 1 session(s) a revenge
 2024-06-12 16:37:45: Ajout de 1 session(s) a tatin
 2024-06-12 16:42:51: Suppression du joueur : t de players_list
+2024-06-14 15:50:19: Ajout de 1 session(s) a only
+2024-06-14 15:50:19: Ajout de 1 session(s) a foxer
+2024-06-14 15:50:19: Ajout de 1 session(s) a volgth
+2024-06-14 15:50:19: Ajout de 1 session(s) a Juggernaut
+2024-06-14 15:50:19: Ajout de 1 session(s) a sword
+2024-06-14 15:50:19: Ajout de 1 session(s) a slayer
+2024-06-14 15:50:19: Ajout de 1 session(s) a eve
+2024-06-14 15:50:19: Ajout de 1 session(s) a nonuche
+2024-06-14 15:50:19: Ajout de 1 session(s) a rox
+2024-06-14 15:50:19: Ajout de 1 session(s) a spartacus
+2024-06-14 15:50:19: Ajout de 1 session(s) a legendary
+2024-06-14 15:50:19: Ajout de 1 session(s) a lonely
+2024-06-14 15:50:19: Ajout de 1 session(s) a bebert
+2024-06-14 15:50:19: Ajout de 1 session(s) a troff
+2024-06-14 15:51:18: Suppression du joueur : Juggernaut de players_list
+2024-06-14 15:51:30: Ajout de 1 session(s) a juggernaut

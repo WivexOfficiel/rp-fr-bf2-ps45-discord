@@ -552,78 +552,76 @@ def remove_old_warnings():
     else:
         print("\n\t[+] Aucun avertissement à retirer.")
     input("\n\t| Tapez entrer quand c'est bon |")
+    
+def update_blacklist_status(player_name, is_blacklisted):
+    # Construire le chemin du fichier du joueur
+    player_filename = f"{player_name}.txt"
+    player_filepath = os.path.join("players_list", player_filename)
 
-def black_list_management():
-    
-    def update_blacklist_status(player_name, is_blacklisted):
-        # Construire le chemin du fichier du joueur
-        player_filename = f"{player_name}.txt"
-        player_filepath = os.path.join("players_list", player_filename)
-    
-        # Vérifier si le joueur existe
-        if os.path.exists(player_filepath):
-            # Lire les informations actuelles du joueur
-            with open(player_filepath, 'r') as file:
-                lines = file.readlines()
-    
-            # Mettre à jour la ligne de la blacklist
-            for i in range(len(lines)):
-                if lines[i].startswith("Black liste : "):
-                    if is_blacklisted == 1:
-                        lines[i] = "Black liste : Oui\n"
-                        log_operation(f"Le joueur {player_data['name']} a ete ajoute a la Black Liste")
-                    elif is_blacklisted == 2:
-                        lines[i] = "Black liste : Non\n"
-                        log_operation(f"Le joueur {player_data['name']} a ete retire a la Black Liste")
-                    elif is_blacklisted == 3:
-                        pass
-                    else:
-                        pass
-                    break
-    
-            # Réécrire les informations mises à jour dans le fichier
-            with open(player_filepath, 'w') as file:
-                file.writelines(lines)
-    
-            print(f"\n\tStatut de blacklist pour {player_name} mis à jour avec succès.")
-        else:
-            print(f"\n\tLe joueur {player_name} n'existe pas dans la base de données.")
-    
-    def player_exists(player_name):
-        player_filename = f"{player_name}.txt"
-        player_filepath = os.path.join("players_list", player_filename)
-        return os.path.exists(player_filepath)
-    
-    # Exemple d'utilisation
-    if __name__ == "__main__":
-        player_name = input("\n\tEntrez le nom du joueur : ")
-    
-        # Vérifier si le joueur existe
-        if player_exists(player_name):
-            # Demander à l'utilisateur d'ajouter ou retirer de la blacklist
-    
-            while True:
-                print("\n\n\t----------- BLACK LISTE MENU -----------\n")
-                print(f"\n\t1. Ajouter {player_name} à la Black liste")
-                print(f"\n\t2. Supprimer {player_name} de la Black liste")
-                print("\n\t3. Quitter")
-                choice = input("\n\tEntrez votre choix : ").strip().lower()
-                if choice == "1":
-                    black_list = 1
-                    break
-                elif choice == "2":
-                    black_list = 2
-                    break
-                elif choice == "3":
-                    black_list = 3
-                    break
+    # Vérifier si le joueur existe
+    if os.path.exists(player_filepath):
+        # Lire les informations actuelles du joueur
+        with open(player_filepath, 'r') as file:
+            lines = file.readlines()
+
+        # Mettre à jour la ligne de la blacklist
+        for i in range(len(lines)):
+            if lines[i].startswith("Black liste : "):
+                if is_blacklisted == 1:
+                    lines[i] = "Black liste : Oui\n"
+                    log_operation(f"Le joueur {player_data['name']} a ete ajoute a la Black Liste")
+                elif is_blacklisted == 2:
+                    lines[i] = "Black liste : Non\n"
+                    log_operation(f"Le joueur {player_data['name']} a ete retire a la Black Liste")
+                elif is_blacklisted == 3:
+                    pass
                 else:
-                    print("\n\tRéponse invalide. Veuillez répondre par 'y' ou 'n'.")
-            # Mettre à jour le statut de la blacklist
-            update_blacklist_status(player_name, black_list)
-        else:
-            print(f"\n\n\tLe joueur {player_name} n'existe pas dans la base de données.")
-        input("\n\t| Tapez entrer quand c'est bon |")
+                    pass
+                break
+
+        # Réécrire les informations mises à jour dans le fichier
+        with open(player_filepath, 'w') as file:
+            file.writelines(lines)
+
+        print(f"\n\tStatut de blacklist pour {player_name} mis à jour avec succès.")
+    else:
+        print(f"\n\tLe joueur {player_name} n'existe pas dans la base de données.")
+
+def player_exists(player_name):
+    player_filename = f"{player_name}.txt"
+    player_filepath = os.path.join("players_list", player_filename)
+    return os.path.exists(player_filepath)
+
+# Exemple d'utilisation
+def black_list_management():
+    player_name = input("\n\tEntrez le nom du joueur : ")
+
+    # Vérifier si le joueur existe
+    if player_exists(player_name):
+        # Demander à l'utilisateur d'ajouter ou retirer de la blacklist
+
+        while True:
+            print("\n\n\t----------- BLACK LISTE MENU -----------\n")
+            print(f"\n\t1. Ajouter {player_name} à la Black liste")
+            print(f"\n\t2. Supprimer {player_name} de la Black liste")
+            print("\n\t3. Quitter")
+            choice = input("\n\tEntrez votre choix : ").strip().lower()
+            if choice == "1":
+                black_list = 1
+                break
+            elif choice == "2":
+                black_list = 2
+                break
+            elif choice == "3":
+                black_list = 3
+                break
+            else:
+                print("\n\tRéponse invalide. Veuillez répondre par 'y' ou 'n'.")
+        # Mettre à jour le statut de la blacklist
+        update_blacklist_status(player_name, black_list)
+    else:
+        print(f"\n\n\tLe joueur {player_name} n'existe pas dans la base de données.")
+    input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):
     """Logs operations performed on the players."""

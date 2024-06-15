@@ -571,10 +571,12 @@ def update_blacklist_status(player_name, is_blacklisted):
                     lines[i] = "Black liste : Oui\n"
                     print(f"Le joueur {player_name} a bien ete ajoute a la Black Liste")
                     log_operation(f"Le joueur {player_name} a ete ajoute a la Black Liste")
+                    input("\n\t| Tapez entrer quand c'est bon |")
                 elif is_blacklisted == 2:
                     lines[i] = "Black liste : Non\n"
                     print(f"Le joueur {player_name} a bien ete retire a la Black Liste")
                     log_operation(f"Le joueur {player_name} a ete retire a la Black Liste")
+                    input("\n\t| Tapez entrer quand c'est bon |")
                 elif is_blacklisted == 3:
                     pass
                 else:
@@ -622,7 +624,6 @@ def black_list_management():
         update_blacklist_status(player_name, black_list)
     else:
         print(f"\n\n\tLe joueur {player_name} n'existe pas dans la base de données.")
-    input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):
     """Logs operations performed on the players."""

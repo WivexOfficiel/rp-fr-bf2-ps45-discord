@@ -623,6 +623,7 @@ def black_list_management():
             update_blacklist_status(player_name, black_list)
         else:
             print(f"Le joueur {player_name} n'existe pas dans la base de données.")
+        input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):
     """Logs operations performed on the players."""
@@ -631,7 +632,7 @@ def log_operation(operation):
 
 def git_push():
     """Adds specified files, commits with a message, and force pushes to the main branch."""
-    os.system("git add main.py operations_log.txt players_list reserve_players_list")   #blacklist.txt
+    os.system("git add main.py update_players_files.py operations_log.txt players_list reserve_players_list")
     os.system('git commit -m "modification apportees"')
     os.system("git push --force origin main")
     print("\n\t[+] Les modifications ont ete poussees au depot distant.")
@@ -734,7 +735,7 @@ def main():
             os.system("clear")
 
         elif choice == '14':
-            print("Cannot be use at the moment... ;)")
+            print("\n\tCannot be use at the moment... ;)")
             time.sleep(3)
             os.system('clear')
         

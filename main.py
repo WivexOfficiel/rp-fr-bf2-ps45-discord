@@ -730,25 +730,19 @@ def main():
             os.system("clear")
 
         elif choice == '13':
-            print("\n\tCannot be use at the moment...")
-            time.sleep(4)
+            black_list_management()
             os.system("clear")
 
         elif choice == '14':
-            print("\n\tCannot be use at the moment...")
-            time.sleep(4)
-            os.system("clear")
-
+            print("Cannot be use at the moment... ;)")
+            time.sleep(3)
+            os.system('clear')
+        
         elif choice == '15':
-            print("\n\tCannot be use at the moment... ;)")
-            time.sleep(4)
-            os.system("clear")
-
-        elif choice == '16':
             git_push()
             break
 
-        elif choice == '17':
+        elif choice == '16':
             while True:
                 sure = input("\n\tEs-tu sûr de vouloir quitter sans sauvegarder ? (Y/N) : ")
                 if sure.upper() in ['YES', 'OUI', 'Y', 'O']:

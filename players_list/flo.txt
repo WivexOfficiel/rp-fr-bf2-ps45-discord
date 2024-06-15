@@ -5,5 +5,5 @@ Grade : Soldat (trooper)
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
 Nombre de warns : 0
-Black liste : Non
+Black liste : Oui
 

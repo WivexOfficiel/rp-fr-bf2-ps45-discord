@@ -810,3 +810,6 @@
 2024-06-15 22:40:19: Le joueur wivex a ete ajoute a la Black Liste
 2024-06-15 22:40:34: Le joueur wivex a ete retire a la Black Liste
 2024-06-15 22:41:01: Le joueur wivex a ete retire a la Black Liste
+2024-06-15 22:44:42: Le joueur dun a ete ajoute a la Black Liste
+2024-06-15 22:44:52: Le joueur grif a ete ajoute a la Black Liste
+2024-06-15 22:45:03: Le joueur flo a ete ajoute a la Black Liste

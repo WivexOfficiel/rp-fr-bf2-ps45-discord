@@ -789,3 +789,19 @@
 2024-06-14 15:50:19: Ajout de 1 session(s) a troff
 2024-06-14 15:51:18: Suppression du joueur : Juggernaut de players_list
 2024-06-14 15:51:30: Ajout de 1 session(s) a juggernaut
+2024-06-15 19:56:55: Ajout de 1 session(s) a vector
+2024-06-15 19:56:55: Ajout de 1 session(s) a troff
+2024-06-15 19:56:55: Ajout de 1 session(s) a legendary
+2024-06-15 19:56:55: Ajout de 1 session(s) a lonely
+2024-06-15 19:56:55: Ajout de 1 session(s) a exotique
+2024-06-15 19:56:55: Ajout de 1 session(s) a eve
+2024-06-15 19:56:55: Ajout de 1 session(s) a slayer
+2024-06-15 19:56:55: Ajout de 1 session(s) a spartacus
+2024-06-15 19:56:55: Ajout de 1 session(s) a blackbird
+2024-06-15 19:56:55: Ajout de 1 session(s) a wild
+2024-06-15 19:56:55: Ajout de 1 session(s) a black-out
+2024-06-15 19:56:55: Ajout de 1 session(s) a grif
+2024-06-15 19:56:55: Ajout de 1 session(s) a revenge
+2024-06-15 19:56:55: Ajout de 1 session(s) a gorus
+2024-06-15 19:56:55: Ajout de 1 session(s) a only
+2024-06-15 19:56:55: Ajout de 1 session(s) a foxer

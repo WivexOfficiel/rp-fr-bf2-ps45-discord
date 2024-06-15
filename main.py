@@ -21,7 +21,8 @@ def create_player_file(player_name, discord_name):
         file.write("Nombre de session(s) : 0\n")
         file.write("Grade : Recrue (cadet)\n")
         file.write("Point(s) RP : 0\n")
-        file.write("Nombre d'avertissement(s) : 0\n\n")
+        file.write("Nombre d'avertissement(s) : 0\n")
+        file.write("Nombre de warn(s) : 0\n\n")
 
 def read_player_file(file_path):
     """Reads player data from the specified file and returns a dictionary."""
@@ -32,6 +33,7 @@ def read_player_file(file_path):
         'grade': '',
         'rp_points': 0,
         'warnings': 0,
+        'warns': 0,
         'comments': ''
     }
     try:
@@ -49,8 +51,10 @@ def read_player_file(file_path):
                 player_data['rp_points'] = int(lines[4].split(": ")[1].strip())
             if len(lines) > 5:
                 player_data['warnings'] = int(lines[5].split(": ")[1].strip())
-            if len(lines) > 7:
-                player_data['comments'] = "".join(lines[7:]).strip()
+            if len(lines) > 6:
+                player_data['warns'] = int(lines[6].split(": ")[1].strip())
+            if len(lines) > 8:
+                player_data['comments'] = "".join(lines[8:]).strip()
     except FileNotFoundError:
         pass
     return player_data
@@ -64,7 +68,8 @@ def write_player_file(player_name, player_data):
         file.write(f"Nombre de session(s) : {player_data['sessions']}\n")
         file.write(f"Grade : {player_data['grade']}\n")
         file.write(f"Point(s) RP : {player_data['rp_points']}\n")
-        file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n\n")
+        file.write(f"Nombre d'avertissement(s) : {player_data['warnings']}\n")
+        file.write(f"Nombre de warn(s) : {player_data['warns']}\n\n")
         file.write(player_data['comments'])
 
 def determine_grade(sessions):

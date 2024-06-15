@@ -603,10 +603,10 @@ def black_list_management():
             # Demander à l'utilisateur d'ajouter ou retirer de la blacklist
     
             while True:
-                print("\n\t----------- BLACK LISTE MENU -----------\n")
-                print(f"\t1. Ajouter {player_name} à la Black liste ")
-                print(f"\t2. Supprimer {player_name} de la Black liste ")
-                print("\t3. Quitter")
+                print("\n\n\t----------- BLACK LISTE MENU -----------\n")
+                print(f"\n\t1. Ajouter {player_name} à la Black liste")
+                print(f"\n\t2. Supprimer {player_name} de la Black liste")
+                print("\n\t3. Quitter")
                 choice = input("\n\tEntrez votre choix : ").strip().lower()
                 if choice == "1":
                     black_list = 1
@@ -622,7 +622,7 @@ def black_list_management():
             # Mettre à jour le statut de la blacklist
             update_blacklist_status(player_name, black_list)
         else:
-            print(f"Le joueur {player_name} n'existe pas dans la base de données.")
+            print(f"\n\n\tLe joueur {player_name} n'existe pas dans la base de données.")
         input("\n\t| Tapez entrer quand c'est bon |")
 
 def log_operation(operation):

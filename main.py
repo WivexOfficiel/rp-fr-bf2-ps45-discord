@@ -569,9 +569,11 @@ def update_blacklist_status(player_name, is_blacklisted):
             if lines[i].startswith("Black liste : "):
                 if is_blacklisted == 1:
                     lines[i] = "Black liste : Oui\n"
+                    print(f"Le joueur {player_name} a bien ete ajoute a la Black Liste")
                     log_operation(f"Le joueur {player_name} a ete ajoute a la Black Liste")
                 elif is_blacklisted == 2:
                     lines[i] = "Black liste : Non\n"
+                    print(f"Le joueur {player_name} a bien ete retire a la Black Liste")
                     log_operation(f"Le joueur {player_name} a ete retire a la Black Liste")
                 elif is_blacklisted == 3:
                     pass
@@ -583,7 +585,6 @@ def update_blacklist_status(player_name, is_blacklisted):
         with open(player_filepath, 'w') as file:
             file.writelines(lines)
 
-        print(f"\n\tStatut de blacklist pour {player_name} mis à jour avec succès.")
     else:
         print(f"\n\tLe joueur {player_name} n'existe pas dans la base de données.")
 

@@ -7,21 +7,21 @@ def update_player_files(directory):
         if os.path.isfile(file_path) and filename.endswith(".txt"):
             with open(file_path, 'r+', encoding='iso-8859-1') as file:
                 lines = file.readlines()
-                warns_present = any("Nombre de warns" in line for line in lines)
+                warns_present = any("Black liste" in line for line in lines)
 
                 if not warns_present:
                     for i, line in enumerate(lines):
-                        if "Nombre d'avertissement(s)" in line:
-                            lines.insert(i + 1, "Nombre de warns : 0\n")
+                        if "Nombre de warns" in line:
+                            lines.insert(i + 1, "Black liste : Non\n")
                             break
 
                     file.seek(0)
                     file.writelines(lines)
-                    print(f"[+] 'Nombre de warns : 0' ajouté à {filename}")
+                    print(f"[+] 'Black liste : Non' ajouté à {filename}")
 
 def update_all_players():
     """Updates all player files in both 'players_list' and 'reserve_players_list'."""
-    directories = ["players_list", "reserve_players_list"]
+    directories = ["players_list_test"] #, "reserve_players_list"]
 
     for directory in directories:
         if os.path.exists(directory):

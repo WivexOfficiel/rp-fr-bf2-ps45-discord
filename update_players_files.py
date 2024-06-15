@@ -21,7 +21,7 @@ def update_player_files(directory):
 
 def update_all_players():
     """Updates all player files in both 'players_list' and 'reserve_players_list'."""
-    directories = ["players_list_test"] #, "reserve_players_list"]
+    directories = ["players_list", "reserve_players_list"]
 
     for directory in directories:
         if os.path.exists(directory):

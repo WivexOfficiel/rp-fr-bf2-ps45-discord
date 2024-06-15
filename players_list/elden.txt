@@ -5,6 +5,7 @@ Grade : Lieutenant
 Point(s) RP : 0
 Nombre d'avertissement(s) : 1
 Nombre de warns : 0
+Black liste : Non
 
 
 

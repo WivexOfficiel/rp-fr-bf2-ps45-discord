@@ -1,7 +1,7 @@
 import os
 import datetime
 import time
-    #from update_players_files.py import *
+    #from update_players_files import *
 from display_black_list import *
 
 def create_player_directory():

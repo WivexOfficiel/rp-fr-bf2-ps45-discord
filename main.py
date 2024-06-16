@@ -2,7 +2,7 @@ import os
 import datetime
 import time
     #from update_players_files.py import *
-from display_black_list.py import *
+from display_black_list import *
 
 def create_player_directory():
     """Creates the players_list directory if it does not exist."""

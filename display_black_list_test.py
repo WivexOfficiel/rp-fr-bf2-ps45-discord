@@ -42,11 +42,12 @@ def display_blacklisted_players():
     
     # Afficher les informations des joueurs blacklistés
     if blacklisted_players:
-        print("\n\tJoueurs sur la blacklist :")
+        print("\n\t------------------ BLACK LISTE ------------------")
         for player in blacklisted_players:
             print("\n")
-            print("\n\t" + player)
+            print("\n" + player)
             print("-" * 40)
+            print("\n")
     else:
         print("Aucun joueur sur la blacklist.")
 

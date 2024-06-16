@@ -45,9 +45,8 @@ def display_blacklisted_players():
         print("\n\t------------------ BLACK LISTE ------------------")
         for player in blacklisted_players:
             print("\n")
-            print("\n" + player)
+            print(player)
             print("-" * 40)
-            print("\n")
     else:
         print("Aucun joueur sur la blacklist.")
 

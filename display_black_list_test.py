@@ -7,7 +7,7 @@ def display_blacklisted_players():
     # Parcourir tous les fichiers dans le dossier players_list
     for filename in os.listdir("players_list"):
         if filename.endswith(".txt"):
-            player_filepath = os.path.join(players_list_directory, filename)
+            player_filepath = os.path.join("players_list", filename)
             
             # Lire les informations du joueur
             with open(player_filepath, 'r') as file:

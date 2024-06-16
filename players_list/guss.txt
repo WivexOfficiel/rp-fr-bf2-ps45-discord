@@ -1,9 +1,9 @@
 Nom de clone : guss
 Pseudo Discord : legussdu94
-Nombre de session(s) : 23
+Nombre de session(s) : 24
 Grade : Sergent
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
+Nombre de warn(s) : 0
 Black liste : Non
 

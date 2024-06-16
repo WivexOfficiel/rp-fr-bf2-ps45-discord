@@ -28,24 +28,30 @@ def display_blacklisted_players():
                 print(e)
                 continue
 
-            # Vérifier si le joueur est sur la blacklist
+            # Initialiser les variables
+            clone_name = ""
+            discord_pseudo = ""
             is_blacklisted = False
+
+            # Parcourir les lignes pour extraire les informations nécessaires
             for line in lines:
-                if line.startswith("Black liste : ") and "Oui" in line:
+                if line.startswith("Nom de clone : "):
+                    clone_name = line.split("Nom de clone : ")[1].strip()
+                elif line.startswith("Pseudo Discord : "):
+                    discord_pseudo = line.split("Pseudo Discord : ")[1].strip()
+                elif line.startswith("Black liste : ") and "Oui" in line:
                     is_blacklisted = True
-                    break
-            
+
             # Si le joueur est blackliste, ajouter ses informations à la liste
             if is_blacklisted:
-                player_info = ''.join(lines)
-                blacklisted_players.append(player_info)
+                blacklisted_players.append((clone_name, discord_pseudo))
     
     # Afficher les informations des joueurs blacklistés
     if blacklisted_players:
-        print("\n\t------------------ BLACK LISTE ------------------")
-        for player in blacklisted_players:
-            print("\n")
-            print(player)
+        print("\n\t------------------------ BLACK LISTE ------------------------")
+        for clone_name, discord_pseudo in blacklisted_players:
+            print(f"\n\n\tNom de clone : {clone_name}")
+            print(f"\tPseudo Discord : {discord_pseudo}\n")
             print("-" * 40)
     else:
         print("Aucun joueur sur la blacklist.")

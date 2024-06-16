@@ -845,3 +845,5 @@
 2024-06-16 17:07:50: Ajout de 1 session(s) a juggernaut
 2024-06-16 17:07:50: Ajout de 1 session(s) a silver
 2024-06-16 17:09:47: Le joueur scott a ete ajoute a la Black Liste
+2024-06-16 17:34:56: Le joueur wivex a ete ajoute a la Black Liste
+2024-06-16 17:35:24: Le joueur wivex a ete retire a la Black Liste

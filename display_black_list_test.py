@@ -52,7 +52,7 @@ def display_blacklisted_players():
         for clone_name, discord_pseudo in blacklisted_players:
             print(f"\n\tNom de clone : {clone_name}")
             print(f"\tPseudo Discord : {discord_pseudo}\n")
-            print("-" * 40)
+            print("\t-" * 40)
     else:
         print("Aucun joueur sur la blacklist.")
 

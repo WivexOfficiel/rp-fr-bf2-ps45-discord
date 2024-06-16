@@ -1,33 +1,43 @@
 import os
 
-def update_player_files(directory):
-    """Adds 'Nombre de warns : 0' to each player file if it does not already exist."""
-    for filename in os.listdir(directory):
-        file_path = os.path.join(directory, filename)
-        if os.path.isfile(file_path) and filename.endswith(".txt"):
-            with open(file_path, 'r+', encoding='iso-8859-1') as file:
-                lines = file.readlines()
-                warns_present = any("Black liste" in line for line in lines)
+def display_blacklisted_players():
+    # Liste pour stocker les informations des joueurs blacklistés
+    blacklisted_players = []
 
-                if not warns_present:
-                    for i, line in enumerate(lines):
-                        if "Nombre de warns" in line:
-                            lines.insert(i + 1, "Black liste : Non\n")
-                            break
+    # Parcourir tous les fichiers dans le dossier players_list
+    for filename in os.listdir("players_list"):
+        if filename.endswith(".txt"):
+            player_filepath = os.path.join("players_list", filename)
+            
+            # Lire les informations du joueur avec encodage ISO-8859-1
+            try:
+                with open(player_filepath, 'r', encoding='ISO-8859-1') as file:
+                    lines = file.readlines()
+            except UnicodeDecodeError:
+                print(f"Erreur de décodage pour le fichier : {filename}")
+                continue
 
-                    file.seek(0)
-                    file.writelines(lines)
-                    print(f"[+] 'Black liste : Non' ajouté à {filename}")
+            # Vérifier si le joueur est sur la blacklist
+            is_blacklisted = False
+            for line in lines:
+                if line.startswith("Black liste : ") and "Oui" in line:
+                    is_blacklisted = True
+                    break
+            
+            # Si le joueur est blackliste, ajouter ses informations à la liste
+            if is_blacklisted:
+                player_info = ''.join(lines)
+                blacklisted_players.append(player_info)
+    
+    # Afficher les informations des joueurs blacklistés
+    if blacklisted_players:
+        print("Joueurs sur la blacklist :")
+        for player in blacklisted_players:
+            print(player)
+            print("-" * 40)
+    else:
+        print("Aucun joueur sur la blacklist.")
 
-def update_all_players():
-    """Updates all player files in both 'players_list' and 'reserve_players_list'."""
-    directories = ["players_list", "reserve_players_list"]
-
-    for directory in directories:
-        if os.path.exists(directory):
-            update_player_files(directory)
-        else:
-            print(f"[!] Le dossier {directory} n'existe pas.")
-
-# Appel de la fonction pour mettre à jour tous les fichiers de joueurs
-update_all_players()
+# Exécution du script
+if __name__ == "__main__":
+    display_blacklisted_players()

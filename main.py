@@ -56,7 +56,7 @@ def read_player_file(file_path):
             if len(lines) > 6:
                 player_data['warns'] = int(lines[6].split(": ")[1].strip())
             if len(lines) > 7:
-                player_data['black_list'] = lines(lines[7].split(": ")[1].strip())
+                player_data['black_list'] = lines[7].split(": ")[1].strip()
             if len(lines) > 9:
                 player_data['comments'] = "".join(lines[9:]).strip()
     except FileNotFoundError:

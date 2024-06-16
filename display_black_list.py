@@ -55,7 +55,3 @@ def display_blacklisted_players():
             print("\t--------------------------------------")
     else:
         print("Aucun joueur sur la blacklist.")
-
-# Exécution du script
-if __name__ == "__main__":
-    display_blacklisted_players()

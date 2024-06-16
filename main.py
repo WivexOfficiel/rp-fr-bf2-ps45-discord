@@ -737,8 +737,7 @@ def main():
             os.system("clear")
 
         elif choice == '14':
-            print("\n\tCannot be use at the moment... ;)")
-            time.sleep(3)
+            display_blacklisted_players()
             os.system('clear')
         
         elif choice == '15':

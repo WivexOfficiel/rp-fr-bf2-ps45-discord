@@ -1,9 +1,9 @@
 Nom de clone : slayer
 Pseudo Discord : drissbdn
-Nombre de session(s) : 18
+Nombre de session(s) : 19
 Grade : Sergent
 Point(s) RP : 1
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
+Nombre de warn(s) : 0
 Black liste : Non
 

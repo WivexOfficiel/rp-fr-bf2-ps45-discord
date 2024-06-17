@@ -848,3 +848,18 @@
 2024-06-16 17:34:56: Le joueur wivex a ete ajoute a la Black Liste
 2024-06-16 17:35:24: Le joueur wivex a ete retire a la Black Liste
 2024-06-17 14:33:58: Creation d'un nouveau joueur nomme : luckysun
+2024-06-17 15:56:36: Ajout de 1 session(s) a gorus
+2024-06-17 15:56:36: Ajout de 1 session(s) a only
+2024-06-17 15:56:36: Ajout de 1 session(s) a sami
+2024-06-17 15:56:36: Ajout de 1 session(s) a hickor
+2024-06-17 15:56:36: Ajout de 1 session(s) a rayko
+2024-06-17 15:56:36: Ajout de 1 session(s) a foxer
+2024-06-17 15:56:36: Ajout de 1 session(s) a legendary
+2024-06-17 15:56:36: Ajout de 1 session(s) a bebert
+2024-06-17 15:56:36: Ajout de 1 session(s) a tatin
+2024-06-17 15:56:36: Ajout de 1 session(s) a lonely
+2024-06-17 15:56:36: Ajout de 1 session(s) a eve
+2024-06-17 15:56:36: Ajout de 1 session(s) a nonuche
+2024-06-17 15:56:36: Ajout de 1 session(s) a slayer
+2024-06-17 15:56:36: Ajout de 1 session(s) a sonny
+2024-06-17 15:56:36: Ajout de 1 session(s) a spartacus

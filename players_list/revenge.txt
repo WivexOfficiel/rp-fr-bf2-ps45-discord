@@ -1,9 +1,9 @@
 Nom de clone : revenge
 Pseudo Discord : korsuki_fox
-Nombre de session(s) : 46
+Nombre de session(s) : 47
 Grade : Adjudant-chef
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
+Nombre de warn(s) : 0
 Black liste : Non
 

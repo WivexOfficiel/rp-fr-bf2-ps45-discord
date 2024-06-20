@@ -887,3 +887,4 @@
 2024-06-19 20:37:23: Ajout de 1 session(s) a flo
 2024-06-19 20:37:23: Ajout de 1 session(s) a kin
 2024-06-19 20:38:10: Creation d'un nouveau joueur nomme : lincoln
+2024-06-20 17:22:27: Suppression du joueur : sam de players_list

@@ -888,3 +888,19 @@
 2024-06-19 20:37:23: Ajout de 1 session(s) a kin
 2024-06-19 20:38:10: Creation d'un nouveau joueur nomme : lincoln
 2024-06-20 17:22:27: Suppression du joueur : sam de players_list
+2024-06-21 22:30:53: Ajout de 1 session(s) a only
+2024-06-21 22:30:53: Ajout de 1 session(s) a foxer
+2024-06-21 22:30:53: Ajout de 1 session(s) a ewan
+2024-06-21 22:30:53: Ajout de 1 session(s) a sami
+2024-06-21 22:30:53: Ajout de 1 session(s) a light
+2024-06-21 22:30:53: Ajout de 1 session(s) a gorus
+2024-06-21 22:30:53: Ajout de 1 session(s) a tatin
+2024-06-21 22:30:53: Ajout de 1 session(s) a grif
+2024-06-21 22:30:53: Ajout de 1 session(s) a troff
+2024-06-21 22:30:53: Ajout de 1 session(s) a bebert
+2024-06-21 22:30:53: Ajout de 1 session(s) a lonely
+2024-06-21 22:30:53: Ajout de 1 session(s) a eve
+2024-06-21 22:30:53: Ajout de 1 session(s) a nonuche
+2024-06-21 22:30:53: Ajout de 1 session(s) a rox
+2024-06-21 22:30:53: Ajout de 1 session(s) a blackbird
+2024-06-21 22:30:53: Ajout de 1 session(s) a hawk_eye

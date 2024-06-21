@@ -1,9 +1,9 @@
 Nom de clone : rox
 Pseudo Discord : zrxOo
-Nombre de session(s) : 63
+Nombre de session(s) : 64
 Grade : Lieutenant en second
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
+Nombre de warn(s) : 0
 Black liste : Non
 

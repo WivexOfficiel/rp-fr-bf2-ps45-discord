@@ -1,9 +1,9 @@
 Nom de clone : wild
 Pseudo Discord : fra_rem06
-Nombre de session(s) : 115
+Nombre de session(s) : 116
 Grade : Lieutenant Colonel
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
+Nombre de warn(s) : 0
 Black liste : Non
 

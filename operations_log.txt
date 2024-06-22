@@ -906,3 +906,17 @@
 2024-06-21 22:30:53: Ajout de 1 session(s) a hawk_eye
 2024-06-21 22:34:32: Creation d'un nouveau joueur nomme : 
 2024-06-21 22:34:56: Suppression du joueur :  de players_list
+2024-06-22 15:55:31: Ajout de 1 session(s) a wild
+2024-06-22 15:55:31: Ajout de 1 session(s) a davis
+2024-06-22 15:55:31: Ajout de 1 session(s) a grif
+2024-06-22 15:55:31: Ajout de 1 session(s) a guss
+2024-06-22 15:55:31: Ajout de 1 session(s) a scraper
+2024-06-22 15:55:31: Ajout de 1 session(s) a gorus
+2024-06-22 15:55:31: Ajout de 1 session(s) a sami
+2024-06-22 15:55:31: Ajout de 1 session(s) a foxer
+2024-06-22 15:55:31: Ajout de 1 session(s) a hickor
+2024-06-22 15:55:31: Ajout de 1 session(s) a volgth
+2024-06-22 15:55:31: Ajout de 1 session(s) a hawk_eye
+2024-06-22 15:55:31: Ajout de 1 session(s) a papel
+2024-06-22 15:55:31: Ajout de 1 session(s) a troff
+2024-06-22 15:55:31: Ajout de 1 session(s) a exotique

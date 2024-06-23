@@ -1,9 +1,9 @@
 Nom de clone : mob
 Pseudo Discord : jinerso
-Nombre de session(s) : 12
+Nombre de session(s) : 13
 Grade : Caporal chef
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
+Nombre de warn(s) : 0
 Black liste : Non
 

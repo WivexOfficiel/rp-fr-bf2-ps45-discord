@@ -944,3 +944,4 @@
 2024-06-23 14:52:57: Ajout de 1 session(s) a hickor
 2024-06-23 14:52:57: Ajout de 1 session(s) a foxer
 2024-06-23 14:52:57: Ajout de 1 session(s) a gorus
+2024-06-25 20:54:22: Creation d'un nouveau joueur nomme : légion

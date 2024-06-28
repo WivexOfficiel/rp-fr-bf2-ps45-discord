@@ -946,3 +946,7 @@
 2024-06-23 14:52:57: Ajout de 1 session(s) a gorus
 2024-06-25 20:54:22: Creation d'un nouveau joueur nomme : légion
 2024-06-25 20:55:27: Retrait de 1 avertissement(s) pour le joueur dex
+2024-06-28 17:37:25: Creation d'un nouveau joueur nomme : wad
+2024-06-28 17:37:54: Creation d'un nouveau joueur nomme : lennox
+2024-06-28 17:38:19: Creation d'un nouveau joueur nomme : oxy
+2024-06-28 17:38:56: Suppression du joueur : lÃ©gion de players_list

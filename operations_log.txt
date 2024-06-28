@@ -994,3 +994,4 @@
 2024-06-28 17:40:36: Ajout de 1 session(s) a flo
 2024-06-28 17:40:36: Ajout de 1 session(s) a davis
 2024-06-28 17:40:36: Ajout de 1 session(s) a oxy
+2024-06-28 21:41:18: Ajout d'un avertissement pour le joueur davis: Non présent à une session - A coché présent à une session mais n'est pas venu

@@ -1,12 +1,10 @@
 Nom de clone : davis
 Pseudo Discord : aksel0352_85455
-Nombre de session(s) : 6
+Nombre de session(s) : 7
 Grade : Caporal
 Point(s) RP : 0
 Nombre d'avertissement(s) : 1
 Nombre de warn(s) : 0
 Black liste : Non
 
-
-
-(28-06-24 | 21:41:18) Avertissement Non présent à une session : A coché présent à une session mais n'est pas venu
+(28-06-24 | 21:41:18) Avertissement Non prÃ©sent Ã  une session : A cochÃ© prÃ©sent Ã  une session mais n'est pas venu

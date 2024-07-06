@@ -1,7 +1,7 @@
 Nom de clone : foxer
 Pseudo Discord : foxy2206
-Nombre de session(s) : 37
-Grade : Adjudant
+Nombre de session(s) : 39
+Grade : Adjudant-chef
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
 Nombre de warn(s) : 0

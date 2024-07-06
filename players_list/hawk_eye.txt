@@ -1,7 +1,7 @@
 Nom de clone : hawk_eye
 Pseudo Discord : lensasuk
-Nombre de session(s) : 62
-Grade : Lieutenant en second
+Nombre de session(s) : 65
+Grade : Lieutenant
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
 Nombre de warn(s) : 0

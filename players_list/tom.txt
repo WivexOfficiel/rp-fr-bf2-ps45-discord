@@ -1,7 +1,7 @@
 Nom de clone : tom
 Pseudo Discord : nolhan6894
-Nombre de session(s) : 24
-Grade : Sergent
+Nombre de session(s) : 27
+Grade : Sergent Major
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
 Nombre de warn(s) : 0

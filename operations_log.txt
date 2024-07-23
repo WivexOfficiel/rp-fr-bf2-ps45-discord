@@ -1237,3 +1237,4 @@
 2024-07-23 11:35:11: Ajout de 1 session(s) a wad
 2024-07-23 11:35:11: Ajout de 1 session(s) a eve
 2024-07-23 11:35:11: Ajout de 1 session(s) a miles
+2024-07-23 16:34:33: Creation d'un nouveau joueur nomme : lenain

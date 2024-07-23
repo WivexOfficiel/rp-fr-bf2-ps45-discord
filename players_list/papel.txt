@@ -1,7 +1,7 @@
 Nom de clone : papel
 Pseudo Discord : raptor35.
-Nombre de session(s) : 10
-Grade : Caporal
+Nombre de session(s) : 12
+Grade : Caporal chef
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
 Nombre de warn(s) : 0

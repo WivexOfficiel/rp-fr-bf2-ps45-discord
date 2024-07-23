@@ -1,9 +1,9 @@
 Nom de clone : lm
 Pseudo Discord : lmd71.
-Nombre de session(s) : 1
+Nombre de session(s) : 4
 Grade : Soldat (trooper)
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
-Nombre de warns : 0
+Nombre de warn(s) : 0
 Black liste : Non
 

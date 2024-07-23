@@ -1,7 +1,7 @@
 Nom de clone : gorus
 Pseudo Discord : mister_creeper
-Nombre de session(s) : 146
-Grade : Colonel
+Nombre de session(s) : 150
+Grade : General
 Point(s) RP : 0
 Nombre d'avertissement(s) : 0
 Nombre de warn(s) : 0
